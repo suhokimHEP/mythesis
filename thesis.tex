@@ -1,0 +1,257 @@
+
+\documentclass[11pt,expanded,copyright]{fsuthesis}
+
+%\usepackage{lmodern}
+\usepackage{amsmath}
+
+\usepackage{mflogo}         % (not needed for general use)
+
+\usepackage[overload]{textcase}
+
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[sorting=none]{biblatex}
+%\usepackage[backend=biber]{biblatex}
+\addbibresource{myrefs.bib}
+
+\addto\captionsamerican{\renewcommand*{\contentsname}{Table of Contents}}
+
+\ifpdf   % We execute this part (up to \else) if we are in PDF mode.
+  \usepackage[pdftex]{graphicx}
+  \usepackage{color}
+  \definecolor{mygreen}{rgb}{0,0.6,0}
+  \definecolor{myblue}{rgb}{0.3,0.2,0.8}
+  \definecolor{myred}{rgb}{0.8,0.1,0.1}
+  \usepackage[colorlinks=true,bookmarks=true,pdfborder={0 0 0},
+    linkcolor=myblue,urlcolor=myred,citecolor=mygreen,
+    breaklinks=true,bookmarksnumbered=true]{hyperref}
+\else    % Otherwise we'll run this part if we are not in PDF mode.
+  \usepackage[dvips]{graphicx}
+\fi
+
+\usepackage{lipsum}
+
+\widowpenalty=9999
+\clubpenalty=9999
+
+\title{Search for Higgs boson decays to Leptophilic long-lived scalar particles with Regions of Interest (ROIs) and Machine Learning in CMS}
+                                      %% Manuscript title
+\author{Suho Kim}  %% Testing accented characters in name
+\college{College of Arts and Sciences}     %% School or College
+\department{Department of Physics}  %% Delete if no department
+\manuscripttype{Dissertation}               %% [Thesis, Dissertation, Treatise]
+\degree{Doctor of Philosophy}            %% Name of the degree
+\degreeyear{2022}                     %% Graduation Year
+\defensedate{Nov 18, 2022}             %% Date of Defense
+
+\subject{Dissertation Formatting}     %% PDF document metadata subject
+\keywords{latex; fsuthesis; etd; tables; figures; bibtex; document formatting}
+				      %% PDF document metadata search
+                                      %%   keywords, separated by semicolons
+
+\committeeperson{Ted Kolberg}{Professor Directing Disseration}
+\committeeperson{Elizabeth Hammock}{University Representative}
+\committeeperson{Todd Adams}{Committee Member}
+\committeeperson{Kohsaku Tobioka}{Committee Member}
+\committeeperson{Peter Hoeflich}{Committee Member}
+
+\newcommand*{\acro}[1]{{\small\textsc{#1}}}
+\newcommand*{\lit}[1]{\texttt{#1}}
+\newcommand*{\pkg}[1]{\textsf{#1}}
+
+\begin{document}
+
+\frontmatter          %% Establish small roman numeral numbering
+\maketitle            %% Create the title page
+\makecommitteepage    %% Create the committee page
+
+\begin{dedication}
+\centering
+To my parents, who always suspected I'd end up here
+\end{dedication}
+
+\begin{acknowledgments}
+Thanks to many people.
+\end{acknowledgments}
+
+\tableofcontents
+\listoftables
+\listoffigures
+%\listofmusex
+
+%%% You may also create a list of abbreviations if it may be of use to
+%%% your readers. Otherwise, this section may be deleted or remain
+%%% commented. Instead, if you need another frontmatter environment
+%%% for some other use (besides a list of abbreviations or symbols),
+%%% you could rename the heading to suit your purposes. For example,
+%%% if I need an Index of Scary Movies, I can steal the
+%%% 'listofabbrevs' environment and rename its heading. (The
+%%% environment name stays the same, but heading will be changed on
+%%% the page and in the table of contents. The 'listofsymbols'
+%%% environment above may also be co-opted in this way.) Here's how I
+%%% might do this:
+
+%\renewcommand*{\listabbrevname}{Index of Scary Movies}
+%\begin{listofabbrevs}
+%  [... insert scary movie index material here ...]
+%\end{listofabbrevs} 
+
+%%% Now I use the abstract environment to create an abstract page.
+%%% The heading is created automatically.  The rest of the content
+%%% is up to you.
+\begin{abstract}
+   We present a search for long-lived particles (LLPs) produced in gluon fusion Higgs production mode (ggH), using a novel strategy of Regions of Interest (ROIs). Regions of Interest are collections of pair-wise track vertices fitted by the vertex fitter in CMSSW.
+   The analysis focuses LLPs with lifetimes that result in decays in the tracker region, with concentration on the ggH production mode for the highest Higgs cross-section.
+   Variables of the constructed ROIs become inputs for our Deep Neural Network (DNN) Machine Learning (ML) algorithms, as a main discriminator between the signal and the background. 
+   We focus on the Standard Model (SM) $\tau$ lepton final state. This final state is particulary interesting, given $\tau$ lepton final state exclusion limits are mostly omitted in precedent analyses, due to $\tau$ leptons' non trivial reconstruction mechanisms in CMS.
+  In order to trigger on the ggH production mode of the Higgs particle, decaying into its leptonic signature via exotic long-lived scalar particles, we exploit the B-parking trigger. 
+ B-parking trigger is newly installed High Level Trigger path in the CMS detector, targetting soft displaced muon.
+ The trigger was installed in 2018, totalling in integrated Luminosity value of 41fb$^{-1}$.
+  No excess of events over the standard model expectation is observed.
+  The results are interpreted in the context of exotic Higgs decays to a pair of long-lived scalars ($S$).
+  We set limits on the branching ratio of the Higgs to LLPs, \textbf{B}(H$\rightarrow SS \rightarrow \tau\tau\tau\tau$)
+  , as a function of the proper lifetime. 
+  The analysis has strongest discriminant power for the scalar particle's lifetime from 1mm to 10mm for 7and 15GeV, and from 10mm to 100mm for 40 and 55GeV.
+  The analysis' exclusion limit on the branching ratio for $\tau$ lepton final state (\textbf{B}(H$\rightarrow SS \rightarrow \tau\tau\tau\tau$)) is one of the most stringent results from the LHC detectors.
+ The 9\% at 10mm for 7GeV, 5\% at 10mm for 15 GeV, 9\% at 100mm for 40 GeV, and 20\% at 1000mm for 55 GeV are respective values. 
+\end{abstract}
+
+%%% The abstract is the last element of the so-called "front matter"
+%%% of the document.  We now move on to the "main matter" --- the
+%%% chapter material (and optional appendices).  By calling the
+%%% \mainmatter macro, we reset page numbering to arabic numerals
+%%% beginning with '1'.
+
+\mainmatter
+
+%%% I have chosen to create one new LaTeX file for each chapter of my
+%%% document.  This decision is arbitrary.  I may break the document
+%%% into as many or as few pieces as I like.  I may name the chapter
+%%% and appendix files anything I like (though I might have some
+%%% trouble if I use spaces or odd characters in my file names).  The
+%%% only requirement is that the file name ends with the extension
+%%% '.tex'.  For the \input lines below, I can leave out the '.tex'
+%%% extension.  If instead I prefer to create one long file containing
+%%% my entire thesis, I may just continue on here by starting with the
+%%% first \chapter command of my document.  (In this case, I would not
+%%% need the following '\input' commands at all.)  I have chosen to
+%%% name my chapter files by the concepts they contain.
+
+\input 00_introduction
+\input 01_theory
+\input 02_samples
+\input 03_triggerstrategy
+\input 04_objectreconstruction
+\input 05_machinelearning
+\input 06_eventselection
+\input 07_bkgestimate
+\input 08_systematics
+\input 09_results
+\input 10_conclusions
+%%%\input math
+%%%\input citations
+%%%\input figures
+%%%\input tables
+
+%%% Having finished the main text of my document, I will move on to
+%%% the appendices (or my one appendix, in this case).  An appendix
+%%% will look exactly like a chapter, even including a \chapter macro
+%%% call.  By first calling the \appendix macro, I will cause all
+%%% subsequent chapter headings to be labeled "Appendix" and to be
+%%% enumerated by letters rather than numbers.  I.e., the first
+%%% appendix will be titled 'Appendix A', then 'Appendix B', and so
+%%% on.  This also adds a heading entry to the Table of Contents
+%%% labeled 'Appendix'.  If you have more than one appendix, you may
+%%% want to change the ToC heading to read 'Appendices'.  If you need
+%%% to do this, you may reset the value of '\appendixtocname' before
+%%% the call to the \appendix macro:
+
+%\renewcommand*{\appendixtocname}{Appendices} % For more than one appendix
+\appendix
+\input appendix
+
+%%% I use the following chapters to test how things look when printed
+%%% in 'expanded' spacing and to try out other LaTeX and FSUthesis
+%%% class features not presented previously. They're not included in
+%%% the sample document by default, but you may uncomment them if you
+%%% like. Including these chapters also causes the Table of Contents
+%%% to exceed a single page in size, so it's helpful for testing those
+%%% aspects. If uncommenting the \lipsum line, be sure to uncomment
+%%% the \usepackage{lipsum} line in the preamble. (The one macro
+%%% generates several pages, and I didn't think it was necessary to
+%%% put these two lines in a separate file, like 'test' and 'history'
+%%% below.)
+
+%\chapter{Lorem Ipsum}
+%\lipsum[1-17]
+
+%\input tests
+%\input history  % just for fun
+
+%%% At this point, we are moving into the document's "back matter".
+%%% The first element is the references/bibliography section.
+%%% According to the FSU "Guidelines & Requirements for Thesis,
+%%% Treatise, and Dissertation Writers", this section should be called
+%%% "References" if it contains only source material cited in the
+%%% document; and it should be called "Bibliography" if it contains a
+%%% broader scope of material than that actually cited.  Because this
+%%% document only lists cited materials, I will need to be sure the
+%%% heading is labeled "References".  The FSU Thesis Class "User
+%%% Guide" tells me to use \renewcommand to accomplish this:
+
+\renewcommand*{\bibname}{References}
+
+%%% The skeleton document in the thesis-template folder gives an
+%%% example of the "simple" 'references' environment.  In that
+%%% document, you must format all of your own references and manage
+%%% your own citation styling.  In contrast, this document assumes
+%%% that I will be using BibLaTeX to format my references.  I'll be
+%%% using the default plain format style, and the bibliographic data
+%%% are kept in the file 'myrefs.bib'. This is specified in the
+%%% document preamble above.
+
+%%% If using biblatex/biber, then this is the command required
+%%% to render the bibliography/references section correctly.
+
+\printbibliography
+
+%%% If you're using the older BibTeX system, then selecting the
+%%% styling and the bibliography invocation are a little different.
+
+%%% Plain LaTeX with BibTeX provides just a few citation and
+%%% bibliography styles.  Many more styles are available using
+%%% 'natbib', 'apacite', or other packages. A quick web search with
+%%% 'bibtex' and your own discipline as keywords may help you locate
+%%% both references and the appropriate style files for you to
+%%% download. If you '\usepackage{natbib}' or '\usepackage{apacite}'
+%%% at the top of this file, then you should uncomment the appropriate
+%%% alternative style for the package you've chosen. Uncomment only
+%%% one of these:
+
+%\bibliographystyle{ieeetr}    % This is the default LaTeX/BibTeX style
+%\bibliographystyle{plainnat} % If using 'natbib', use this line instead
+%\bibliographystyle{apacite}  % If using 'apacite', use this line instead
+
+%%% For BibTeX, the following line actually generates the bibliography
+%%% using the data supplied in 'myrefs.bib', the citations in my
+%%% document, and the style I've selected above.
+
+%\bibliography{myrefs}
+
+%%% The last element of the document is the biographical sketch.  The
+%%% heading and table of contents entry are automatically created by
+%%% using the biosketch environment.  The rest of the content is up to
+%%% you.  Remember not to include any personal contact info.
+
+\begin{biosketch}
+The author was born, and then the author was ``educated,'' at least to
+some degree.  After finishing high school, the author
+completed a Bachelor of Science degree at Washington University in St.Louis.
+Following a decade in the work force in his discipline, the author
+went to FSU to pursue graduate work.
+\end{biosketch}
+
+%%% Here endeth the document.  LaTeX will ignore anything that follows
+%%% the \end{document} command.
+
+\end{document}

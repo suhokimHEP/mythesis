@@ -1,0 +1,154 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+\RCS$Revision$
+\RCS$HeadURL$
+\RCS$Id$
+
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+% This allows for switching between one column and two column (cms@external) layouts
+% The widths should  be modified for your particular figures. You'll need additional copies if you have more than one standard figure size.
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+\setcounter{tocdepth}{3}
+
+\def\IP{\ensuremath{\hat{\mathrm{IP}}^\mathrm{2D}_\mathrm{sig}}\xspace}
+\def\TA{\ensuremath{\hat{\Theta}^\mathrm{2D}}\xspace}
+\def\AL{\ensuremath{\alpha_\mathrm{max}}\xspace}
+\def\NT{\ensuremath{N_{\mathrm{displaced-tag}}}\xspace}
+\def\ptossf{\pt($\ell^+\ell^-$)\xspace}
+\def\dilepton{\ensuremath{\ell^+\ell^-}\xspace}
+\def\emu{\ensuremath{\ell^+\ell'^-}\xspace}
+\def\Z{\ensuremath{\mathrm{Z}}\xspace}
+\def\ZL{\ensuremath{\mathrm{Z}_{\mathrm{low-p_{T}}}}\xspace}
+\def\ZH{\ensuremath{\mathrm{ZH}}\xspace}
+\def\heavy{\ensuremath{\mathrm{t\bar{t}}+\mathrm{top}}\xspace}
+\def\WW{\ensuremath{\mathrm{W^{+}W^{-}}}\xspace}
+\def\ZZ{\ensuremath{\mathrm{ZZ}}\xspace}
+\def\WZ{\ensuremath{\mathrm{W^{\pm}Z}}\xspace}
+\def\DY{\ensuremath{\mathrm{Z}/\gamma^{*}}\xspace}
+%\def\twoeledy{\ensuremath{\mathrm{TwoEleLowPt}}\xspace}
+\def\twoeledy{\ensuremath{\mathrm{Z(}e^+e^-\mathrm{)}_\mathrm{low-p_{T}}}\xspace}
+%\def\twomudy{\ensuremath{\mathrm{TwoMuLowPt}}\xspace}
+\def\twomudy{\ensuremath{\mathrm{Z(}\mu^+\mu^-\mathrm{)}_\mathrm{low-p_{T}}}\xspace}
+%\def\twomuzh{\ensuremath{\mathrm{TwoMuHighPt}}\xspace}
+\def\twoelezh{\ensuremath{\mathrm{Z(}e^+e^-\mathrm{)}_\mathrm{high-p_{T}}}\xspace}
+\def\twollzh{\ensuremath{\mathrm{Z(}\ell^+\ell^-\mathrm{)}_\mathrm{high-p_{T}}}\xspace}
+\def\twolldy{\ensuremath{\mathrm{Z(}\ell^+\ell^-\mathrm{)}_\mathrm{low-p_{T}}}\xspace}
+%\def\twoelezh{\ensuremath{\mathrm{Z}_{e^+e^-}^\mathrm{high-p_{T}}}\xspace}
+%\def\twoelezh{\ensuremath{\mathrm{TwoEleHighPt}}\xspace}
+\def\twomuzh{\ensuremath{\mathrm{Z(}\mu^+\mu^-\mathrm{)}_\mathrm{high-p_{T}}}\xspace}
+\def\elemulow{\ensuremath{\mathrm{EleMuLowPt}}\xspace}
+\def\elemul{\ensuremath{\mathrm{Top(}e\mu\mathrm{)}_\mathrm{low-p_{T}}}\xspace}
+\def\elemu{\ensuremath{\mathrm{Top(}e\mu\mathrm{)}_\mathrm{high-p_{T}}}\xspace}
+\def\elemuall{\ensuremath{\mathrm{Top(}e\mu\mathrm{)}}\xspace}
+\def\NTAGS{\ensuremath{\mathrm{N}_{j}^{\mathrm{dis}}}\xspace}
+%\usepackage{cleveref}
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+
+\cmsNoteHeader{AN-22-013} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Search for Higgs boson decays to long-lived scalar particles to $\tau$ lepton final state with Regions of Interest}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+\address[DESY]{Deutsches Elektronen-Synchrotron}
+\address[Rutgers]{Rutgers, The State University of New Jersey}
+\address[fsu]{Florida State University}
+\author[DESY]{L. Benato}
+\author[Rutgers]{Y. Gerstein}
+\author[Rutgers]{A. Hart}
+\author[fsu]{S. Kim}
+\author[fsu]{T. Kolberg}
+\author[DESY]{K. Pe\~na}
+\author[Rutgers]{K. Rahman}
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+\date{\today}
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
+\abstract{
+   We present a search for long-lived particles (LLPs) produced in gluon fusion Higgs production mode (ggH), using a novel strategy of Regions of Interest (ROIs). Regions of Interest are collections of pair-wise track vertices fitted by the vertex fitter in CMSSW.
+   The analysis focuses LLPs with lifetimes that result in decays in the tracker region, with concentration on the ggH production mode for the highest Higgs cross-section.
+   Variables of the constructed ROIs become inputs for our Deep Neural Network (DNN) Machine Learning (ML) algorithms, as a main distriminator between the signal and the background. 
+   We focus on the Standard Model (SM) $\tau$ lepton final state. This final state is particulary interesting, given $\tau$ lepton final state exclusion limits are frequently omitted in precedent analyses, due to $\tau$ leptons' non trivial reconstruction mechanisms.
+  No excess of events over the standard model expectation is observed.
+  The results are interpreted in the context of exotic Higgs decays to a pair of long-lived scalars ($S$).
+  We set limits on the branching ratio of the Higgs to LLPs, \textbf{B}(H$\rightarrow SS$)
+  , as a function of the proper lifetime. 
+ % The expected limits
+ % constrain the \textbf{B}(H$\rightarrow SS$) to be below $\sim$4-5~\% ($\sim$15\%) for masses
+ % of 40-55~\GeV (15~\GeV) and proper lifetimes of 10-100~\mm (10-50~\mm).
+}
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text:
+% (1) no TeX! -- for \sqrt{s} use sqrt(s) -- this will show with extra quote marks in the draft version but is okay).
+% (2) no %.
+% (3) No curly braces {}.
+\hypersetup{%
+pdfauthor={S. Kim},%
+pdftitle={Search for Higgs boson decays to long-lived scalar particles to $\tau$ final state with Regions of Interest},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+% >> Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix.
+%% You can take the text between here and the bibiliography as an example which you should replace with the actual text of your document.
+%% If you include other TeX files, be sure to use "\input{filename}" rather than "\input filename".
+%% The latter works for you, but our parser looks for the braces and will break when uploading the document.
+%%%%%%%%%%%%%%%
+\tableofcontents
+\clearpage
+
+\input{01_introduction.tex}
+\clearpage
+
+\input{02_samples.tex}
+\clearpage
+
+\input{03_triggerstrategy.tex}
+\clearpage
+
+\input{04_objectreconstruction.tex}
+\clearpage
+
+\input{05_machinelearning.tex}
+\clearpage
+
+\input{06_eventselection.tex}
+\clearpage
+
+\input{07_bkgestimate.tex}
+\clearpage
+
+\input{08_systematics.tex}
+\clearpage
+
+\input{09_results.tex}
+\clearpage
+
+\input{10_conclusions.tex}
+\clearpage
+
+
+\bibliography{auto_generated}
+
+%%% DO NOT ADD \end{document}!

@@ -1,0 +1,1261 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.8)  14 SEP 2022 14:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis
+(./thesis.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (./fsuthesis.cls
+Document Class: fsuthesis 2022/03/25 v4.3.0 (FSU LaTeX document class for These
+s/Dissertations maintained by Bret Whissel, bwhissel@fsu.edu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\evenoddoffset=\skip49
+\adjbaselineskip=\skip50
+\listbaselineskip=\skip51
+\commwidth=\skip52
+\commskip=\skip53
+\listspenalty=\count186
+\c@musex=\count187
+\refitemsep=\skip54
+\refindent=\skip55
+\chapheadskip=\skip56
+\fcapindent=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks16
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mflogo/mflogo.sty
+Package: mflogo 1999/03/10 v2.0 LaTeX package for Metafont and MetaPost logos
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count266
+\U@D=\dimen148
+\l@babelnohyphens=\language86
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count267
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language29) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language29) on input line 108.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-01-04 v5.2k context-sensitive quotations (JAW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\csq@reset=\count269
+\csq@gtype=\count270
+\csq@glevel=\count271
+\csq@qlevel=\count272
+\csq@maxlvl=\count273
+\csq@tshold=\count274
+\csq@ltx@everypar=\toks21
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-01-04 v5.2k csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count275
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count276
+\c@listtotal=\count277
+\c@listcount=\count278
+\c@liststart=\count279
+\c@liststop=\count280
+\c@citecount=\count281
+\c@citetotal=\count282
+\c@multicitecount=\count283
+\c@multicitetotal=\count284
+\c@instcount=\count285
+\c@maxnames=\count286
+\c@minnames=\count287
+\c@maxitems=\count288
+\c@minitems=\count289
+\c@citecounter=\count290
+\c@maxcitecounter=\count291
+\c@savedcitecounter=\count292
+\c@uniquelist=\count293
+\c@uniquename=\count294
+\c@refsection=\count295
+\c@refsegment=\count296
+\c@maxextratitle=\count297
+\c@maxextratitleyear=\count298
+\c@maxextraname=\count299
+\c@maxextradate=\count300
+\c@maxextraalpha=\count301
+\c@abbrvpenalty=\count302
+\c@highnamepenalty=\count303
+\c@lownamepenalty=\count304
+\c@maxparens=\count305
+\c@parenlevel=\count306
+\blx@tempcnta=\count307
+\blx@tempcntb=\count308
+\blx@tempcntc=\count309
+\blx@maxsection=\count310
+\blx@maxsegment@0=\count311
+\blx@notetype=\count312
+\blx@parenlevel@text=\count313
+\blx@parenlevel@foot=\count314
+\blx@sectionciteorder@0=\count315
+\blx@entrysetcounter=\count316
+\blx@biblioinstance=\count317
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language87
+\c@mincomprange=\count318
+\c@maxcomprange=\count319
+\c@mincompwidth=\count320
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count321
+\c@savedafterword=\count322
+\c@annotator=\count323
+\c@savedannotator=\count324
+\c@author=\count325
+\c@savedauthor=\count326
+\c@bookauthor=\count327
+\c@savedbookauthor=\count328
+\c@commentator=\count329
+\c@savedcommentator=\count330
+\c@editor=\count331
+\c@savededitor=\count332
+\c@editora=\count333
+\c@savededitora=\count334
+\c@editorb=\count335
+\c@savededitorb=\count336
+\c@editorc=\count337
+\c@savededitorc=\count338
+\c@foreword=\count339
+\c@savedforeword=\count340
+\c@holder=\count341
+\c@savedholder=\count342
+\c@introduction=\count343
+\c@savedintroduction=\count344
+\c@namea=\count345
+\c@savednamea=\count346
+\c@nameb=\count347
+\c@savednameb=\count348
+\c@namec=\count349
+\c@savednamec=\count350
+\c@translator=\count351
+\c@savedtranslator=\count352
+\c@shortauthor=\count353
+\c@savedshortauthor=\count354
+\c@shorteditor=\count355
+\c@savedshorteditor=\count356
+\c@labelname=\count357
+\c@savedlabelname=\count358
+\c@institution=\count359
+\c@savedinstitution=\count360
+\c@lista=\count361
+\c@savedlista=\count362
+\c@listb=\count363
+\c@savedlistb=\count364
+\c@listc=\count365
+\c@savedlistc=\count366
+\c@listd=\count367
+\c@savedlistd=\count368
+\c@liste=\count369
+\c@savedliste=\count370
+\c@listf=\count371
+\c@savedlistf=\count372
+\c@location=\count373
+\c@savedlocation=\count374
+\c@organization=\count375
+\c@savedorganization=\count376
+\c@origlocation=\count377
+\c@savedoriglocation=\count378
+\c@origpublisher=\count379
+\c@savedorigpublisher=\count380
+\c@publisher=\count381
+\c@savedpublisher=\count382
+\c@language=\count383
+\c@savedlanguage=\count384
+\c@origlanguage=\count385
+\c@savedoriglanguage=\count386
+\c@pageref=\count387
+\c@savedpageref=\count388
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+\locallabelnumberwidth=\skip75
+\locallabelalphawidth=\skip76
+\localshorthandwidth=\skip77
+\localshortjournalwidth=\skip78
+\localshortserieswidth=\skip79
+\localshorttitlewidth=\skip80
+\localshortauthorwidth=\skip81
+\localshorteditorwidth=\skip82
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count389
+\c@textcitetotal=\count390
+\c@textcitemaxnames=\count391
+\c@biburlbigbreakpenalty=\count392
+\c@biburlbreakpenalty=\count393
+\c@biburlnumpenalty=\count394
+\c@biburlucpenalty=\count395
+\c@biburllcpenalty=\count396
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count397
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count398
+\c@bbx:relatedtotal=\count399
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count400
+\Hy@pagecounter=\count401
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count402
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4338
+.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count403
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen152
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count404
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count405
+\c@Item=\count406
+\c@Hfootnote=\count407
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count408
+\c@bookmark@seq@number=\count409
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count410
+\l__pdf_internal_box=\box49
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'american'.
+ (./thesis.aux
+
+LaTeX Warning: Label `fig:DataMCscore' multiply defined.
+
+
+LaTeX Warning: Label `fig:ANleadSize' multiply defined.
+
+
+LaTeX Warning: Label `fig:scalarpt' multiply defined.
+
+
+LaTeX Warning: Label `fig:scalarpt' multiply defined.
+
+)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-01-09 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+
+(./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count411
+\scratchdimen=\dimen155
+\scratchbox=\box50
+\nofMPsegments=\count412
+\nofMParguments=\count413
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count414
+\MPscratchDim=\dimen156
+\MPnumerator=\count415
+\makeMPintoPDFobject=\count416
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 62.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count417
+)
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
+
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write4
+\openout4 = `thesis.out'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] [3
+
+] [4
+
+] (./thesis.toc [5
+
+
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+ [6] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ [7
+
+] (./thesis.lof
+[8
+
+])
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [9] [10
+
+] (./00_introduction.tex
+Chapter 1.
+[1
+
+
+
+] [2]) (./01_theory.tex [3]
+Chapter 2.
+) (./02_samples.tex [4
+
+]
+Chapter 3.
+) (./03_triggerstrategy.tex [5
+
+]
+Chapter 4.
+<figs/TrigEff_HLT_Mu7_IP4_part.pdf, id=510, 569.12625pt x 714.67pt>
+File: figs/TrigEff_HLT_Mu7_IP4_part.pdf Graphic file (type pdf)
+<use figs/TrigEff_HLT_Mu7_IP4_part.pdf>
+Package pdftex.def Info: figs/TrigEff_HLT_Mu7_IP4_part.pdf  used on input line 
+61.
+(pdftex.def)             Requested size: 220.78542pt x 277.248pt.
+<figs/TrigEff_HLT_Mu8_IP3_part.pdf, id=511, 569.12625pt x 714.67pt>
+File: figs/TrigEff_HLT_Mu8_IP3_part.pdf Graphic file (type pdf)
+<use figs/TrigEff_HLT_Mu8_IP3_part.pdf>
+Package pdftex.def Info: figs/TrigEff_HLT_Mu8_IP3_part.pdf  used on input line 
+62.
+(pdftex.def)             Requested size: 220.78542pt x 277.248pt.
+<figs/TrigEff_HLT_Mu9_IP6_part.pdf, id=512, 569.12625pt x 714.67pt>
+File: figs/TrigEff_HLT_Mu9_IP6_part.pdf Graphic file (type pdf)
+<use figs/TrigEff_HLT_Mu9_IP6_part.pdf>
+Package pdftex.def Info: figs/TrigEff_HLT_Mu9_IP6_part.pdf  used on input line 
+69.
+(pdftex.def)             Requested size: 220.78542pt x 277.248pt.
+<figs/TrigEff_HLT_Mu12_IP6_part.pdf, id=513, 569.12625pt x 714.67pt>
+File: figs/TrigEff_HLT_Mu12_IP6_part.pdf Graphic file (type pdf)
+<use figs/TrigEff_HLT_Mu12_IP6_part.pdf>
+Package pdftex.def Info: figs/TrigEff_HLT_Mu12_IP6_part.pdf  used on input line
+ 70.
+(pdftex.def)             Requested size: 220.78542pt x 277.248pt.
+) (./04_objectreconstruction.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6
+
+
+] [7 <./figs/TrigEff_HLT_Mu7_IP4_part.pdf> <./figs/TrigEff_HLT_Mu8_IP3_part.pdf
+>] [8 <./figs/TrigEff_HLT_Mu9_IP6_part.pdf> <./figs/TrigEff_HLT_Mu12_IP6_part.p
+df>]
+Chapter 5.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf, id=699, 569.12625pt x 608.
+2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf Graphic file (type pdf
+)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf  us
+ed on input line 22.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mueta.pdf, id=700, 569.12625pt x 608
+.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mueta.pdf Graphic file (type pd
+f)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mueta.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mueta.pdf  u
+sed on input line 23.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+[9
+
+
+ <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf> <./figs/Data_AnalysisNo
+teplot_MS-15_ctauS-10_mueta.pdf>]
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf, id=798, 569.12625pt x 608
+.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf Graphic file (type pd
+f)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf  u
+sed on input line 49.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jeteta.pdf, id=799, 569.12625pt x 60
+8.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jeteta.pdf Graphic file (type p
+df)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jeteta.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jeteta.pdf  
+used on input line 50.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+ [10 <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf> <./figs/Data_Analy
+sisNoteplot_MS-15_ctauS-10_jeteta.pdf>]
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf, id=892, 569.12625pt x 608
+.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf Graphic file (type pd
+f)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf  u
+sed on input line 69.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taueta.pdf, id=893, 569.12625pt x 60
+8.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taueta.pdf Graphic file (type p
+df)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taueta.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taueta.pdf  
+used on input line 70.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+
+[11 <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf> <./figs/Data_Analys
+isNoteplot_MS-15_ctauS-10_taueta.pdf>]
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf, id=985, 569.12625pt x 6
+08.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf Graphic file (type 
+pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf 
+ used on input line 124.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf, id=986, 569.12625pt x 60
+8.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf Graphic file (type p
+df)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf  
+used on input line 125.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf, id=987, 5
+69.12625pt x 608.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf Graph
+ic file (type pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClus
+terNumber.pdf  used on input line 132.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf, id=988, 
+569.12625pt x 608.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf Grap
+hic file (type pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTr
+acksNumber.pdf  used on input line 133.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13 <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf> <./figs/Data
+_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf> <./figs/Data_AnalysisNoteplot_MS-1
+5_ctauS-10_ROITrackClusterNumber.pdf> <./figs/Data_AnalysisNoteplot_MS-15_ctauS
+-10_ROIAnnulusTracksNumber.pdf>]
+<figs/BPH1AData.pdf, id=1171, 569.12625pt x 388.45125pt>
+File: figs/BPH1AData.pdf Graphic file (type pdf)
+<use figs/BPH1AData.pdf>
+Package pdftex.def Info: figs/BPH1AData.pdf  used on input line 176.
+(pdftex.def)             Requested size: 314.73497pt x 214.82837pt.
+<figs/BPH1CData.pdf, id=1173, 569.12625pt x 388.45125pt>
+File: figs/BPH1CData.pdf Graphic file (type pdf)
+<use figs/BPH1CData.pdf>
+Package pdftex.def Info: figs/BPH1CData.pdf  used on input line 185.
+(pdftex.def)             Requested size: 314.73497pt x 214.82837pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/mcPU.pdf, id=1175, 569.12625pt x 388.45125pt>
+File: figs/mcPU.pdf Graphic file (type pdf)
+<use figs/mcPU.pdf>
+Package pdftex.def Info: figs/mcPU.pdf  used on input line 194.
+(pdftex.def)             Requested size: 314.73497pt x 214.82837pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./figs/BPH1AData.pdf, page is rotated 90 degrees>]
+<figs/PUWeight_PUWeight.pdf, id=1224, 569.12625pt x 469.755pt>
+File: figs/PUWeight_PUWeight.pdf Graphic file (type pdf)
+<use figs/PUWeight_PUWeight.pdf>
+Package pdftex.def Info: figs/PUWeight_PUWeight.pdf  used on input line 212.
+(pdftex.def)             Requested size: 314.73497pt x 259.79245pt.
+)
+(./05_machinelearning.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./figs/BPH1CData.pdf, page is rotated 90 degrees> <./figs/mcPU.pdf, page i
+s rotated 90 degrees>] [16 <./figs/PUWeight_PUWeight.pdf, page is rotated 90 de
+grees>]
+Chapter 6.
+[17
+
+
+]
+<figs/Tensorflow_Disc_mostrecent.pdf, id=1376, 569.12625pt x 469.755pt>
+File: figs/Tensorflow_Disc_mostrecent.pdf Graphic file (type pdf)
+<use figs/Tensorflow_Disc_mostrecent.pdf>
+Package pdftex.def Info: figs/Tensorflow_Disc_mostrecent.pdf  used on input lin
+e 116.
+(pdftex.def)             Requested size: 314.73497pt x 259.79245pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIscore.pdf, id=1377, 569.12625pt x
+ 608.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIscore.pdf Graphic file (type
+ pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIscore.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIscore.pdf
+  used on input line 124.
+(pdftex.def)             Requested size: 314.73497pt x 336.39793pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf, id=1378, 569.12625pt x
+ 608.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf Graphic file (type
+ pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf
+  used on input line 133.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf, id=1379, 569.12625p
+t x 608.2725pt>
+File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf Graphic file (t
+ype pdf)
+<use figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf>
+Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.
+pdf  used on input line 134.
+(pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]) (./06_eventselection.tex [19 <./figs/Tensorflow_Disc_mostrecent.pdf, page
+ is rotated 90 degrees>] [20 <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIsc
+ore.pdf>] [21 <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf> <./fig
+s/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf>]
+Chapter 7.
+
+LaTeX Warning: Reference `sec:samples' on page 22 undefined on input line 4.
+
+<figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf, id=1572, 569.12625pt x 452.
+69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf Graphic file (type pdf)
+
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf  use
+d on input line 18.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf, id=1573, 569.12625pt x 452
+.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf Graphic file (type pdf
+)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf  us
+ed on input line 19.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf, id=1574, 569.12625pt x 4
+52.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf Graphic file (type p
+df)
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf  
+used on input line 27.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf, id=1575, 569.12625pt x 
+452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf Graphic file (type 
+pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf 
+ used on input line 28.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22
+
+
+ <./figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf, page is rotated 90 degre
+es> <./figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf, page is rotated 90 d
+egrees>] [23 <./figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf, page is r
+otated 90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf, pa
+ge is rotated 90 degrees>]
+<figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf, id=1758, 569.12625pt x
+ 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf Graphic file (type
+ pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf
+  used on input line 76.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, id=1759, 569.12625pt 
+x 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf Graphic file (typ
+e pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pd
+f  used on input line 77.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf, id=1760, 569.12625pt
+ x 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf Graphic file (ty
+pe pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.p
+df  used on input line 105.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf, id=1761, 569.12625p
+t x 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf Graphic file (t
+ype pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.
+pdf  used on input line 106.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf, page is rotated 
+90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, page is
+ rotated 90 degrees>]
+Overfull \hbox (26.72685pt too wide) in paragraph at lines 120--121
+[]$\OT1/cmr/m/n/10.95 (^^F\OML/cmm/m/it/10.95 pT\OT1/cmr/m/n/10.95 (\OML/cmm/m/
+it/10.95 ch:hadfromPV\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 max\OT1/cmr/m/n
+/10.95 (0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 ^^F\OML/cmm/m/it/10.95 ET\OT1
+/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 neut:had\OT1/cmr/m/n/10.95 )^^F\OML/cmm/m/i
+t/10.95 ET\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 phot\OT1/cmr/m/n/10.95 ) \OMS
+/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95
+ 5 \OMS/cmsy/m/n/10.95 ^^C \OT1/cmr/m/n/10.95 ^^F\OML/cmm/m/it/10.95 pT\OT1/cmr
+/m/n/10.95 (\OML/cmm/m/it/10.95 ch:hadfromPU\OT1/cmr/m/n/10.95 )))\OML/cmm/m/it
+/10.95 =P[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^V\OT1/cmr/m/n/10.95 ) \OML
+/cmm/m/it/10.95 <
+ []
+
+[25 <./figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf, page is rotate
+d 90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf, pag
+e is rotated 90 degrees>]
+<figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pdf, id=1943, 569.12625pt x 452.
+69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pdf Graphic file (type pdf)
+
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pdf  use
+d on input line 141.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuIP.pdf, id=1944, 569.12625pt x 452
+.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuIP.pdf Graphic file (type pdf
+)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuIP.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuIP.pdf  us
+ed on input line 142.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-10_leadclosejetdR.pdf, id=1945, 569.12625pt 
+x 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadclosejetdR.pdf Graphic file (typ
+e pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-10_leadclosejetdR.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_leadclosejetdR.pd
+f  used on input line 159.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_leadclosejetdR.pdf, id=1946, 569.12625pt
+ x 452.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_leadclosejetdR.pdf Graphic file (ty
+pe pdf)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_leadclosejetdR.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_leadclosejetdR.p
+df  used on input line 160.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./07_bkgestimate.tex [26 <./figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pd
+f, page is rotated 90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuI
+P.pdf, page is rotated 90 degrees>] [27 <./figs/AnalysisNoteplot_MS-15_ctauS-10
+_leadclosejetdR.pdf, page is rotated 90 degrees> <./figs/AnalysisNoteplot_MS-15
+_ctauS-100_leadclosejetdR.pdf, page is rotated 90 degrees>]
+Chapter 8.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf, id=2130, 569.12625pt x 45
+2.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf Graphic file (type pd
+f)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf  u
+sed on input line 25.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+<figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf, id=2131, 569.12625pt x 45
+2.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf Graphic file (type pd
+f)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf  u
+sed on input line 26.
+(pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf, id=2132, 569.12625pt x 4
+52.69125pt>
+File: figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf Graphic file (type p
+df)
+<use figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf>
+Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf  
+used on input line 33.
+(pdftex.def)             Requested size: 314.73497pt x 250.35555pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./08_systematics.tex [28
+
+
+] [29 <./figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf, page is rotated 9
+0 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf, page is rota
+ted 90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf, page i
+s rotated 90 degrees>]
+Chapter 9.
+) (./09_results.tex [30
+
+
+]
+Chapter 10.
+<figs/7GeVUpperLimit.pdf, id=2275, 569.12625pt x 408.52625pt>
+File: figs/7GeVUpperLimit.pdf Graphic file (type pdf)
+<use figs/7GeVUpperLimit.pdf>
+Package pdftex.def Info: figs/7GeVUpperLimit.pdf  used on input line 8.
+(pdftex.def)             Requested size: 220.78542pt x 158.48306pt.
+<figs/15GeVUpperLimit.pdf, id=2276, 569.12625pt x 408.52625pt>
+File: figs/15GeVUpperLimit.pdf Graphic file (type pdf)
+<use figs/15GeVUpperLimit.pdf>
+Package pdftex.def Info: figs/15GeVUpperLimit.pdf  used on input line 9.
+(pdftex.def)             Requested size: 220.78542pt x 158.48306pt.
+<figs/40GeVUpperLimit.pdf, id=2277, 569.12625pt x 408.52625pt>
+File: figs/40GeVUpperLimit.pdf Graphic file (type pdf)
+<use figs/40GeVUpperLimit.pdf>
+Package pdftex.def Info: figs/40GeVUpperLimit.pdf  used on input line 15.
+(pdftex.def)             Requested size: 220.78542pt x 158.48306pt.
+<figs/55GeVUpperLimit.pdf, id=2278, 569.12625pt x 408.52625pt>
+File: figs/55GeVUpperLimit.pdf Graphic file (type pdf)
+<use figs/55GeVUpperLimit.pdf>
+Package pdftex.def Info: figs/55GeVUpperLimit.pdf  used on input line 16.
+(pdftex.def)             Requested size: 220.78542pt x 158.48306pt.
+) (./10_conclusions.tex [31
+
+
+ <./figs/7GeVUpperLimit.pdf, page is rotated 90 degrees> <./figs/15GeVUpperLimi
+t.pdf, page is rotated 90 degrees> <./figs/40GeVUpperLimit.pdf, page is rotated
+ 90 degrees> <./figs/55GeVUpperLimit.pdf, page is rotated 90 degrees>]
+Chapter 11.
+) (./appendix.tex [32
+
+
+]
+Appendix A.
+[33
+
+]
+<figs/feynmanggH.pdf, id=2468, 882.29625pt x 541.02126pt>
+File: figs/feynmanggH.pdf Graphic file (type pdf)
+<use figs/feynmanggH.pdf>
+Package pdftex.def Info: figs/feynmanggH.pdf  used on input line 76.
+(pdftex.def)             Requested size: 220.78542pt x 135.3788pt.
+<figs/Scalar_pT100mm.pdf, id=2470, 569.12625pt x 714.67pt>
+File: figs/Scalar_pT100mm.pdf Graphic file (type pdf)
+<use figs/Scalar_pT100mm.pdf>
+Package pdftex.def Info: figs/Scalar_pT100mm.pdf  used on input line 155.
+(pdftex.def)             Requested size: 220.78542pt x 277.248pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Scalar_dR100mm.pdf, id=2471, 569.12625pt x 554.07pt>
+File: figs/Scalar_dR100mm.pdf Graphic file (type pdf)
+<use figs/Scalar_dR100mm.pdf>
+Package pdftex.def Info: figs/Scalar_dR100mm.pdf  used on input line 162.
+(pdftex.def)             Requested size: 220.78542pt x 214.94508pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Scalar_gammactau100mm.pdf, id=2472, 569.12625pt x 554.07pt>
+File: figs/Scalar_gammactau100mm.pdf Graphic file (type pdf)
+<use figs/Scalar_gammactau100mm.pdf>
+Package pdftex.def Info: figs/Scalar_gammactau100mm.pdf  used on input line 169
+.
+(pdftex.def)             Requested size: 220.78542pt x 214.94508pt.
+<figs/Scalar_gammactau15GeV.pdf, id=2473, 569.12625pt x 554.07pt>
+File: figs/Scalar_gammactau15GeV.pdf Graphic file (type pdf)
+<use figs/Scalar_gammactau15GeV.pdf>
+Package pdftex.def Info: figs/Scalar_gammactau15GeV.pdf  used on input line 170
+.
+(pdftex.def)             Requested size: 220.78542pt x 214.94508pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <./figs/feynmanggH.pdf>] [35 <./figs/Scalar_pT100mm.pdf> <./figs/Scalar_dR1
+00mm.pdf, page is rotated 90 degrees>] [36 <./figs/Scalar_gammactau100mm.pdf, p
+age is rotated 90 degrees> <./figs/Scalar_gammactau15GeV.pdf, page is rotated 9
+0 degrees>] [37]
+Appendix B.
+) [38
+
+] [39
+
+] [40] [41] [42]
+Overfull \hbox (9.7241pt too wide) in paragraph at lines 217--217
+\OT1/cmr/m/n/10.95 2020. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : [][]$\OT1/
+cmtt/m/n/10.95 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS / P
+dmVAnalysisSummaryTable$[][]\OT1/cmr/m/n/10.95 . 
+ []
+
+[43] [44
+
+] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: B1D9E94FB2DB383A56DE77910A3675DE;3049.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15425 strings out of 479304
+ 280495 string characters out of 5869780
+ 1118428 words of memory out of 5000000
+ 32118 multiletter control sequences out of 15000+600000
+ 411530 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,9n,75p,735b,2064s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1095.pfb>
+Output written on thesis.pdf (54 pages, 1099280 bytes).
+PDF statistics:
+ 2927 PDF objects out of 2984 (max. 8388607)
+ 1668 compressed objects within 17 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
+
