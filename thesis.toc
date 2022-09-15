@@ -11,82 +11,82 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}The Standard Model and Its Future}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The CMS Detector}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {3}The CMS Detector}{6}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The LHC and the CMS}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.1}The LHC and the CMS}{6}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Tracker of the CMS}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Tracker of the CMS}{6}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}HGCAL of the CMS}{5}{section.3.3}%
+\contentsline {section}{\numberline {3.3}HGCAL of the CMS}{6}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Trigger Strategy}{6}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Trigger Strategy}{7}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Global Tags}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Global Tags}{7}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Trigger Paths}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Trigger Paths}{7}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Physics Object Definitions}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Physics Object Definitions}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Muons}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Muons}{10}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Jets}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Jets}{11}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Taus}{11}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Taus}{12}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Region of Interest}{11}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Region of Interest}{12}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Tracks}{12}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Tracks}{13}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Vertex Fitter}{12}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.2}Vertex Fitter}{13}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}ROI formation}{12}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}ROI formation}{13}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Pileup Reweighting}{13}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Pileup Reweighting}{14}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Machine Learning}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Machine Learning}{18}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Machine Leaning Software}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Machine Leaning Software}{18}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Machine Learning Input Variable}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Machine Learning Input Variable}{19}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}DNN Variable Test}{18}{section.6.3}%
+\contentsline {section}{\numberline {6.3}DNN Variable Test}{19}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Signal and Background MC Test}{19}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Signal and Background MC Test}{20}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}SHAP values}{20}{section.6.5}%
+\contentsline {section}{\numberline {6.5}SHAP values}{21}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{22}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{23}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{24}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Number of Annulus Tracks Associated with ROI}{24}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Number of Annulus Tracks Associated with ROI}{25}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Isolation criteria for muons}{25}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Isolation criteria for muons}{26}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter to PV}{25}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter to PV}{26}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}DeltaR(ROI, jet)}{26}{section.7.5}%
+\contentsline {section}{\numberline {7.5}DeltaR(ROI, jet)}{27}{section.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Background Estimation}{28}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Background Estimation}{29}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{30}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{31}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Results}{31}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Results}{32}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusions}{32}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Conclusions}{33}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{Appendix}{32}{appendix.A}%
+\contentsline {appendix}{Appendix}{33}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Data Samples}{33}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Data Samples}{34}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Monte Carlo Samples}{34}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Monte Carlo Samples}{35}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Signal Model and Simulation}{34}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Signal Model and Simulation}{35}{subsection.A.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Background Monte Carlo}{34}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.2}Background Monte Carlo}{35}{subsection.A.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Others}{38}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Others}{39}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{References}{39}{appendix*.6}%
+\contentsline {backmatter}{References}{40}{appendix*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{Biographical Sketch}{44}{appendix*.7}%
+\contentsline {backmatter}{Biographical Sketch}{45}{appendix*.7}%

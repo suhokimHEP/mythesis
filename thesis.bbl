@@ -456,6 +456,70 @@
       \verb 1409.6729
       \endverb
     \endentry
+    \entry{Aaltonen:2022aaa}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=96796035bdde48f0f6780da927471d3e}{%
+           family={Aaltonen},
+           familyi={A\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \strng{fullhash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \strng{bibnamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \strng{authorbibnamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \strng{authornamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \strng{authorfullhash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science 376 (2022) 6589, 170-176}
+      \field{title}{{High-precision measurement of the W boson mass with the CDF II detector}}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1126/science.abk1781
+      \endverb
+    \endentry
+    \entry{Mishima:2022aab}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ea1280c58462e10ba384042d50c10034}{%
+           family={Mishima},
+           familyi={M\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b83a9ef75ecdfaf950804aa36406d50f}{%
+           family={Endo},
+           familyi={E\bibinitperiod},
+           given={Motoi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \strng{fullhash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \strng{bibnamehash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \strng{authorbibnamehash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \strng{authornamehash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \strng{authorfullhash}{75721f6c65ceaf5a641a4b3ec9edecc3}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{{New physics interpretation of W-boson mass anomaly}}
+      \field{year}{2022}
+      \field{pages}{21}
+      \range{pages}{1}
+      \verb{doi}
+      \verb doi.org/10.48550/arXiv.2204.05965
+      \endverb
+      \verb{eprint}
+      \verb 2204.05965
+      \endverb
+    \endentry
     \entry{SUSY}{report}{}
       \list{institution}{1}{%
         {CERN}%
@@ -463,8 +527,8 @@
       \list{location}{1}{%
         {Geneva}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labeltitlesource}{title}
       \field{title}{{CMS Supersymmetry Physics Results}}
       \field{type}{techreport}
@@ -476,273 +540,42 @@
       \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/PhysicsResultsSUS
       \endverb
     \endentry
-    \entry{Chacko:2005pe}{article}{}
-      \name{author}{3}{}{%
-        {{hash=de699940d936f95fb00b96bfe4242703}{%
-           family={Chacko},
-           familyi={C\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=e3dcff3f9cb8779f4ed4d7cc9d136273}{%
-           family={Goh},
-           familyi={G\bibinitperiod},
-           given={Hock-Seng},
-           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=7f6462e8b730917f61d3dd9278662dcc}{%
-           family={Harnik},
-           familyi={H\bibinitperiod},
-           given={Roni},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{98f4d2600b8c63ace77790487ea0377f}
-      \strng{fullhash}{98f4d2600b8c63ace77790487ea0377f}
-      \strng{bibnamehash}{98f4d2600b8c63ace77790487ea0377f}
-      \strng{authorbibnamehash}{98f4d2600b8c63ace77790487ea0377f}
-      \strng{authornamehash}{98f4d2600b8c63ace77790487ea0377f}
-      \strng{authorfullhash}{98f4d2600b8c63ace77790487ea0377f}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{title}{{The Twin Higgs: Natural electroweak breaking from mirror symmetry}}
-      \field{volume}{96}
-      \field{year}{2006}
-      \field{pages}{231802}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.96.231802
-      \endverb
-      \verb{eprint}
-      \verb hep-ph/0506256
-      \endverb
-    \endentry
-    \entry{Burdman:2006tz}{article}{}
-      \name{author}{4}{}{%
-        {{hash=d421e249dca12f649fab5135da8c0e20}{%
-           family={Burdman},
-           familyi={B\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=de699940d936f95fb00b96bfe4242703}{%
-           family={Chacko},
-           familyi={C\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=e3dcff3f9cb8779f4ed4d7cc9d136273}{%
-           family={Goh},
-           familyi={G\bibinitperiod},
-           given={Hock-Seng},
-           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=7f6462e8b730917f61d3dd9278662dcc}{%
-           family={Harnik},
-           familyi={H\bibinitperiod},
-           given={Roni},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{6ce7d1e498754d2c78e10a77f4501b2b}
-      \strng{fullhash}{b106285efc98625518019f91be565514}
-      \strng{bibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
-      \strng{authorbibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
-      \strng{authornamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
-      \strng{authorfullhash}{b106285efc98625518019f91be565514}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{Folded supersymmetry and the LEP paradox}}
-      \field{volume}{02}
-      \field{year}{2007}
-      \field{pages}{009}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1126-6708/2007/02/009
-      \endverb
-      \verb{eprint}
-      \verb hep-ph/0609152
-      \endverb
-    \endentry
-    \entry{Cai:2008au}{article}{}
-      \name{author}{3}{}{%
-        {{hash=5d7b3e2323a96f46226a3a4b40269dd9}{%
-           family={Cai},
-           familyi={C\bibinitperiod},
-           given={Haiying},
-           giveni={H\bibinitperiod}}}%
-        {{hash=f07c70889208e976513f1874b6a7e003}{%
-           family={Cheng},
-           familyi={C\bibinitperiod},
-           given={Hsin-Chia},
-           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=17615cef342255c76b5c83f4b6e3d4e1}{%
-           family={Terning},
-           familyi={T\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \strng{fullhash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \strng{bibnamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \strng{authorbibnamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \strng{authornamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \strng{authorfullhash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{A Quirky Little Higgs Model}}
-      \field{volume}{05}
-      \field{year}{2009}
-      \field{pages}{045}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1126-6708/2009/05/045
-      \endverb
-      \verb{eprint}
-      \verb 0812.0843
-      \endverb
-    \endentry
-    \entry{Craig:2015pha}{article}{}
-      \name{author}{4}{}{%
-        {{hash=0e851c4322bcb498d7f1db8ed1b7d7bc}{%
-           family={Craig},
-           familyi={C\bibinitperiod},
-           given={Nathaniel},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a9cf49cd0691ad7190191b2b892e42d1}{%
-           family={Katz},
-           familyi={K\bibinitperiod},
-           given={Andrey},
-           giveni={A\bibinitperiod}}}%
-        {{hash=084383fae03fa0548c8e297390258da7}{%
-           family={Strassler},
-           familyi={S\bibinitperiod},
-           given={Matt},
-           giveni={M\bibinitperiod}}}%
-        {{hash=54d28ac7c9d805cec1fcc61b8271536b}{%
-           family={Sundrum},
-           familyi={S\bibinitperiod},
-           given={Raman},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{0f25b9333fb373f2879df500afbef147}
-      \strng{fullhash}{520dda3969720c02d2dcf8b918cd1d69}
-      \strng{bibnamehash}{0f25b9333fb373f2879df500afbef147}
-      \strng{authorbibnamehash}{0f25b9333fb373f2879df500afbef147}
-      \strng{authornamehash}{0f25b9333fb373f2879df500afbef147}
-      \strng{authorfullhash}{520dda3969720c02d2dcf8b918cd1d69}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{Naturalness in the Dark at the LHC}}
-      \field{volume}{07}
-      \field{year}{2015}
-      \field{pages}{105}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1007/JHEP07(2015)105
-      \endverb
-      \verb{eprint}
-      \verb 1501.05310
-      \endverb
-    \endentry
-    \entry{Curtin:2015fna}{article}{}
+    \entry{Barron:2022aac}{article}{}
       \name{author}{2}{}{%
+        {{hash=8c1b5cb554f980443816fbc999a30c69}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod}}}%
         {{hash=7d7e80f8d368fcbb7705ee2361a96923}{%
            family={Curtin},
            familyi={C\bibinitperiod},
            given={David},
            giveni={D\bibinitperiod}}}%
-        {{hash=5531e08903db957c4a20da0d764a8889}{%
-           family={Verhaaren},
-           familyi={V\bibinitperiod},
-           given={Christopher\bibnamedelima B.},
-           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \strng{fullhash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \strng{bibnamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \strng{authorbibnamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \strng{authornamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \strng{authorfullhash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{namehash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
+      \strng{fullhash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
+      \strng{bibnamehash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
+      \strng{authorbibnamehash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
+      \strng{authornamehash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
+      \strng{authorfullhash}{e3fcc6e1bc7c118938fe7cdcd0c0a2a4}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{Discovering Uncolored Naturalness in Exotic Higgs Decays}}
-      \field{volume}{12}
-      \field{year}{2015}
-      \field{pages}{072}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{number}{61}
+      \field{title}{{On the Origin of Long-Lived Particles}}
+      \field{year}{2020}
+      \field{pages}{39}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1007/JHEP12(2015)072
+      \verb doi.org/10.48550/arXiv.2007.05538
       \endverb
       \verb{eprint}
-      \verb 1506.06141
-      \endverb
-    \endentry
-    \entry{Csaki:2015fba}{article}{}
-      \name{author}{4}{}{%
-        {{hash=1ae98f219c7d7177e1dc72d581a7b929}{%
-           family={Csaki},
-           familyi={C\bibinitperiod},
-           given={Csaba},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cc4f31770c930e62a67db29bb0c822d2}{%
-           family={Kuflik},
-           familyi={K\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{hash=0480272854a36cb62daeb233a5368afd}{%
-           family={Lombardo},
-           familyi={L\bibinitperiod},
-           given={Salvator},
-           giveni={S\bibinitperiod}}}%
-        {{hash=018d88d47ee0bddcd051089c283be584}{%
-           family={Slone},
-           familyi={S\bibinitperiod},
-           given={Oren},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{555d1dd1b741b020ce89ea5683a57e75}
-      \strng{fullhash}{bdf380325148932b3ad2cc8d232fe4e9}
-      \strng{bibnamehash}{555d1dd1b741b020ce89ea5683a57e75}
-      \strng{authorbibnamehash}{555d1dd1b741b020ce89ea5683a57e75}
-      \strng{authornamehash}{555d1dd1b741b020ce89ea5683a57e75}
-      \strng{authorfullhash}{bdf380325148932b3ad2cc8d232fe4e9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Phys. Rev.}
-      \field{number}{7}
-      \field{title}{{Searching for displaced Higgs boson decays}}
-      \field{volume}{D92}
-      \field{year}{2015}
-      \field{pages}{073008}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.92.073008
-      \endverb
-      \verb{eprint}
-      \verb 1508.01522
+      \verb 2007.05538
       \endverb
     \endentry
     \entry{Aaltonen:2011rja}{article}{}
@@ -761,6 +594,7 @@
       \strng{authorbibnamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
       \strng{authornamehash}{ade8422af7088be8c59ff6d1ad2fe4ae}
       \strng{authorfullhash}{ade8422af7088be8c59ff6d1ad2fe4ae}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
@@ -1857,6 +1691,275 @@
       \verb 0903.0667
       \endverb
     \endentry
+    \entry{Chacko:2005pe}{article}{}
+      \name{author}{3}{}{%
+        {{hash=de699940d936f95fb00b96bfe4242703}{%
+           family={Chacko},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e3dcff3f9cb8779f4ed4d7cc9d136273}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Hock-Seng},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=7f6462e8b730917f61d3dd9278662dcc}{%
+           family={Harnik},
+           familyi={H\bibinitperiod},
+           given={Roni},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{98f4d2600b8c63ace77790487ea0377f}
+      \strng{fullhash}{98f4d2600b8c63ace77790487ea0377f}
+      \strng{bibnamehash}{98f4d2600b8c63ace77790487ea0377f}
+      \strng{authorbibnamehash}{98f4d2600b8c63ace77790487ea0377f}
+      \strng{authornamehash}{98f4d2600b8c63ace77790487ea0377f}
+      \strng{authorfullhash}{98f4d2600b8c63ace77790487ea0377f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{The Twin Higgs: Natural electroweak breaking from mirror symmetry}}
+      \field{volume}{96}
+      \field{year}{2006}
+      \field{pages}{231802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.96.231802
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/0506256
+      \endverb
+    \endentry
+    \entry{Burdman:2006tz}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d421e249dca12f649fab5135da8c0e20}{%
+           family={Burdman},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=de699940d936f95fb00b96bfe4242703}{%
+           family={Chacko},
+           familyi={C\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e3dcff3f9cb8779f4ed4d7cc9d136273}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Hock-Seng},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=7f6462e8b730917f61d3dd9278662dcc}{%
+           family={Harnik},
+           familyi={H\bibinitperiod},
+           given={Roni},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{fullhash}{b106285efc98625518019f91be565514}
+      \strng{bibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authorbibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authornamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authorfullhash}{b106285efc98625518019f91be565514}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Folded supersymmetry and the LEP paradox}}
+      \field{volume}{02}
+      \field{year}{2007}
+      \field{pages}{009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2007/02/009
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/0609152
+      \endverb
+    \endentry
+    \entry{Cai:2008au}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5d7b3e2323a96f46226a3a4b40269dd9}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Haiying},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f07c70889208e976513f1874b6a7e003}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hsin-Chia},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=17615cef342255c76b5c83f4b6e3d4e1}{%
+           family={Terning},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \strng{fullhash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \strng{bibnamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \strng{authorbibnamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \strng{authornamehash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \strng{authorfullhash}{1b949a37a4b2ca2e8c22e80dd000dbc0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{A Quirky Little Higgs Model}}
+      \field{volume}{05}
+      \field{year}{2009}
+      \field{pages}{045}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2009/05/045
+      \endverb
+      \verb{eprint}
+      \verb 0812.0843
+      \endverb
+    \endentry
+    \entry{Craig:2015pha}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0e851c4322bcb498d7f1db8ed1b7d7bc}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a9cf49cd0691ad7190191b2b892e42d1}{%
+           family={Katz},
+           familyi={K\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=084383fae03fa0548c8e297390258da7}{%
+           family={Strassler},
+           familyi={S\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=54d28ac7c9d805cec1fcc61b8271536b}{%
+           family={Sundrum},
+           familyi={S\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f25b9333fb373f2879df500afbef147}
+      \strng{fullhash}{520dda3969720c02d2dcf8b918cd1d69}
+      \strng{bibnamehash}{0f25b9333fb373f2879df500afbef147}
+      \strng{authorbibnamehash}{0f25b9333fb373f2879df500afbef147}
+      \strng{authornamehash}{0f25b9333fb373f2879df500afbef147}
+      \strng{authorfullhash}{520dda3969720c02d2dcf8b918cd1d69}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Naturalness in the Dark at the LHC}}
+      \field{volume}{07}
+      \field{year}{2015}
+      \field{pages}{105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP07(2015)105
+      \endverb
+      \verb{eprint}
+      \verb 1501.05310
+      \endverb
+    \endentry
+    \entry{Curtin:2015fna}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7d7e80f8d368fcbb7705ee2361a96923}{%
+           family={Curtin},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5531e08903db957c4a20da0d764a8889}{%
+           family={Verhaaren},
+           familyi={V\bibinitperiod},
+           given={Christopher\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{fullhash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{bibnamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{authorbibnamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{authornamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \strng{authorfullhash}{5fa2d100f9b04c93f31c189d60fba1e9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Discovering Uncolored Naturalness in Exotic Higgs Decays}}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{pages}{072}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP12(2015)072
+      \endverb
+      \verb{eprint}
+      \verb 1506.06141
+      \endverb
+    \endentry
+    \entry{Csaki:2015fba}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1ae98f219c7d7177e1dc72d581a7b929}{%
+           family={Csaki},
+           familyi={C\bibinitperiod},
+           given={Csaba},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cc4f31770c930e62a67db29bb0c822d2}{%
+           family={Kuflik},
+           familyi={K\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0480272854a36cb62daeb233a5368afd}{%
+           family={Lombardo},
+           familyi={L\bibinitperiod},
+           given={Salvator},
+           giveni={S\bibinitperiod}}}%
+        {{hash=018d88d47ee0bddcd051089c283be584}{%
+           family={Slone},
+           familyi={S\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{555d1dd1b741b020ce89ea5683a57e75}
+      \strng{fullhash}{bdf380325148932b3ad2cc8d232fe4e9}
+      \strng{bibnamehash}{555d1dd1b741b020ce89ea5683a57e75}
+      \strng{authorbibnamehash}{555d1dd1b741b020ce89ea5683a57e75}
+      \strng{authornamehash}{555d1dd1b741b020ce89ea5683a57e75}
+      \strng{authorfullhash}{bdf380325148932b3ad2cc8d232fe4e9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{7}
+      \field{title}{{Searching for displaced Higgs boson decays}}
+      \field{volume}{D92}
+      \field{year}{2015}
+      \field{pages}{073008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.92.073008
+      \endverb
+      \verb{eprint}
+      \verb 1508.01522
+      \endverb
+    \endentry
     \entry{muonpog}{manual}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1972,8 +2075,8 @@
       \strng{authorbibnamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authornamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authorfullhash}{ec4bd9be83251bf78c030ded3fce3ff4}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -2005,8 +2108,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -2034,8 +2137,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Physics Performance Datasets -- PPD Run2 Analysis Recipe Summary}
