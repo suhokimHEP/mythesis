@@ -36,37 +36,73 @@ by the ATLAS, CMS and LHCb Collaborations at $\sqrt{s}$ = 8~TeV~\cite{Aad:2015ua
 More recently, by the CMS ~\cite{Sirunyan:2017jdo,displacedvertices,displacedjets2016,delayedjets,emergingjets,CMS-PAS-EXO-19-021}
  and ATLAS Collaborations ~\cite{Aaboud:2018iil,Aaboud:2018jbr,Aaboud:2018arf,Aaboud:2018aqj,Aaboud:2018kbe,Aaboud:2019trc,Aaboud:2019opc,Aad:2019kiz,Aad:2019pfm,Aad:2019tcc,Aad:2019xav,Aad:2019tua} at $\sqrt{s}$ = 13~TeV. 
 
-CMS Collaboration released a new result in 2021, in which the Higgs is created in association with a Z vector boson ~\cite{ZHAN}, for a better probe into lighter scalar masses thanks to its clean dilepton trigger.
-Although exclusion limit on branching ratio of the Higgs to the LLPs to b and d-quark were set below unitarity for analyses above, exclusion limit for $\tau$ final state has been frequently omitted or presented with values above 1.  
-Displaced Jets analyses face challenges for $\tau$ final state, due to $\tau$'s non-trivial hadronic and leptonic decay modes and complicated reconstruction mechanism. 
+CMS Collaboration released a new result in 2021. 
+In the new paper, the Higgs decaying into LLPs, is created in association with a Z vector boson \cite{ZHAN}.
+This analysis' feynman diagram is displayed in figure \ref{fig:ZHfeyn}.
+The new analysis shed light on LLPs with lighter masses thanks to the clean dilepton trigger from the associated Z vector boson.
+Although exclusion limit on branching ratio of the Higgs to the LLPs to b and d-quark were set below unitarity for analyses above, exclusion limit for $\tau$ final state has been omitted or presented with values above 1.  
+
+\begin{figure}[h!]
+  \caption{Feynman diagram of ZH signal process studied in the most recent CMS analysis paper (2021)}
+  \label{fig:ZHfeyn}
+  \centering
+  \includegraphics[width=0.47\linewidth]{figs/Zh-llffff-SS.pdf}
+\end{figure}
+
 However, the Leptophilic model for Twin Higgs and other Higgs models are also highly motivated ~\cite{Lepto}. Continuous neglect of $\tau$ final state limit is not only a poor practice, but overlooks an important unexplored phase space. 
-This analysis searches for Higgs Portal model with the Higgs' Leptophilic nature, which focuses on $\tau$ final state.
+This analysis searches for LLPs, originating from the Higgs Portal model with the Higgs' Leptophilic nature.
+Since the coupling strength of the Higgs' to SM fermions are quantified by the Yukawa couplings, focus on Leptophilic Higgs translates into focuses on $\tau$ final state decaying back from the LLPs via the Higgs Portal.
 The 55 GeV maximum scalar mass is set to investigate only on-shell neutral scalar particles from the Higgs. 
-A minimum 7 GeV mass for scalar particles is required to create on-shell tau-lepton pairs.
-Feynman diagram of the scalar particle production mechanism is depicted in Figure (to be made soon).
-
-Most CMS searches are not optimal for detecting Higgs boson decays to displaced jets
-due to the soft $p_T$ nature of its decays products.
-%Standard CMS searches rely on $H_T$ triggers that are highly inefficienty for this signal.
-Low hadronic activity in transverse signature becomes particularly more difficult with a long-lived signature.
-Higgs produced in association with Z vector boson analysis~\cite{ZHAN} overcame this barrier with help of dilepton trigger. 
-Although ggH production mode gives the largest Higgs crosssection, it complicates the trigger strategy even further. 
-This analysis exploits the $\tau$ lepton's leptonic decay, in which the $\tau$ lepton decays into a soft muon, using a trigger of B Parking High Level Trigger (HLT) Path implemented in CMS for the 2018 portion of Run 2.
-
-Another challenge for a $\tau$ lepton analysis is on the different decay modes of $\tau$ leptons. 
-$\tau$ leptons decay hadronically and leptonically, with several different sub-decay modes. 
+A minimum 7 GeV mass for scalar particles is required to create on-shell $\tau$-lepton pairs.
+Feynman diagram of the scalar particle production mechanism is depicted in Figure \ref{fig:sig}.
+%Displaced Jets analyses face challenges for $\tau$ final state, due to $\tau$'s non-trivial hadronic and leptonic decay modes and complicated reconstruction mechanism. 
+Main challenge and reason for omission of a $\tau$ lepton analysis is on the different decay modes of $\tau$ leptons. 
+$\tau$ leptons decay hadronically and leptonically, with several different sub-decay modes.
+Its decay mode pie chart and CMS detection category pie chart are displayed in figures of \ref{fig:tdecay} and \ref{fig:tdet} respectively.
 Developing analysis strategies to optimize the search for each sub-decay modes is extremely complicated, a main reason for the omission or no good exclusion limit in precedent LHC results.
 To be inclusive of all $\tau$ leptons' decay modes, a displaced vertex search can be more efficient than a displaced objects (jet, muon, electrons) search. 
 We exploit the newly developed Regions of Interest mechanism in the tracker volume. 
 Regions of Interest (ROI) form displaced vertex candidates, by fittng pair-wise tracks of Lost-tracks and PackedPFCandidates classes in MINIAOD data into a vertex. 
 ROIs save all relevant track and fitted vertex qualities along with isolation information.
 These variables are used as input for Machine Learning (ML) algorithms, enabling a highly generic and data-scientific search method.
+\begin{figure}[h!]
+  \caption{The analysis' signal process feynman diagram. The Higgs is created in gg production mode. The LLP scalar decays into $\tau$ lepton.}
+  \label{fig:sig}
+  \centering
+  \includegraphics[width=0.47\linewidth]{figs/sigprocess.png}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \caption{$\tau$ lepton's decay mode pie chart}
+  \label{fig:tdecay}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/Taudec.png}
+\end{figure}
+
+\begin{figure}[h!]
+	\caption{$\tau$ lepton's detection mode pie chart. Prong means a charged track reconstructed in the tracker volume of the CMS. It corresponds to $\pi^{\pm}$}
+  \label{fig:tdet}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/Taudet.png}
+\end{figure}
+
+
+
+
+
+%Standard CMS searches rely on $H_T$ triggers that are highly inefficienty for this signal.
+%Low hadronic activity in transverse signature becomes particularly more difficult with a long-lived signature.
+Another challenge is that CMS searches are not optimal for detecting Higgs boson decays due to the soft $p_T$ nature of its decays products.
+Higgs produced in association with Z vector boson analysis~\cite{ZHAN} overcame this barrier with help of dilepton trigger. 
+Although ggH production mode gives the largest Higgs crosssection, it complicates the trigger strategy even further. 
+This analysis exploits the $\tau$ lepton's leptonic decay, in which the $\tau$ lepton decays into a soft muon, using a trigger of B Parking High Level Trigger (HLT) Path implemented in CMS for the 2018 portion of Run 2.
 
 
 The rest of the dissertation is organized as follows.
-In Section~\ref{sec:theory}, we discuss the theoretical background for the need of the BSM theory in more details. 
+In Section~\ref{sec:theory}, we discuss the theoretical background of the BSM and LLPs in more details. 
 In Section~\ref{sec:detectors}, the CMS detector is thoroughly discussed with emphasis on the tracks and the calorimeter, which are relevant detector parts for the analysis. 
-We discuss how the analysis exploited the b-parking trigger in Section~\ref{sec:triggers}, with description of its original motive for the trigger's implementation. 
+We discuss how the analysis exploited the b-parking trigger in Section~\ref{sec:triggers}, with description of its original motive for the trigger's installation. 
 The physics objects and formation of Regions of Interest are described in Section~\ref{sec:objects}.
 The machine learning algorithms are futher explained in Section~\ref{sec:machinelearning}. 
 The event selections are presented in Section~\ref{sec:selections}. 
