@@ -1,41 +1,40 @@
 \chapter{The Standard Model and Its Future}\label{sec:theory}
 
-In Section \ref{sec:introduction}, we introduced the few obstacles facing the SM: Existance of darkmatter, baryon-antibaryon asymmetry, and the evidence of neutrino masses and mising. 
-The SM does not have particles' fields to explain these phenomena.
-Since it can not be explained by any of the particles' fields in the SM, it requires addition of new particles' fields or new terms in the current SM Lagrangian expression.
-New terms in the SM Lagrangian entails in new vertices in the Feynman diagram, which open the door for a new understanding of the high energy physics.
-However, if those observations did not exist, the SM is all complete within its own framework.
-The SM faces no paradox or contradiction, only except the naturalness problem.
-
-The naturalness problem originates from the fact that the SM Higgs is a scalar particle.
-Quantum Field Theory (QFT) is the current humanity's  mathematical and theoretical physics framework, which explains the masses and interactions of the most fundamental particles in the universe.
-The QFT explains matter as an excited state of fermion fields, which can be derived from the canonical quantization of the SM Lagrangian's fermion mass term.
-The QFT explains forces of the universe as exchange of boson particles among the fermions, which can be derived from the interaction term of the SM Lagrangian.
-The SM's bosons and fermions also satify a special symmetry in the QFT framework.
-The boson, in order to satisfy the U(1), SU(2) or SU(3) gauge symmetry, have gauge terms that are expressed as in formula \ref{eq:components}.
+In Section \ref{sec:introduction}, we introduced the few obstacles facing the SM: Existance of darkmatter, baryon-antibaryon asymmetry, and the evidence of neutrino masses and mixing. 
+The SM Lagrangian, writted as in formula \ref{eq:SM}, does not have particles' fields to explain these phenomena.
 \begin{equation}
-\label{eq:components}
-x=I_j + P_j
+\label{eq:SM}
+\mathcal{L}_{SM} = \mathcal{L}_{Higgs}+\mathcal{L}_{Gauge}+\mathcal{L}_{Kinetic}+\mathcal{L}_{Yukawa}
 \end{equation}
 \begin{align*}
-I_1 &= iP               & P_1 &= x - I_1 \\
-I_2 &= i(P - P_1)       & P_2 &= x - I_2 \\
-I_3 &= i(P - P_1 - P_2) & P_3 &= x - I_3,\mbox{ etc.}
 \end{align*}
+Since it can not be explained by any of the particles' fields in the SM, it requires addition of new particles' fields or new terms in the current SM Lagrangian expression.
+New terms in the SM Lagrangian entails in new vertices in the Feynman diagram, which open the door for a new understanding of the high energy physics.
+However, if those observations did not exist, the SM is all complete within its own framework, only except for the naturalness problem.
 
-The fermions also have chrial symmetry.
-
-The QFT Renormalization
-
-The bosons and fermions QFT renormalization.
-
-
-
-
-
-
-
-
+The naturalness problem originates from the fact that the SM Higgs is a scalar particle.
+The formula \ref{eq:SM} has three different kinds of fields: boson, fermion, and scalar.
+Quantum Field Theory (QFT), the humanity's  mathematical framework used for the SM, explains matter as an excited state of fermion fields, derived from the canonical quantization of the SM Lagrangian's fermion fields.
+The fermions' fields have chrial symmetry as demostrated in the kinetic term of the SM Lagrangian in formula \ref{eq:Lag1}.
+\begin{equation}
+\label{eq:Lag1}
+	\mathcal{L}_{Yukawa}  = -Y_{f}\bar{f}_{L}^{i}\Phi_{i}f_{R} +h.c.
+	\mathcal{L}_{Kinetic} = -Y_{f}\bar{f}_{L}^{i}\Phi_{i}f_{R} +h.c.
+\end{equation}
+\begin{align*}
+\end{align*}
+%	\caption{The QFT explains forces of the universe as exchange of boson particles among the fermions, which can be derived from the fermion kinetic term of the SM Lagrangian.}
+Likewise, the bosons' fields also satify special symmetries in the QFT framework.
+The boson satisfy the U(1), SU(2) or SU(3) gauge symmetry, and are expressed in gauge terms as in formula \ref{eq:Lag2}.
+\begin{equation}
+\label{eq:Lag2}
+	\mathcal{L}_{Gauge} = -Y_{f}\bar{f}_{L}^{i}\Phi_{i}f_{R} +h.c.
+\end{equation}
+\begin{align*}
+\end{align*}
+%	\caption{The QFT explains forces of the universe as exchange of boson particles among the fermions, which can be derived from the fermion kinetic term of the SM Lagrangian.}
+QFT Renormalization
+These chrial and gauge symmetries protect fermion and boson fields from the radiative correction in the renormalization process.
 
 Unlike fermions or gauge bosons, its mass is not protected by any symmetry and is subject to large radiative corrections, especially from the top quark loop. 
 Thus, for the SM to be valid up to the Planck or Grand Unification Theory (GUT) scales, the necessary radiative corrections are enormous. 
@@ -63,3 +62,15 @@ The displaced decays of the scalars would lead to exotic signatures in the CMS, 
 Phenomenology of long-lived particles in LHC entailed increase in interest of neutral naturalness framework among the particle physics community. \cite{Curtin:2015fna,Csaki:2015fba}.
 The long-lived scalar model is shown in the Figure (to be made soon).
 
+\begin{figure}[h!]
+  \caption{A cartoon display of Higgs Portal process}
+  \label{fig:HiggsPortal}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/TwinHiggs.png}
+\end{figure}
+\begin{figure}[h!]
+  \caption{A cartoon display of Higgs Portal process}
+  \label{fig:2HiggsPortal}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/Portalcartoon.png}
+\end{figure}
