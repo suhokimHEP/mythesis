@@ -1960,6 +1960,157 @@
       \verb 1508.01522
       \endverb
     \endentry
+    \entry{CERN}{manual}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Facts and figures about the LHC}
+      \verb{urlraw}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+      \verb{url}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+    \endentry
+    \entry{det}{manual}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Detector}
+      \verb{urlraw}
+      \verb https://cms.cern/detector
+      \endverb
+      \verb{url}
+      \verb https://cms.cern/detector
+      \endverb
+    \endentry
+    \entry{xsec}{manual}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=6e98417b41e5528561bc981b642015ec}{%
+           family={Norberg},
+           familyi={N\bibinitperiod},
+           given={Scarlet},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc42e395a080a0e9cb80bd2525832e00}
+      \strng{fullhash}{fc42e395a080a0e9cb80bd2525832e00}
+      \strng{bibnamehash}{fc42e395a080a0e9cb80bd2525832e00}
+      \strng{authorbibnamehash}{fc42e395a080a0e9cb80bd2525832e00}
+      \strng{authornamehash}{fc42e395a080a0e9cb80bd2525832e00}
+      \strng{authorfullhash}{fc42e395a080a0e9cb80bd2525832e00}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Overview of CMS Physics Goals and Detector}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSExperiment
+      \endverb
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCMSExperiment
+      \endverb
+    \endentry
+    \entry{ecal}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=db6aaf8e0eadd00bc675657ef9fb2a74}{%
+           family={Bartoloni},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \strng{fullhash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \strng{bibnamehash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \strng{authorbibnamehash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \strng{authornamehash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \strng{authorfullhash}{3c7c9a78ae7757eb404a4d58a5da658c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{title}{{The CMS ECAL barrel HV system}}
+      \field{year}{2013}
+      \verb{doi}
+      \verb doi:10.1088/1748-0221/8/02/C02039
+      \endverb
+    \endentry
+    \entry{hcal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{journaltitle}{JINST 15}
+      \field{title}{{Calibration of the CMS hadron calorimeters using proton-proton collision data at $\sqrt{s} =$ 13 TeV}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb doi.org/10.1088/1748-0221/15/05/P05002
+      \endverb
+    \endentry
+    \entry{trk}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv:0910.2505}
+      \field{journaltitle}{JINST 5}
+      \field{title}{{Alignment of the CMS silicon tracker during commissioning with cosmic rays}}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1088/1748-0221/5/03/T03009
+      \endverb
+      \verb{eprint}
+      \verb 1501.04020
+      \endverb
+    \endentry
+    \entry{LHCweb}{manual}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{Facts and Figures about the LHC}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+      \verb{url}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+    \endentry
     \entry{muonpog}{manual}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1975,8 +2126,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Muon POG -- Muon Identification Run2}
@@ -2012,8 +2163,8 @@
       \strng{authorbibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -2046,8 +2197,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jet Identification Run2 -- 2018}
@@ -2075,8 +2226,8 @@
       \strng{authorbibnamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authornamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authorfullhash}{ec4bd9be83251bf78c030ded3fce3ff4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -2108,8 +2259,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -2137,8 +2288,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Physics Performance Datasets -- PPD Run2 Analysis Recipe Summary}
