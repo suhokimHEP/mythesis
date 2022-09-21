@@ -1,22 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[83] biber:340> INFO - === Mon Sep 19, 2022, 23:30:18
-[97] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[176] Biber.pm:952> INFO - Found 65 citekeys in bib section 0
-[191] Biber.pm:4340> INFO - Processing section 0
-[202] Biber.pm:4531> INFO - Looking for bibtex format file 'myrefs.bib' for section 0
+[81] biber:340> INFO - === Mon Sep 19, 2022, 23:50:20
+[95] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[173] Biber.pm:952> INFO - Found 65 citekeys in bib section 0
+[189] Biber.pm:4340> INFO - Processing section 0
+[200] Biber.pm:4531> INFO - Looking for bibtex format file 'myrefs.bib' for section 0
 [209] bibtex.pm:1689> INFO - LaTeX decoding ...
-[927] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
-[1076] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
-[1279] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Mm5x/2f36d927faf521b1e37377214e65c885_43174.utf8, line 718, warning: 5 characters of junk seen at toplevel
-[1279] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Mm5x/2f36d927faf521b1e37377214e65c885_43174.utf8, line 734, warning: 5 characters of junk seen at toplevel
-[1279] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Mm5x/2f36d927faf521b1e37377214e65c885_43174.utf8, line 806, warning: 1 characters of junk seen at toplevel
-[1279] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Mm5x/2f36d927faf521b1e37377214e65c885_43174.utf8, line 823, warning: 2 characters of junk seen at toplevel
-[1280] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Mm5x/2f36d927faf521b1e37377214e65c885_43174.utf8, line 857, warning: 20 characters of junk seen at toplevel
-[1336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1337] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1337] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1377] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1402] bbl.pm:757> INFO - Output to thesis.bbl
-[1402] Biber.pm:128> INFO - WARNINGS: 6
+[943] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
+[1097] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
+[1312] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_FM2w/2f36d927faf521b1e37377214e65c885_43589.utf8, line 718, warning: 5 characters of junk seen at toplevel
+[1312] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_FM2w/2f36d927faf521b1e37377214e65c885_43589.utf8, line 734, warning: 5 characters of junk seen at toplevel
+[1313] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_FM2w/2f36d927faf521b1e37377214e65c885_43589.utf8, line 806, warning: 1 characters of junk seen at toplevel
+[1313] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_FM2w/2f36d927faf521b1e37377214e65c885_43589.utf8, line 823, warning: 2 characters of junk seen at toplevel
+[1313] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_FM2w/2f36d927faf521b1e37377214e65c885_43589.utf8, line 857, warning: 20 characters of junk seen at toplevel
+[1370] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1370] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1370] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1370] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1412] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1438] bbl.pm:757> INFO - Output to thesis.bbl
+[1438] Biber.pm:128> INFO - WARNINGS: 6

@@ -7,45 +7,44 @@
 \BOOKMARK [0][-]{chapter.2}{2 The Standard Model and Its Future}{}% 7
 \BOOKMARK [0][-]{chapter.3}{3 The CMS Detector}{}% 8
 \BOOKMARK [1][-]{section.3.1}{3.1 The LHC and the CMS}{chapter.3}% 9
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 ECAL of the CMS}{section.3.1}% 10
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 HCAL of the CMS}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 The superconducting Magnet of the CMS}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 The Muon Chamber of the CMS}{section.3.1}% 13
-\BOOKMARK [1][-]{section.3.2}{3.2 Tracker of the CMS more in detail}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{3.3 Trigger of the CMS}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{4 Trigger Strategy}{}% 16
-\BOOKMARK [1][-]{section.4.1}{4.1 Global Tags}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{4.2 Trigger Paths}{chapter.4}% 18
-\BOOKMARK [0][-]{chapter.5}{5 Physics Object Definitions}{}% 19
-\BOOKMARK [1][-]{section.5.1}{5.1 Muons}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.2}{5.2 Jets}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.3}{5.3 Taus}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.4}{5.4 Region of Interest}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Tracks}{section.5.4}% 24
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Vertex Fitter}{section.5.4}% 25
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 ROI formation}{section.5.4}% 26
-\BOOKMARK [1][-]{section.5.5}{5.5 Pileup Reweighting}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 28
-\BOOKMARK [1][-]{section.6.1}{6.1 Machine Leaning Software}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.2}{6.2 Machine Learning Input Variable}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.3}{6.3 DNN Variable Test}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.4}{6.4 Signal and Background MC Test}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.5}{6.5 SHAP values}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 34
-\BOOKMARK [1][-]{section.7.1}{7.1 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.2}{7.2 Number of Annulus Tracks Associated with ROI}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.3}{7.3 Isolation criteria for muons}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter to PV}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.5}{7.5 DeltaR\(ROI, jet\)}{chapter.7}% 39
-\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 40
-\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 41
-\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 42
-\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 43
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 44
-\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 45
-\BOOKMARK [1][-]{section.A.1}{A.1 Monte Carlo Samples}{appendix.A}% 46
-\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Signal Model and Simulation}{section.A.1}% 47
-\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background Monte Carlo}{section.A.1}% 48
-\BOOKMARK [0][-]{appendix.B}{B Others}{}% 49
-\BOOKMARK [0][-]{appendix*.6}{References}{}% 50
-\BOOKMARK [0][-]{appendix*.7}{Biographical Sketch}{}% 51
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Calorimetry}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 The superconducting Magnet of the CMS}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 The Muon Chamber of the CMS}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{3.2 Tracker of the CMS more in detail}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{3.3 Trigger of the CMS}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{4 Trigger Strategy}{}% 15
+\BOOKMARK [1][-]{section.4.1}{4.1 Global Tags}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{4.2 Trigger Paths}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{5 Physics Object Definitions}{}% 18
+\BOOKMARK [1][-]{section.5.1}{5.1 Muons}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{5.2 Jets}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{5.3 Taus}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.4}{5.4 Region of Interest}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Tracks}{section.5.4}% 23
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Vertex Fitter}{section.5.4}% 24
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 ROI formation}{section.5.4}% 25
+\BOOKMARK [1][-]{section.5.5}{5.5 Pileup Reweighting}{chapter.5}% 26
+\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 27
+\BOOKMARK [1][-]{section.6.1}{6.1 Machine Leaning Software}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{6.2 Machine Learning Input Variable}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{6.3 DNN Variable Test}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.4}{6.4 Signal and Background MC Test}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.5}{6.5 SHAP values}{chapter.6}% 32
+\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 33
+\BOOKMARK [1][-]{section.7.1}{7.1 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.2}{7.2 Number of Annulus Tracks Associated with ROI}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.3}{7.3 Isolation criteria for muons}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter to PV}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.5}{7.5 DeltaR\(ROI, jet\)}{chapter.7}% 38
+\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 39
+\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 40
+\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 41
+\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 42
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 43
+\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 44
+\BOOKMARK [1][-]{section.A.1}{A.1 Monte Carlo Samples}{appendix.A}% 45
+\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Signal Model and Simulation}{section.A.1}% 46
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background Monte Carlo}{section.A.1}% 47
+\BOOKMARK [0][-]{appendix.B}{B Others}{}% 48
+\BOOKMARK [0][-]{appendix*.8}{References}{}% 49
+\BOOKMARK [0][-]{appendix*.9}{Biographical Sketch}{}% 50

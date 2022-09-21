@@ -15,86 +15,88 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}The LHC and the CMS}{10}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}ECAL of the CMS}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Calorimetry}{15}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}HCAL of the CMS}{16}{subsection.3.1.2}%
+\contentsline {subsubsection}{ECAL of the CMS.}{16}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}The superconducting Magnet of the CMS}{17}{subsection.3.1.3}%
+\contentsline {subsubsection}{HCAL of the CMS.}{16}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}The Muon Chamber of the CMS}{18}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.2}The superconducting Magnet of the CMS}{17}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}The Muon Chamber of the CMS}{17}{subsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Tracker of the CMS more in detail}{18}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Trigger of the CMS}{19}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Trigger Strategy}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Trigger Strategy}{20}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Global Tags}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Global Tags}{20}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Trigger Paths}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Trigger Paths}{20}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Physics Object Definitions}{24}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Physics Object Definitions}{23}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Muons}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Muons}{23}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Jets}{25}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Jets}{24}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Taus}{26}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Taus}{25}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Region of Interest}{26}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Region of Interest}{25}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Tracks}{27}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Tracks}{26}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Vertex Fitter}{27}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.2}Vertex Fitter}{26}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}ROI formation}{27}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}ROI formation}{26}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Pileup Reweighting}{28}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Pileup Reweighting}{27}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Machine Learning}{32}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Machine Learning}{31}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Machine Leaning Software}{32}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Machine Leaning Software}{31}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Machine Learning Input Variable}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Machine Learning Input Variable}{32}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}DNN Variable Test}{33}{section.6.3}%
+\contentsline {section}{\numberline {6.3}DNN Variable Test}{32}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Signal and Background MC Test}{34}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Signal and Background MC Test}{33}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}SHAP values}{35}{section.6.5}%
+\contentsline {section}{\numberline {6.5}SHAP values}{34}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{37}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{36}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{38}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{37}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Number of Annulus Tracks Associated with ROI}{39}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Number of Annulus Tracks Associated with ROI}{38}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Isolation criteria for muons}{40}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Isolation criteria for muons}{39}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter to PV}{40}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter to PV}{39}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}DeltaR(ROI, jet)}{41}{section.7.5}%
+\contentsline {section}{\numberline {7.5}DeltaR(ROI, jet)}{40}{section.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Background Estimation}{43}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Background Estimation}{42}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{45}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{44}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Results}{46}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Results}{45}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusions}{47}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Conclusions}{46}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{Appendix}{47}{appendix.A}%
+\contentsline {appendix}{Appendix}{46}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Data Samples}{48}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Data Samples}{47}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Monte Carlo Samples}{49}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Monte Carlo Samples}{48}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Signal Model and Simulation}{49}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Signal Model and Simulation}{48}{subsection.A.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Background Monte Carlo}{49}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.2}Background Monte Carlo}{48}{subsection.A.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Others}{53}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Others}{52}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{References}{54}{appendix*.6}%
+\contentsline {backmatter}{References}{53}{appendix*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{Biographical Sketch}{60}{appendix*.7}%
+\contentsline {backmatter}{Biographical Sketch}{59}{appendix*.9}%
