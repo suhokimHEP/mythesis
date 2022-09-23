@@ -13,8 +13,8 @@
 \BOOKMARK [1][-]{section.3.2}{3.2 Tracker of the CMS more in detail}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.3}{3.3 Trigger of the CMS}{chapter.3}% 14
 \BOOKMARK [0][-]{chapter.4}{4 B Parking Trigger Strategy}{}% 15
-\BOOKMARK [1][-]{section.4.1}{4.1 Global Tags}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{4.2 Trigger Paths}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.1}{4.1 Trigger Paths}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{4.2 Integrated Luminosity and pileup weight for the HLT path}{chapter.4}% 17
 \BOOKMARK [0][-]{chapter.5}{5 Physics Object Definitions}{}% 18
 \BOOKMARK [1][-]{section.5.1}{5.1 Muons}{chapter.5}% 19
 \BOOKMARK [1][-]{section.5.2}{5.2 Jets}{chapter.5}% 20
@@ -23,28 +23,28 @@
 \BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Tracks}{section.5.4}% 23
 \BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Vertex Fitter}{section.5.4}% 24
 \BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 ROI formation}{section.5.4}% 25
-\BOOKMARK [1][-]{section.5.5}{5.5 Pileup Reweighting}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 27
-\BOOKMARK [1][-]{section.6.1}{6.1 Machine Leaning Software}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{6.2 Machine Learning Input Variable}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{6.3 DNN Variable Test}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.4}{6.4 Signal and Background MC Test}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.5}{6.5 SHAP values}{chapter.6}% 32
-\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 33
-\BOOKMARK [1][-]{section.7.1}{7.1 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.2}{7.2 Number of Annulus Tracks Associated with ROI}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.3}{7.3 Isolation criteria for muons}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter to PV}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.5}{7.5 DeltaR\(ROI, jet\)}{chapter.7}% 38
-\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 39
-\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 40
-\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 41
-\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 42
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 43
-\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 44
-\BOOKMARK [1][-]{section.A.1}{A.1 Monte Carlo Samples}{appendix.A}% 45
-\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 Signal Model and Simulation}{section.A.1}% 46
-\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 Background Monte Carlo}{section.A.1}% 47
+\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 26
+\BOOKMARK [1][-]{section.6.1}{6.1 Machine Leaning Software}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.2}{6.2 Machine Learning Input Variable}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.3}{6.3 DNN Variable Test}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.4}{6.4 Signal and Background MC Test}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.5}{6.5 SHAP values}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 32
+\BOOKMARK [1][-]{section.7.1}{7.1 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.2}{7.2 Number of Annulus Tracks Associated with ROI}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.3}{7.3 Isolation criteria for muons}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter to PV}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.5}{7.5 DeltaR\(ROI, jet\)}{chapter.7}% 37
+\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 38
+\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 39
+\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 40
+\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 41
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 42
+\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 43
+\BOOKMARK [1][-]{section.A.1}{A.1 BrilCalc command for B-Parking HLT path}{appendix.A}% 44
+\BOOKMARK [1][-]{section.A.2}{A.2 Monte Carlo Samples}{appendix.A}% 45
+\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Signal Model and Simulation}{section.A.2}% 46
+\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 Background Monte Carlo}{section.A.2}% 47
 \BOOKMARK [0][-]{appendix.B}{B Others}{}% 48
 \BOOKMARK [0][-]{appendix*.8}{References}{}% 49
 \BOOKMARK [0][-]{appendix*.9}{Biographical Sketch}{}% 50

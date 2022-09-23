@@ -39,78 +39,80 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces eeeddd}}{22}{figure.4.1}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The figures show two different loop diagrams for B$->K^{*}l^{+}l^{-}$ processes. The FCNC is forbidden in the SM and there is no tree level process for B$->K^{*}l^{+}l^{-}$. Thus, these two processes are the leading contributors for B$->K^{*}l^{+}l^{-}$, which are highly suppressed.}}{22}{figure.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces asd}}{23}{figure.4.2}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces If the Lepton universality is not satisfied (R(K$^{*}$,D$^{*} \neq $ 1), it implies there is new physics hidden in the diagram. It could be interpreted in terms of Lepto-quark or Electroweak Z boson which couples to right-hand chrial leptons.}}{23}{figure.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces eeee}}{23}{figure.4.3}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The plots show the trigger efficiency for each HLT path with respect to LLP's lifetime. Each line denotes mass scale of each scalar.}}{24}{figure.4.3}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Theese plots also show the trigger efficiency for each HLT path with respect to LLP's lifetime. Each line denotes mass scale of each scalar. The analysis uses Mu9\_IP6 for Era A,B of data and Mu12\_IP6 for Era C,D of data}}{25}{figure.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Data/MC of muon objects}}{24}{figure.5.1}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Bunch crossing of dataset /ParkingBPH1/Run2018A-UL2018\_MiniAODv2-v1/MINIAOD}}{26}{figure.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Data/MC of jet objects}}{25}{figure.5.2}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Bunch crossing of dataset /ParkingBPH1/Run2018C-UL2018\_MiniAODv2-v1/MINIAOD. Please note that the HLT path for EraC has higher muon object's pT threshold with 12GeV (compared to 9GeV in EraA).}}{26}{figure.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Data/MC of tau objects}}{26}{figure.5.3}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Bunch crossing of Monte Carlo Simulation for physics process of Drell-Yan. The dataset is /DYJetsToLL\_M-50\_TuneCP5\_13TeV-madgraphMLM-pythia8/RunIISummer20UL18MiniAODv2-106X\_upgrade2018\_realistic\_v16\_L1v1-v2/MINIAODSIM}}{27}{figure.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Data/MC of ROI distribution}}{28}{figure.5.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 2Data/MC of ROI distribution}}{28}{figure.5.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces ww}}{29}{figure.5.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces dd}}{30}{figure.5.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces ed}}{30}{figure.5.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces aaaa}}{31}{figure.5.9}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces PUweight calculated for Era A of B-parking dataset}}{27}{figure.4.8}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces asdasdasd}}{34}{figure.6.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Data/MC of muon objects}}{28}{figure.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Data/MC agreement for ROI scores}}{35}{figure.6.2}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Data/MC of jet objects}}{29}{figure.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Data/MC agreement for loglead/sublead scroes}}{36}{figure.6.3}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Data/MC of tau objects}}{30}{figure.5.3}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Data/MC of ROI distribution}}{32}{figure.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{37}{figure.7.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{38}{figure.7.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{39}{figure.7.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{40}{figure.7.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{41}{figure.7.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{42}{figure.7.6}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 2Data/MC of ROI distribution}}{32}{figure.5.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}}{44}{figure.8.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces asdasdasd}}{35}{figure.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces eee}}{44}{figure.8.2}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Data/MC agreement for ROI scores}}{36}{figure.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Data/MC agreement for loglead/sublead scroes}}{37}{figure.6.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{38}{figure.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{39}{figure.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{40}{figure.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{41}{figure.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{42}{figure.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{43}{figure.7.6}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Current Preliminary limit plots}}{46}{figure.10.1}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}}{45}{figure.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots}}{46}{figure.10.2}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces eee}}{45}{figure.8.2}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode}}{49}{figure.A.1}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Current Preliminary limit plots}}{47}{figure.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces pt of the scalar products}}{50}{figure.A.2}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots}}{47}{figure.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces DeltaR of the scalar products}}{50}{figure.A.3}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces liftime of the scalar products in the lab frame}}{51}{figure.A.4}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode}}{51}{figure.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces pt of the scalar products}}{52}{figure.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces DeltaR of the scalar products}}{52}{figure.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces liftime of the scalar products in the lab frame}}{53}{figure.A.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

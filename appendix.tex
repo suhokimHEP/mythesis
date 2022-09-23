@@ -58,7 +58,44 @@ collected during the 2018 portion of Run 2 and corresponds to an integrated lumi
 
 
 %We process the data included in the Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt JSON file.
+\section{BrilCalc command for B-Parking HLT path}\label{sec:PU}
 
+\begin{verbatim}
+brilcalc lumi --byls --normtag 
+/cvmfs/cms-bril.cern.ch/cms-lumi-pog/Normtags/normtag_PHYSICS.json 
+-i processedLumis.json --hltpath HLT_Mu9_IP6_part0_v* -o output.csv
+\end{verbatim}
+Please note that we get luminosity for the specific BPH HLT path and save the output for pileupReCalc\_HLTpaths.py
+
+\begin{verbatim}
+pileupReCalc_HLTpaths.py -i output.csv 
+--inputLumiJSON pileup_latest.txt -o My_HLT_corrected_PileupJSON.txt 
+--runperiod Run2
+\end{verbatim}
+
+where, pileup\_latest.txt is from
+
+\begin{verbatim}
+/afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/
+13TeV/PileUp/pileup_latest.txt
+\end{verbatim}
+
+
+Then, we substitute the usual pileup\_latest.txt to My\_HLT\_corrected\_PileupJSON.txt to obtain the PU distribution of data. 
+
+\begin{verbatim}
+pileupCalc.py -i processedLumis.json 
+--inputLumiJSON My\_HLT\_corrected\_PileupJSON.txt  
+--calcMode true --minBiasXsec 69200 --maxPileupBin 120 --numPileupBins 120 
+MyDataPileupHistogram.root
+\end{verbatim}
+
+With histograms above, one can create a PUWeight histogram distribution for an era's specific HLT path with commands below.
+\begin{verbatim}
+PUdata->Scale(1./PUdata->Integral(0,-1));
+PUmc->Scale(1./PUmc->Integral(0,-1));
+PUdata->Divide(PUmc);
+\end{verbatim}
 
 \section{Monte Carlo Samples}
 
