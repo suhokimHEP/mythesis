@@ -29,7 +29,7 @@ CERN is an acclerator complex, which includes succession of machines with increa
 	\caption{Picture of the CERN complex \cite{CERN}}
   \label{fig:CERN}
   \centering
-  \includegraphics[width=0.9\linewidth]{figs/LHC.png}
+  \includegraphics[width=1.0\linewidth]{figs/LHC.png}
 \end{figure}
 Each machine accelerates a beam of particles to a threshold of desired energy, and injects the beam into the next machine in the chain. 
 The next machine brings the beam to an even higher energy and repeats the cycle until the entering the LHC. 
@@ -54,7 +54,7 @@ Following subsections detail parts and functions of each part of the CMS.
 	\caption{Picture of the CMS viewed from the beam direction \cite{det}}
   \label{fig:cms}
   \centering
-  \includegraphics[width=0.9\linewidth]{figs/cms.png}
+  \includegraphics[width=1.0\linewidth]{figs/cms.png}
 \end{figure}
 
 The CMS consists of 5 main parts: the tracker, the electromagnectic calorimeter (ECAL), the hadronic calorimeter, the superconducting magnet and the Muon chamber.
@@ -183,28 +183,40 @@ LLPs IP values are starkly different from SM particles' IP values.
 
 
 \section{Trigger of the CMS}
+\begin{figure}[h!]
+	\caption{Cross-section of the trackers in the CMS detector. It shows the pixels in the inner tracker for more precise vertexing and the silicon strips on the outer trackers. Silicon strips are tilted with respect to previous layers of strips. \cite{trk}}
+  \label{fig:trig}
+  \centering
+  \includegraphics[width=0.95\linewidth]{figs/Trig.png}
+\end{figure}
 Discovery of new physics requires not only high energy, but also large statistics.
 New physics, for sake of not being discovered so far, has a very small cross-section.
 Large statistics is necessary to confirm existence of the small cross-section signal over standard model backgrounds.
 In order to achieve the high statistics, the CMS beam crossing happens at a very high rate with bunches of protons shooted together.
-CMS beam crossings occur in the CMS detector at a rate of 40 million per second (40MHz) with spacing of 25ns, while 25-50 bunch crossings are usual in CMS.
+CMS beam crossings occur in the CMS detector at a rate of 40 million per second (40MHz) with spacing of 25ns, while 25-50 bunch crossings are usual in Run 2 of CMS.
 It totals at about 1 billion events occurring in the CMS detector per second. 
 
 Proton-proton interactions are very messy and produce many tracks given its QCD nature.
 However, most of the events are "not interesting" to be even considered as candidates of potentially interesting events.
-These events occur too quickly to be recorded and would take up vast amounts of disk space to store, which would be wast of electronic resources. 
+These events occur too quickly to be recorded and would take up vast amounts of disk space to store, which would be waste of electronic resources. 
 In order to filter and save only "interesting" events in the extreme environment, CMS employs the Trigger and Data Acquisition System. 
-It selects the most interesting hundred or so events for storage and further analysis with fast electronics and resolution.
+It selects the most interesting hundred or so events for storage with fast electronics and resolution.
 The CMS Data Acquisition System and Triggering are described below.
 
 The first level of triggering, Level 1 (L1), is a hardware trigger.
 It uses hardware processors to rapidly select or reject events based on information from the ECAL and Muon Chamber. 
 The Level 1 trigger reduces the event rate from 40MHz to 100kHz.
-An event passing the L1 trigger decision is transmitted to the Data Acquisition System where information from the 16M channels in the CMS subdetector systems is combined by the event builder into a single event. 
-This event is then challenged by the next level of triggering.
+An event passing the L1 trigger is transmitted to the Data Acquisition System.
+In addition, latency is invoked in CMS such that data-taking or additonal L1 trigger does not happen until the full Trigger and Data Acquisition System is finalized.
+The passed event is reconstructed by the CMS Software (CMSSW) with information from the 16M channels in the CMS subdetector systems.
+It also prepares the passed event in form of being scouted, which can be parked into a dataset.
+This strategy is implemented for physics process where the physics event happens quite frequently such that the CPU does not have capacity to store all the information with full reconstruction, but worth revisiting due to its characteristic. 
 
-The High Level Trigger (HLT) is a software-based trigger which performs a more sophisticated analysis of the event, including applying fast pattern recognition algorithms and event reconstruction. 
-The main reduction factor for events passing the Level 1 triggering is obtained by using tracker information. 
-The HLT decision reduces the event rate to about 100Hz for storage and later offline analysis. 
-This corresponds to about 12 Petabytes of data to be recorded by CMS annually when it is running at design luminosity. 
-The average processing time for the high level trigger is 40ms per event.
+Events, which passed L1 trigger, is subject to the High Level Trigger. 
+The High Level Trigger (HLT) is a software-based trigger. 
+The HLT decision reduces the event rate to about 1kHz for storage with processing time about 40ms per event.
+It uses tracker information as well and requires more stringent pt,$\eta$ cut on triggering objects. 
+An event, which passed specific HLT, is saved into the HLT's dataset and publicly available to CMS collaborators for their analysis purpose.
+This corresponds to about 12 Petabytes of data to be recorded by CMS annually when running at designed luminosity. 
+
+A rough schematic of trigger and data acquisition process is depicted in figure \ref{fig:trig}.
