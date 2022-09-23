@@ -1960,6 +1960,19 @@
       \verb 1508.01522
       \endverb
     \endentry
+    \entry{LHCweb}{manual}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Facts and Figures about the LHC}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+      \verb{url}
+      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
+      \endverb
+    \endentry
     \entry{CERN}{manual}{}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
@@ -2096,19 +2109,6 @@
       \endverb
       \verb{eprint}
       \verb 1501.04020
-      \endverb
-    \endentry
-    \entry{LHCweb}{manual}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labeltitlesource}{title}
-      \field{title}{Facts and Figures about the LHC}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
-      \endverb
-      \verb{url}
-      \verb https://home.cern/resources/faqs/facts-and-figures-about-lhc
       \endverb
     \endentry
     \entry{muonpog}{manual}{}

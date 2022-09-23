@@ -13,63 +13,8 @@ Although simple design of bubble chamber or detection of cosmic rays is still a 
 Progress from the linear accelerator to TeV scale circular high energy accelerator was achieved by physicists, engineers, and others.
 Its pinnacle came with construction fo the LHC, situated in CERN, the home of UA(1-5). 
 
-\begin{figure}[h!]
-	\caption{Picture of the CERN complex \cite{CERN}}
-  \label{fig:CERN}
-  \centering
-  \includegraphics[width=0.9\linewidth]{figs/LHC.png}
-\end{figure}
 
 
-\begin{figure}[h!]
-	\caption{Picture of the CMS viewed from the beam direction \cite{det}}
-  \label{fig:cms}
-  \centering
-  \includegraphics[width=0.9\linewidth]{figs/cms.png}
-\end{figure}
-
-\begin{figure}[h!]
-	\caption{Cartoon of the CMS with its subpart annotated \cite{xsec}}
-  \label{fig:CMS}
-  \centering
-  \includegraphics[width=0.87\linewidth]{figs/CMS.png}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \caption{Cross-section of the CMS detector as a particle traverses through the apparatus \cite{xsec}}
-  \label{fig:cmsxsec}
-  \centering
-  \includegraphics[width=0.87\linewidth]{figs/cmsxsec.png}
-\end{figure}
-
-\begin{figure}[h!]
-  \caption{Schematic view of the ECAL. \cite{ecal}}
-  \label{fig:ECAL}
-  \centering
-  \includegraphics[width=0.87\linewidth]{figs/ECAL.png}
-\end{figure}
-
-\begin{figure}[h!]
-  \caption{Cross-section of the HCAL in the CMS detector. It shows the Barrel, endcap, front, and outside portion. \cite{hcal}}
-  \label{fig:HCAL}
-  \centering
-  \includegraphics[width=0.87\linewidth]{figs/HCAL.png}
-\end{figure}
-
-\begin{figure}[h!]
-	\caption{Cross-section of the Muon Chamer in the CMS detector. It shows the 4 layers of the drift tube (DT) cross-section viewed from the z-axis. \cite{det}}
-  \label{fig:MC}
-  \centering
-  \includegraphics[width=0.4\linewidth]{figs/MCcms.png}
-\end{figure}
-
-\begin{figure}[h!]
-	\caption{Cross-section of the trackers in the CMS detector. It shows the pixels in the inner tracker for more precise vertexing and the silicon strips on the outer trackers. Silicon strips are tilted with respect to previous layers of strips. \cite{trk}}
-  \label{fig:tracker}
-  \centering
-  \includegraphics[width=0.9\linewidth]{figs/Tracker.png}
-\end{figure}
 \section{The LHC and the CMS}
 The LHC is the world's largest and highest energy particle collider.
 The LHC was built for a decade from 1998 to 2008. 
@@ -80,6 +25,12 @@ The LHC shoots bunches of protons and lead ions near the speed of light, enabled
 One can infer the LHC name's origin, given that it's 27km long, shoots hadrons of protons, and collide them each other at 0.9997 fraction of the speed of light.
 
 CERN is an acclerator complex, which includes succession of machines with increasingly higher energies. 
+\begin{figure}[h!]
+	\caption{Picture of the CERN complex \cite{CERN}}
+  \label{fig:CERN}
+  \centering
+  \includegraphics[width=0.9\linewidth]{figs/LHC.png}
+\end{figure}
 Each machine accelerates a beam of particles to a threshold of desired energy, and injects the beam into the next machine in the chain. 
 The next machine brings the beam to an even higher energy and repeats the cycle until the entering the LHC. 
 The LHC is the last element of this chain, in which the beams reach their highest energies.
@@ -99,105 +50,156 @@ LHCb is a b-factory. It wants to test or challenge "Lepton Universality", claimi
 Similar research is done in BaBar of SLAC and BelleII of KoEnerugi Kasokuki kenkyu kiko (KEK).
 The analysis of this dissertation entirely derives from data obtained in the CMS.
 Following subsections detail parts and functions of each part of the CMS.
+\begin{figure}[h!]
+	\caption{Picture of the CMS viewed from the beam direction \cite{det}}
+  \label{fig:cms}
+  \centering
+  \includegraphics[width=0.9\linewidth]{figs/cms.png}
+\end{figure}
 
 The CMS consists of 5 main parts: the tracker, the electromagnectic calorimeter (ECAL), the hadronic calorimeter, the superconducting magnet and the Muon chamber.
+\begin{figure}[h!]
+	\caption{Cartoon of the CMS with its subpart annotated \cite{xsec}}
+  \label{fig:CMS}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/CMS.png}
+\end{figure}
+We will review each part's hardware information and its role in terms of the entire CMS.
+The order of review is identical as a particle's trajectory from the beamspot as in \ref{fig:cmsxsec}, except that the tracker is placed at the end for its connection to my analysis' trigger strategy.
+\begin{figure}[h!]
+  \caption{Cross-section of the CMS detector as a particle traverses through the apparatus \cite{xsec}}
+  \label{fig:cmsxsec}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/cmsxsec.png}
+\end{figure}
 \subsection{Calorimetry}
-Electrons, photons and hadrons will deposit their energies in the calorimeters allowing their energy to be measured. 
-The first calorimeter layer or Electromagnetic Calorimeter (ECAL) is designed to measure the energies of electrons and photons with high precision. 
-Strongly-interacting particles, hadrons, deposit most of their energy in the second layer, the hadron calorimeter (HCAL). 
-Muons and tau leptons deposit only a very small fraction of their energy in the calorimeters, and are detected by consulting also with tracking and muon detector subsystems. 
-Neutrinos escape detection, but their presence can be inferred from an apparent energy imbalance in the interaction.
-
-Muons and tau leptons deposit only a very small fraction of their energy in the calorimeters, and are detected by consulting also with tracking and muon detector subsystems. 
-Neutrinos escape detection, but their presence can be inferred from an apparent energy imbalance in the interaction.
 \subsubsection{ECAL of the CMS}
+\begin{figure}[h!]
+  \caption{Schematic view of the ECAL. \cite{ecal}}
+  \label{fig:ECAL}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/ECAL.png}
+\end{figure}
 Electron and photon energies are measured in the ECAL with high precision. 
-Strongly-interacting particles, hadrons, deposit most of their energy in the second layer, the hadron calorimeter (HCAL). 
-
 CMS has a compact scintillating crystal calorimeter with excellent performance for energy resolution.
-Almost all of the energy of electrons and photons is deposited within the crystal volume. The ECAL uses 75,000 lead-tungstate (PbWO4) crystals with coverage in pseudorapidity up to 3.0. As photons and electrons shower their radiation light, it is detected by silicon avalanche photodiodes (APDs) in the barrel and vacuum phototriodes (VPTs) in the endcap.
-ECAL's preshower system installed in the front of the endcap is used for pi-zero rejection and the detection of photons. 
-This is designed to detect the slightly-overlapping pair of photons from a pi0 decay.
-It distinguish these from the single shower produced from a single photon interacting with the calorimeter material.
-It distinguises photons from electron based on the ieta-ieta map.
+The ECAL consists of 75,000 lead-tungstate (PbWO4) crystals with coverage in pseudorapidity upto 3.0. As photons and electrons shower through the crystals, their radiation light is detected by silicon avalanche photodiodes (APDs) in the barrel and vacuum phototriodes (VPTs) in the endcap.
+ECAL distinguises photons from electron based on the the energy dispersion on the i$\eta$-i$\phi$ map as photon's energy is deposited into a wider area.
+ECAL can also distinguish $\pi^{0}$, which decay into 2 photons, from photons originating from the hard scattering.
+ECAL's preshower system installed in the front of the endcap is used for $\pi^{0}$ rejection and the detection of photons. 
 
 \subsubsection{HCAL of the CMS}
-The ECAL is surrounded by a brass scintillator sampling Hadron Calorimeter (HCAL) with |$\eta$| coverage up to 3.0.
-The HCAL plays an essential role in the identification and measurement of quarks, gluons, and neutrinos by measuring the energy and direction of jets and of missing transverse energy flow in events. 
-Missing energy forms a crucial signature of new particles, like the supersymmetric partners of quarks and gluons.
+\begin{figure}[h!]
+  \caption{Cross-section of the HCAL in the CMS detector. It shows the Barrel, endcap, front, and outside portion. \cite{hcal}}
+  \label{fig:HCAL}
+  \centering
+  \includegraphics[width=0.87\linewidth]{figs/HCAL.png}
+\end{figure}
+The ECAL is surrounded by brass/scintillator sampling Hadron Calorimeter (HCAL) with pseudorapidity upto 3.0.
+Strongly interacting SM particles, such as quarks, gluons, deposit their energy into the HCAL.
+These particles are in form on hadrons, due to color confinement of QCD, and hadrons' shower is more messy than electromagnetically interacting particles.
+We indentify these strongly interacting particles, as a jet, which is a narrow cone of hadrons and other particles produced by the hadronization of a quark or gluon.
+HCAL plays an important role in the identification and measurement of neutrinos by measuring the energy and direction of jets.
+Since the initial momentum in the transverse plane, which is a plane perpendicular to the beam(z) direction, is 0, the final transeverse momentum is also equal to 0.
+If the final transverse momentum is not equal to 0, or there is missing transverse energy (MET), it means there is an undetected particle leaving the collider in the opposite direction, signaling the identification of neutrinos.
+However, it could also be interpreted as a signature of a BSM particle based on other information.
+Thus, MET plays a crucial role for finding new BSM particles, like the supersymmetric partners of quarks and gluons.
+In addition, precise measurement of high energy jets is important for searches for high mass Standard Model and SMEFT study.
 
-The scintillation light is converted by wavelength-shifting (WLS) fibers embedded in the scintillator tiles and channeled to photodetectors via clear fibres. 
-This light is detected by novel photodetectors (hybrid photodiodes, or HPDs) that can provide gain and operate in high axial magnetic fields.
-While most of the HCAL is contained inside the CMS magnet, there are several additional layers outside the magnet to detect particles from high energy showers.
-The central calorimetery is complemented by a "tail-catcher" in the barrel region - ensuring that hadronic showers are sampled with nearly 11 hadronic interaction lengths. 
-This "depth" of the HCAL is needed to contain high-energy jets and also to filter out hadrons from jets involving muons. 
-Accurate measurements of high-energy jets is important for searches for high mass Standard Model and Supersymmetric Higgs bosons.
+Since HCAL plays such a crucial role in detection of new physics, the structure of HCAL is also highly complex. 
+The scintillation light, converted by wavelength-shifting (WLS) fibers inside the scintillator tiles, is conneted to photodetectors. 
+This light is detected by hybrid photodiodes(HPDs) that can operate in high axial magnetic fields.
+While most of the HCAL's Barrel (HB) and endcap (HE) are positioned inside the CMS magnet, HCAL outside and front (HO,HF) are located outside the magnet to detect particles from high energy showers.
+The HB and HE are sampling calorimeters with 50 mm thick copper absorber plates interleaved with 4 mm thick scintillator sheets. 
+The HCAL's Barrel (HB) is complemented by a "tail-catcher" to ensure that hadronic showers are sampled with nearly 11 hadronic interaction lengths to contain high energy jets. 
+HF installed at each end of the CMS detector which provide coverage up to a pseudorapidity of 5.0, with steel absorber plates used for the harsher radiation environment of the forward systems.
+The HF ensure full geometric coverage for the measurement of the transverse energy in the event.
+HCAL's comprehensive geometrical coverage and precise energy measurements are crucial for BSM searches in Vector-Boson Fusion (VBF) Higgs production mode, where high energetic jets decay back-to-back at high pseudorapidity.
 
-The hadron calorimeter has both a barrel and endcap component which are sampling calorimeters with 50 mm thick copper absorber plates interleaved with 4 mm thick scintillator sheets. 
-There are also "forward" HCAL's installed at each end of the CMS detector which provide coverage up to a pseudorapidity of 5.0. 
-Here steel absorber plates are used in the harsher radiation environment of the forward systems and hadronic showers are seen by radiation-resistant quartz-fibers. 
-The Cerenkov light emitted in the quartz fibers is detected by conventional photomultiplier tubes. 
-The forward calorimeters ensure full geometric coverage for the measurement of the transverse energy in the event.
-
-Wide rapidity coverage and accurate energy measurements are the main requirements of the hadron calorimetry system as several Higgs modes, as well as other important modes, require good missing transverse energy measurements.
+Muons and tau leptons deposit only a very small fraction of their energy in the calorimeters, and are identified with tracking and muon detector subsystems' information in reconstruction level. 
 \subsection{The superconducting Magnet  of the CMS}
 
-At the heart of CMS sits a 13-m-long, 5.9 m inner diameter, 12,000 ton, 4 T superconducting solenoid which in part gives CMS its name. 
-The energy stored in the magnet, if liberated, is large enough to melt 18 tons of gold. 
+The superconducting magnet encompasses the inner tracker and the calorimetry, while outside of the superconducting magnet is the flux return system and muon detector.
+The superconducting magnet is 13m-long, 5.9 m inner diameter, 12 kilo-ton, 4 T, the core part of the CMS. 
 The CMS magnet system consists of a superconducting coil, the magnet yoke (barrel and endcap), a vacuum tank and ancillaries such as cryogenics, power supplies and process controls. 
-Inside the bore of the magnet sit the inner tracker and the calorimetry, while outside is the flux return system and muon detector.
 
-In order to achieve good momentum resolution with a compact spectrometer it is necessary to have a combination of a high magnetic field and high precision on the spatial resolution and alignment of the detectors. 
-The momentum measurement of charged particles in the detector is based on the bending of their trajectories. 
-The 4T magnetic field also bring benefits for calorimetry - it enables the detection of many isolated electrons produced by the decays of W's, Z's and b quarks. 
-Using these electrons, the CMS crystal electromagnetic calorimeter can be calibrated to an accuracy of a fraction of a percent.
-
-The magnetic flux is returned via a 1.5 m thick saturated iron yoke instrumented with four stations of
-
-
+Magnetic field provided by the superconducting magnet is essential for the momentum measurement of charged particles
+Electrically charged particles' trajectories are bent inside the magnetic field due to the Lorentz force.
+The particles leave their trajectories in the tracker, and the trajectory is used to calculate momentum of each particle.
+The 4T magnetic field also enables detection of isolated electrons produced by the decays of b,W,Z particles. 
+CMS ECAL uses these electrons to be calibrated to an accuracy of a fraction of a percent.
+The magnetic flux is returned via a 1.5 m thick saturated iron yoke interleved in four stations of Muon Chamber.
 \subsection{The Muon Chamber of the CMS}
+\begin{figure}[h!]
+	\caption{Cross-section of the Muon Chamer in the CMS detector. It shows the 4 layers of the drift tube (DT) cross-section viewed from the z-axis. \cite{det}}
+  \label{fig:MC}
+  \centering
+  \includegraphics[width=0.4\linewidth]{figs/MCcms.png}
+\end{figure}
+Muons, which is considered to be stable in the CMS perspective due to its lifetime, provide clean signatures unlike hadrons.
+Muon system's reconstruction efficiency is better than 98\% over the full pseudorapidity range.
+Each muon station has several layers of aluminum drift tubes (DT) for the barrel region and cathode strip chambers (CSCs) for the endcap region.
+The DT and CSC detectors are used to obtain a precise measurement of the 4 vector of the muons.
+The DT and CSC are complemented by resistive plate chambers (RPCs), which are fast gaseous muon detectors that provide a muon trigger system. 
+Large thickness of the absorber material (iron) ensures muons do not escape the detector, thereby increasing its identification efficiencys. 
 
-Muons are expected to provide clean signatures for a wide range of physics processes.
-The return field of the solenoid is large enough to saturate 1.5 m of iron, allowing 4 muon "stations" to be interleaved with the iron return yoke plates of the magnet system. 
-This provides a muon system with reconstruction efficiency better than 98\% over the full pseudorapidity range.
-
-Each muon station consists of several layers of aluminum drift tubes (DT) in the barrel region and cathode strip chambers (CSCs) in the endcap region, complemented by resistive plate chambers (RPCs). 
-The muon detectors are arranged in concentric cylinders around the beam line in the barrel region, and in disks perpendicular to the beam line in the endcaps. 
-Muon identification is ensured by the large thickness of the absorber material (iron), which cannot be traversed by particles other than neutrinos and muons. 
-The DT and CSC detectors are used to obtain a precise measurement of the position and thus the momentum of the muons, whereas the RPC chambers are dedicated to providing fast information for the Level-1 trigger.
-
-Muon measurements taken in the muon stations outside the solenoid are used for fast triggering and standalone muon reconstruction, but can also be combined with information from the inner tracking detectors for more precise reconstruction and momentum measurement.
+Muons detected and triggered by the Muon Chamber feeds into muon reconstruction algorithms.
+In reconstruction algorithms, position, direction vectors and an estimate of the muon transverse momentum are used as seeds for the track fits using the Kalman filter technique. 
+The result is a collection of reco::track objects, reconstructed as "standalone muons".
+For each standalone muon track, a search for tracks matching it among those reconstructed in the inner tracking system ("inner tracks" or "silicon tracks")  is performed.
+The best-matching tracker track and "standalone muon" pair, based on the Kalman filter technique, gives a collection of reco::Track objects referred to as "global muons". 
+A complementary approach, by considering all tracker tracks to be potential muon candidates with compatible signatures in the calorimeters and in the muon system, provides a collection of reco::Track objects referred to as "tracker muons". 
 
 \section{Tracker of the CMS more in detail}
+\begin{figure}[h!]
+	\caption{Cross-section of the trackers in the CMS detector. It shows the pixels in the inner tracker for more precise vertexing and the silicon strips on the outer trackers. Silicon strips are tilted with respect to previous layers of strips. \cite{trk}}
+  \label{fig:tracker}
+  \centering
+  \includegraphics[width=0.9\linewidth]{figs/Tracker.png}
+\end{figure}
 
-The inner tracker sits around the LHC beampipe. It is cylindrical in shape, of length 5.8 m, and has a diameter of 2.6 m, and consists of 25,000 silicon strip sensors. 
-The system will provide analogue data from ~10 million channels of the microstrip tracker. 
-The CMS tracking system is designed to reconstruct high-pT muons, isolated electrons and hadrons with high momentum resolution and an efficiency better than 98\% in the range 2.5.
+The inner tracker is the first detector material sitting around the LHC beampipe. 
+It consists of the pixel cells in the innermost part, and silicon strip sensors in the outer part of the tracker.
+The inner-most tracking material consists of 3 layers of silicon pixel detectors. 
+During Run 2 of 2017-2018, additional pixel layer was added for even better performance.
+The square pixel detectors with high granularity are extremely radiation resistant and provide most accurate position information.
+The outer layers of the tracker consist of strip sensors, which are more financially affordable.
+They are of 5.8 m length, 2.6m diameter, 10 layers, and consists of 25,000 silicon strip sensors in cylindrical shape. 
+The system provides analogue data from about 10 million channels. 
+Each layer is oriented a slight off-angle with respect to the previous layer for 2D position measurement.
 
-The inner-most tracking material consists of 3 layers of silicon pixel detectors which are placed close to the interaction region to improve the measurement of the impact parameter of charged-particle tracks, as well as the position of secondary vertices. 
-In order to deal with high track multiplicities, CMS employs 10 layers of silicon microstrip detectors, which provide the required granularity and precision.
+The CMS tracking system, with the magnetic field coming from the superconducting magnet, reconstruct muons, electrons and charged hadrons' tracks with high momentum resolution with efficiency better than 98\% in pseudorapidity upto 2.5.
+They provide the required granularity and precision to deal with high track multiplicities.
+For muons, with information from the measurements of the muon chamber, the tracking system contributes to even better resolution.
 
-Accurate measurement of secondary vertices is required to study b quark decays - an area of LHC physics which provides rich possibilities to search for new physics interactions. 
-Additionally, detection of particle jets arising from b quark decays, b-tagging, is a very important tool for many other physics studies, from the search of low-mass Higgs bosons to studies of the top quark. 
-Other interactions involving secondary vertex production include the decay of short-lived neutral kaons, KS.
+The tracker is quintessential for many physics analyses.
+Its closest placement to the interaction point provides precise vertex reconstruction and measurement of the impact parameter (IP) of tracks.
+The trackers' reconstruction for secondary vertices is critical for b-tagging, a method of detecting jets arising from b quark decays.
+It is a frequently used tool in many CMS groups.
+For instance, physicists studying Lepton Universality uses b-tagging, enabled by the tracker's good vertex reconstruction efficiency, to identify physics process involving B mesons to Kaons.
+In addition, physicists use b-tagging to identify top quarks, which is another good portal for BSM physics along with the Higgs boson and mostly decay into b-jets.
+The tracker's impact parameter values also play significant role in discovery of BSM physics targetting for LLPs.
+LLPs IP values are starkly different from SM particles' IP values.
 
-Combined with measurements from the dedicated muon detection system, the tracking system contributes to high resolution muon measurements in CMS.
 
 
 \section{Trigger of the CMS}
-In CMS, a beam spacing of 25 ns, beam crossings occur in the CMS detector at a rate of 40 million per second (40MHz). 
-An additional complication is the approximately 25 interactions which occur with each beam crossing - thus giving 1 billion events occurring in the CMS detector every second. 
-In order to extract physics from these interactions it is vital to have fast electronics and very good resolution (proton-proton interactions are very messy and produce hundreds or thousands of particle candidates).
-because these events occur far too quickly to all be recorded and would take up vast amounts of disk space to store what are, for the majority, uninteresting events, very precise "triggering" is required. 
-The CMS Data Acquisition System and Triggering are introduced briefly below.
+Discovery of new physics requires not only high energy, but also large statistics.
+New physics, for sake of not being discovered so far, has a very small cross-section.
+Large statistics is necessary to confirm existence of the small cross-section signal over standard model backgrounds.
+In order to achieve the high statistics, the CMS beam crossing happens at a very high rate with bunches of protons shooted together.
+CMS beam crossings occur in the CMS detector at a rate of 40 million per second (40MHz) with spacing of 25ns, while 25-50 bunch crossings are usual in CMS.
+It totals at about 1 billion events occurring in the CMS detector per second. 
 
+Proton-proton interactions are very messy and produce many tracks given its QCD nature.
+However, most of the events are "not interesting" to be even considered as candidates of potentially interesting events.
+These events occur too quickly to be recorded and would take up vast amounts of disk space to store, which would be wast of electronic resources. 
+In order to filter and save only "interesting" events in the extreme environment, CMS employs the Trigger and Data Acquisition System. 
+It selects the most interesting hundred or so events for storage and further analysis with fast electronics and resolution.
+The CMS Data Acquisition System and Triggering are described below.
 
-The Trigger and Data Acquisition System, TriDAS, is designed to select, out of the 1Bn interactions per second produced by 40MHz proton-proton beam crossings, the most interesting hundred or so events for storage and further analysis.
-
-The first level of triggering, Level 1 (L1), is a hardware trigger, using hardware processors to rapidly select or reject events based on information from the ECAL and muon RPCs. 
-Calorimeter triggering is based on a first measurement of energy deposited in the crystals, whereas the muon triggering centers around transverse momentum measurements of muons. 
+The first level of triggering, Level 1 (L1), is a hardware trigger.
+It uses hardware processors to rapidly select or reject events based on information from the ECAL and Muon Chamber. 
 The Level 1 trigger reduces the event rate from 40MHz to 100kHz.
-
 An event passing the L1 trigger decision is transmitted to the Data Acquisition System where information from the 16M channels in the CMS subdetector systems is combined by the event builder into a single event. 
 This event is then challenged by the next level of triggering.
 
