@@ -9,42 +9,18 @@ It is also ineffcient to implement a cut-based approach due to having approximat
 Optimization process for all 20-30 variables would be extremley time-consuming, inefficient, and error-prone as well.
 Therefore, the analysis exploits machine learning (ML) for these multivariate analysis.
 Boosted decision trees will also face similar problem as cut-based analysis, although to a lesser extent.
-Deep Neural Network are the most adaptable ML algorithm for this analysis method, in which the analysis inputs extensive list of ROI variables into a neural network, and receives a final score to discriminate ROIs that arise in signal process versus background processes. 
+Deep Neural Network are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs extensive list of ROI variables into a neural network, and receives a final score to discriminate ROIs that arise in signal process versus background processes. 
+The list of variables that are inputted into the ML algorithms are provided in subsection \ref{sec:MLIV}.
 
-  
-\section{Machine Leaning Software}\label{sec:MLSW}
-
-The analysis uses Keras-Tensorflow via CMSSW.
+The analysis uses Keras-Tensorflow for its ML platform.
 CMSSW includes Keras-Tensorflow, which enables simple and easy usage of keras-Tensorflow with simple cmsenv command in various CMS remote clusters. 
 For CMSSW\_10\_6\_12 (to have access for BPH trigger path), Keras-Tensorflow version is 2.3.1.
 It runs with CPUs and GPUs.
-CMSSW includes image container for Keras-Tensorflow and researchers can submit remote batch jobs for its ML training.
-The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, f sizes) of our DNN layers thanks to submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
-Subsection ~\ref{sec:Ethan} below details the numerical results from such tests.
-The analysis also tested different combinations of signal vs background datasets for maximum discriminant power. 
-The list of mass scale and lifetime tested for signal points are listed in subsection~\ref{sec:Ethan2}. Different SM physics process (and their compositions) tested for background process are also listed in subsection~\ref{sec:Ethan2}
-The analysis used the tensorflow protocol buffer files, which were trained with parameters and physics process as in Table~\ref{tab:ROIParam}. 
 
-\begin{table}[htb]
-\caption{Tensorflow information}
-\begin{center}
-\begin{tabular}{r|l}\hline
-Epoch & 300 \\
-batch size & 250 \\
-Phi sizes & ((64,128,256),(32,64,128)) \\
-f sizes & (256,128,32) \\
-Signal & ggHSSTo4Tau-MS15GeV-c$\tau$100mm  \\
-Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
- \hline
- \hline
-\end{tabular}
-\label{tab:ROIParam}
-\end{center}
-\end{table}
-
-
-\section{Machine Learning Input Variable}\label{sec:MLIV}
-The extensive variables for input of our DNN are described and categorized in Tables ~\ref{tab:ROITCvars}, ~\ref{tab:ROIANvars}, and ~\ref{tab:ROIEVvars}.
+\section{Machine Learning Input Variables}\label{sec:MLIV}
+As discussed in chapter \ref{sec:objects}, the ROI has vertex and shell (isolation) information.
+Vertex information is trained with 19 different variables, which are listed and categorized in Tables ~\ref{tab:ROITCvars}.
+%, ~\ref{tab:ROIANvars}, and ~\ref{tab:ROIEVvars}.
 
 \begin{table}[htb]
 \caption{ROI (trackCluster) variables by category}
@@ -74,6 +50,9 @@ The extensive variables for input of our DNN are described and categorized in Ta
 \end{table}
 
 
+
+Shell information is trained with 8 different variables, which are listed in Tables ~\ref{tab:ROIANvars}.
+
 \begin{table}[htb]
 \caption{ROI (Annulus) variables by category}
 \begin{center}
@@ -93,29 +72,94 @@ The extensive variables for input of our DNN are described and categorized in Ta
 \end{center}
 \end{table}
 
+We input vertex and shell information into separate ML algorithms. Thus, we get 2 final products from the ML algorithms, one for the vertex and the other for the shell.
+%\begin{table}[htb]
+%\caption{Event variables by category}
+%\begin{center}
+%\begin{tabular}{r|l|l}\hline
+%  ROI    & Position & x \\
+%         & Position & y \\
+%         & Position & z \\
+% \hline
+% \hline
+%\end{tabular}
+%\label{tab:ROIEVvars}
+%\end{center}
+%\end{table}
 
+\subsection{Fine-Tuning of ML environemnt}
+CMSSW includes image container for Keras-Tensorflow and researchers can submit remote batch jobs for its ML training as well.
+The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, f sizes) of our DNN layers thanks to submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
+Subsection ~\ref{sec:Ethan} below details the numerical results from such tests.
+The analysis also tested different combinations of signal vs background datasets for maximum discriminant power. 
+The list of mass scale and lifetime tested for signal points are listed in subsection~\ref{sec:Ethan2}. Different SM physics process (and their compositions) tested for background process are also listed in subsection~\ref{sec:Ethan2}
+
+The final Tensorflow product, which was used for the analysis, were trained with parameters in the following section. 
+With these variables, Keras-Tensorflow DNN variable information was fine-tuned for maximum Area Under the Curve (AUC) calue.
+Its information is listed in the table \ref{tab:ROIParam}.
 \begin{table}[htb]
-\caption{Event variables by category}
+\caption{Tensorflow information}
 \begin{center}
-\begin{tabular}{r|l|l}\hline
-  ROI    & Position & x \\
-         & Position & y \\
-         & Position & z \\
+\begin{tabular}{r|l}\hline
+Epoch & 300 \\
+batch size & 250 \\
+Phi sizes & ((64,128,256),(32,64,128)) \\
+f sizes & (256,128,32) \\
+Signal & ggHSSTo4Tau-MS15GeV-c$\tau$100mm  \\
+Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
  \hline
  \hline
 \end{tabular}
-\label{tab:ROIEVvars}
+\label{tab:ROIParam}
 \end{center}
 \end{table}
+\subsection{DNN Variable Test}\label{sec:Ethan}
+For Ethan.
 
+\subsection{Signal and Background MC Test}\label{sec:Ethan2}
+For Ethan.
+
+
+
+\section{ML scores of the ROIs}
+
+ROIs of all events inside the dataset listed in section ~\ref{sec:samples} are scored with the tensorflow, when the tensorflow was trained with information from section ~\ref{sec:MLIV}.
+Because the signal process has 2 scalar decays as in Figure~\ref{fig:feynmanggH}, it's reasonable to require 2 high-scoring ROIs for our analysis.
+However, the 2 selected ROIs are not simply the 2 highest-scoring ROIs of the event, due to non-negligible lifetime of $\tau$ leptons (from signal process in the detector.
+After obtaining an ROI with highest ML output socre, we search for the next highest scored ROI that are $\Delta\Phi$>0.4 from the leading ROI.
+Vertex discriminant is more powerful thatn the shell discriminant.
+Thus, the ordering of ROIs scores are only done by the vertex ML output value.
+%More detailed explanations are described in section~\ref{sec:lifetimeROI}.)  
+%The cuts on the leading ROI, and the subleading ROI are optimized based on maximizing the punzi significance formula with value $\sigma$ set to discovery value of 5.  
+%\begin{equation}\label{eq:significance}
+%    \sigma(N_{\mathrm{displaced-tag}}) = \frac{S(N_{\mathrm{displaced-tag}})} {\sqrt{B(N_{\mathrm{displaced-tag}})} + 2.5 }.
+%\end{equation}
 
 \begin{figure}[h!]
-  \caption{asdasdasd}
+  \caption{Tensorflow scores}
   \label{fig:TensorFlow scores}
   \centering
   \includegraphics[width=0.67\linewidth]{figs/Tensorflow_Disc_mostrecent.pdf}
 
 \end{figure}
+
+ \begin{figure}[h!]
+   \caption{Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+   \label{fig:leadROIscore}
+   \centering
+   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf}
+ \end{figure}
+
+
+ \begin{figure}[h!]
+   \caption{Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+   \label{fig:excROIscore}
+   \centering
+   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf}
+ \end{figure}
+
 
 \begin{figure}[h!]
   \caption{Data/MC agreement for ROI scores}
@@ -135,13 +179,4 @@ The extensive variables for input of our DNN are described and categorized in Ta
 \end{figure}
 
 
-
-\section{DNN Variable Test}\label{sec:Ethan}
-For Ethan.
-
-\section{Signal and Background MC Test}\label{sec:Ethan2}
-For Ethan.
-
-\section{SHAP values}
-For Ethan.
 

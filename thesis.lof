@@ -69,50 +69,54 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces asdasdasd}}{37}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Tensorflow scores}}{38}{figure.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Data/MC agreement for ROI scores}}{38}{figure.6.2}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{38}{figure.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Data/MC agreement for loglead/sublead scroes}}{39}{figure.6.3}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{39}{figure.6.3}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Data/MC agreement for ROI scores}}{39}{figure.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{40}{figure.7.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{41}{figure.7.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{42}{figure.7.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{43}{figure.7.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{44}{figure.7.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{45}{figure.7.6}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Data/MC agreement for loglead/sublead scroes}}{40}{figure.6.5}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}}{47}{figure.8.1}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{41}{figure.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces eee}}{47}{figure.8.2}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{42}{figure.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{43}{figure.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{44}{figure.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{45}{figure.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}}{46}{figure.7.6}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}}{48}{figure.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Current Preliminary limit plots}}{49}{figure.10.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots}}{49}{figure.10.2}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces eee}}{48}{figure.8.2}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode}}{53}{figure.A.1}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Current Preliminary limit plots}}{50}{figure.10.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces pt of the scalar products}}{54}{figure.A.2}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots}}{50}{figure.10.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces DeltaR of the scalar products}}{54}{figure.A.3}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces liftime of the scalar products in the lab frame}}{55}{figure.A.4}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode}}{54}{figure.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces pt of the scalar products}}{55}{figure.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces DeltaR of the scalar products}}{55}{figure.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces liftime of the scalar products in the lab frame}}{56}{figure.A.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

@@ -2111,6 +2111,27 @@
       \verb 1501.04020
       \endverb
     \endentry
+    \entry{HPS}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5839e1247c14b145038fcd8e11cc5d49}{%
+           family={collaboration},
+           familyi={c\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5839e1247c14b145038fcd8e11cc5d49}
+      \strng{fullhash}{5839e1247c14b145038fcd8e11cc5d49}
+      \strng{bibnamehash}{5839e1247c14b145038fcd8e11cc5d49}
+      \strng{authorbibnamehash}{5839e1247c14b145038fcd8e11cc5d49}
+      \strng{authornamehash}{5839e1247c14b145038fcd8e11cc5d49}
+      \strng{authorfullhash}{5839e1247c14b145038fcd8e11cc5d49}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Performance of reconstruction and identification of tau leptons in their decays to hadrons and tau neutrino in LHC Run-2}}
+      \field{year}{2016}
+    \endentry
     \entry{muonpog}{manual}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2302,7 +2323,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{HPS}
 \endrefsection
 \endinput
 
