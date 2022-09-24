@@ -31,7 +31,7 @@ Unfortunately, leading ROI vertex score and subleading ROI vertex score are corr
 ROIs from B-mesons score higher in our tensorflow.
 In QCD processes, the B-mesons are likely to be pair produced.
 Therefore, when the leading ROI vertex score is high due to its b-like behavior, the sublead ROI vertex score is also high because the anti-meson is produced on the other side of the detector.
-Thus, leading and sublead scores can't be our ABCD discriminant variable candidates du to their correlation.
+Thus, leading and sublead scores can't be our ABCD discriminant variable candidates due to their correlation.
 
 The analysis selects leading ROI and leading muon's IP value as its ABCD discriminant variables.
 After implementing all other cuts (sublead ROI, $\Delta\Phi(lead,sublead)$, Annulus score, 1 Isolated $\mu$, $\Delta R(lead ROI, Jet)$), we tested the correlation factor between the leading ROI, and leading mu's IPSig values for each background process.
@@ -56,6 +56,50 @@ The results are listed below.
    \includegraphics[width=0.67\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf}
  \end{figure}
 
- \section{Validation of ABCD method}
+\section{Validation of ABCD method}
+
+Although background MC's correlation factor($\^{r}$) values are small, we need to verify that the data's correlation factor is negligible since data will be used for our background estimation.
+However, direct computation of $\^{r}$(leadROI,Log10(muIPSig)) for data is problematic because the CMS community stipulates "blinding".
+In general, high signal ratio is expected in singal region.
+In order to avoid bias for new discovery and changing their analysis strategy, the CMS recommends physicists to blind themselves from looking into data entry in the signal region, until community acknowledgement is granted.
+This concept is called "blinding"
+Since one can not have access for data entry in the signal region, data's correlation factor($\^{r}$) can not be computed. 
+Therefore, one needs to find an alternative way to estimate data's $\^{r}$(leadROI,Log10(muIPSig)) without unblinding data in the signal region.
+
+For this purpose, we define a new ABCD region, referred to as A'B'C'D'.
+A'-D' region is an orthogonal plane to the original ABCD, where the d$\phi$ category of the event selection is flipped while all other event selection cuts are removed.
+Region A', a correspondant Signal region of the orthogonal plane, should be much lower in signal ratio (background dominated): Only so, looking into data entry in A' is not problematic. 
+In figures of a-b, we confirm that background dominates the A' region while the signal entry is lower regardeless of the signal's MS and ctau.
+
+
+
+
+
+In A'-D' region, we can see the correlation factor is about 10\%, still a negligible value. 
+
+
+With $\^{r}$(leadROI,Log10(muIPSig)) value in A'-D' region, It seems sufficient to claim that there should be negligible correlation between leadROI and Log10(muIPSig) for A-D region as well.
+Unfortunately, suspicious people could throw 1 last question.
+What if $\^{r}$(leadROI,Log10(muIPSig)) value changes with respect to d$\phi$?
+If the formula in \ref{eq:rhat} is not true, $\^{r}$(leadROI,Log10(muIPSig)) obtained from A'-D' is not a good estimate for $\^{r}$(leadROI,Log10(muIPSig)) for A-D.
+
+To check that formula \ref{eq:rhat} is true, we subdivide A'-D'.
+A1'-D1' are orthogonal planes where d$\phi$ is closest to A-D.
+Increasing numeric value indicates how far the d$\phi$ is from the A-D.
+$\^{r}$(leadROI,Log10(muIPSig)) value for each of A'-D' region is plotted in figures and summarized in table.
+
+
+
+As we scan $\^{r}$(leadROI,Log10(muIPSig)) for each d$\phi$ section, very small trend with respect to d$\phi$ is observed.
+We can claim the formula \ref{eq:rhat} is true and $\^{r}$(leadROI,Log10(muIPSig)) from A'-D' can be translated into A-D region as well.
+
+
+Since there is not correlation of 2 variables for ABCD region, we validated the background estimation method.
+With background rate in signal region estimated by ABCD method with data, and with signal MC, we can either claim there exists signal over the SM expectation or not.
+If it does not, we can claim an exclusion limit on the branching ratio of the signal to a certain value.
+
+
+Before that systematics
+
 
 
