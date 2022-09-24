@@ -1,22 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[1] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[90] biber:340> INFO - === Sat Sep 24, 2022, 01:41:27
-[109] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[189] Biber.pm:952> INFO - Found 66 citekeys in bib section 0
-[210] Biber.pm:4340> INFO - Processing section 0
-[226] Biber.pm:4531> INFO - Looking for bibtex format file 'myrefs.bib' for section 0
-[235] bibtex.pm:1689> INFO - LaTeX decoding ...
-[933] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
-[1085] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
-[1295] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_qsmu/2f36d927faf521b1e37377214e65c885_136813.utf8, line 718, warning: 5 characters of junk seen at toplevel
-[1296] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_qsmu/2f36d927faf521b1e37377214e65c885_136813.utf8, line 734, warning: 5 characters of junk seen at toplevel
-[1296] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_qsmu/2f36d927faf521b1e37377214e65c885_136813.utf8, line 806, warning: 1 characters of junk seen at toplevel
-[1296] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_qsmu/2f36d927faf521b1e37377214e65c885_136813.utf8, line 823, warning: 2 characters of junk seen at toplevel
-[1296] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_qsmu/2f36d927faf521b1e37377214e65c885_136813.utf8, line 857, warning: 20 characters of junk seen at toplevel
-[1354] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1354] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1354] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1354] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1402] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1427] bbl.pm:757> INFO - Output to thesis.bbl
-[1427] Biber.pm:128> INFO - WARNINGS: 6
+[0] Config.pm:314> INFO - Logfile is 'thesis.blg'
+[84] biber:340> INFO - === Sat Sep 24, 2022, 02:49:46
+[97] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[176] Biber.pm:952> INFO - Found 66 citekeys in bib section 0
+[192] Biber.pm:4340> INFO - Processing section 0
+[203] Biber.pm:4531> INFO - Looking for bibtex format file 'myrefs.bib' for section 0
+[217] bibtex.pm:1689> INFO - LaTeX decoding ...
+[929] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
+[1076] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
+[1281] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Qhgi/2f36d927faf521b1e37377214e65c885_139453.utf8, line 718, warning: 5 characters of junk seen at toplevel
+[1282] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Qhgi/2f36d927faf521b1e37377214e65c885_139453.utf8, line 734, warning: 5 characters of junk seen at toplevel
+[1282] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Qhgi/2f36d927faf521b1e37377214e65c885_139453.utf8, line 806, warning: 1 characters of junk seen at toplevel
+[1282] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Qhgi/2f36d927faf521b1e37377214e65c885_139453.utf8, line 823, warning: 2 characters of junk seen at toplevel
+[1282] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_Qhgi/2f36d927faf521b1e37377214e65c885_139453.utf8, line 857, warning: 20 characters of junk seen at toplevel
+[1340] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1340] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1340] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1340] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1383] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1408] bbl.pm:757> INFO - Output to thesis.bbl
+[1408] Biber.pm:128> INFO - WARNINGS: 6

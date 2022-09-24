@@ -65,38 +65,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{41}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{42}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{41}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Number of Annulus Tracks Associated with ROI}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Isolation criteria for muons}{42}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Isolation criteria for muons}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Leading muon's transverse impact parameter significance to PV}{43}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter to PV}{44}{section.7.4}%
+\contentsline {section}{\numberline {7.4}DeltaR(ROI, jet)}{43}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}DeltaR(ROI, jet)}{45}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Number of Annulus Tracks Associated with ROI}{44}{section.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Background Estimation}{47}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Background Estimation}{46}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}ABCD method}{46}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Validation of ABCD method}{47}{section.8.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Systematic Uncertainties}{49}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Results}{50}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Results}{51}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusions}{51}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Conclusions}{52}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{Appendix}{51}{appendix.A}%
+\contentsline {appendix}{Appendix}{52}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Data Samples}{52}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Data Samples}{53}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}BrilCalc command for B-Parking HLT path}{53}{section.A.1}%
+\contentsline {section}{\numberline {A.1}BrilCalc command for B-Parking HLT path}{54}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Monte Carlo Samples}{53}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Monte Carlo Samples}{54}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Signal Model and Simulation}{53}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.1}Signal Model and Simulation}{54}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Background Monte Carlo}{54}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.2}Background Monte Carlo}{55}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Others}{58}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Others}{59}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{References}{59}{appendix*.8}%
+\contentsline {backmatter}{References}{60}{appendix*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{Biographical Sketch}{65}{appendix*.9}%
+\contentsline {backmatter}{Biographical Sketch}{66}{appendix*.9}%
