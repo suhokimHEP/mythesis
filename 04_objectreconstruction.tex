@@ -155,6 +155,33 @@ The shell's construction step is described as below.
 \end{itemize}
 With these crucial tracks' information, we are ready to discriminate signals from the background.
 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.27\linewidth]{figs/MLP3.png}
+  \includegraphics[width=0.27\linewidth]{figs/MLP2.png}
+  \includegraphics[width=0.27\linewidth]{figs/MLP1.png}
+\caption{The figures display cartoons of step-by-step formation of the Region of Interest (ROI). 
+	Dark like denotes a charged track: a muon track or electron track, or a charged hadron track from a tau lepton decay. 
+	Left figure shows the vertex (red color) fitting by KalmanVertexFitter in CMSSW, from two charged tracks which decayed from a neutral LLP.
+	Middle figure shows clustering of the region of vertex, with vertex (grey) formed by the extended tracks being clustered into original ROI, if the vertices are within 1cm limit.
+	Right figure shows non-clustering of vertex (sky), if the verex is out of 1cm limit. The track (thinner line) which forms non-clustered vertex is most likely from a pileup interaction.
+	}
+  \label{fig:Clustering}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.4\linewidth]{figs/MLP4.png}
+  \includegraphics[width=0.4\linewidth]{figs/MLP5.png}
+\caption{The figures display cartoons of step-by-step formation of the shell structure. 
+	Left figure shows the axis of the cone, when the axis goes through the center of ROI.
+	Right figure shows the construction of the isolation plane, shown in red color of circle.
+	The isolation plane has $\Delta$R=0.3. 
+	You can see the pileup track goes through the isolation plane in the cartoon.
+	Thus, the shell formed by this isolation plane containes information about isolation variable.
+	}
+  \label{fig:Clustering}
+\end{figure}
 
 \begin{figure}[h!]
   \caption{Data/MC of ROI distribution}

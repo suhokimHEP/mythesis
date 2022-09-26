@@ -2013,8 +2013,8 @@
       \strng{authorbibnamehash}{fc42e395a080a0e9cb80bd2525832e00}
       \strng{authornamehash}{fc42e395a080a0e9cb80bd2525832e00}
       \strng{authorfullhash}{fc42e395a080a0e9cb80bd2525832e00}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Overview of CMS Physics Goals and Detector}
@@ -2095,8 +2095,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -2247,8 +2247,8 @@
       \strng{authorbibnamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authornamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authorfullhash}{ec4bd9be83251bf78c030ded3fce3ff4}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -2280,8 +2280,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -2309,8 +2309,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Physics Performance Datasets -- PPD Run2 Analysis Recipe Summary}
