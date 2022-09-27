@@ -17,25 +17,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces ROI (trackCluster) variables by category\relax }}{37}{table.caption.40}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces ROI (trackCluster) variables by category\relax }}{42}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces ROI (Annulus) variables by category\relax }}{37}{table.caption.41}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces ROI (Annulus) variables by category\relax }}{42}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Tensorflow information\relax }}{38}{table.caption.42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.4}{\ignorespaces Tensorflow information\relax }}{38}{table.caption.43}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.5}{\ignorespaces Tensorflow information\relax }}{39}{table.caption.44}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Tensorflow information\relax }}{43}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Ptbinned Isocut\relax }}{45}{table.caption.51}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Ptbinned Isocut\relax }}{52}{table.caption.56}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces Systematic Uncertainty Table\relax }}{52}{table.caption.57}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces Systematic Uncertainty Table\relax }}{61}{table.caption.63}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -43,14 +39,20 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces Datasets used in the analysis\relax }}{56}{table.caption.60}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Datasets used in the analysis\relax }}{64}{table.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces QCD MuEnriched Pt5 background Monte Carlo samples\relax }}{59}{table.caption.66}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces CAMPAIGN:RunIIAutumn18MiniAOD-rp\_102X\_upgrade2018\_realistic\_v15-v1\relax }}{66}{table.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces W,Z,H boson background Monte Carlo samples\relax }}{59}{table.caption.67}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces QCD MuEnriched Pt5 background Monte Carlo samples\relax }}{67}{table.caption.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.4}{\ignorespaces Top background Monte Carlo samples\relax }}{60}{table.caption.68}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces W,Z,H boson background Monte Carlo samples\relax }}{67}{table.caption.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.5}{\ignorespaces Monte Carlo sample summary\relax }}{60}{table.caption.69}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Top background Monte Carlo samples\relax }}{67}{table.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.6}{\ignorespaces Monte Carlo sample summary\relax }}{68}{table.caption.72}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.1}{\ignorespaces Tensorflow information\relax }}{69}{table.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tensorflow information\relax }}{70}{table.caption.74}%

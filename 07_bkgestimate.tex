@@ -38,8 +38,6 @@ After implementing all other cuts (sublead ROI, $\Delta\Phi(lead,sublead)$, Annu
 The values are pretty minimal except for 2-3 processes where there were too few entries to derive a physical conclusion due to statistical limitations.
 Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score for its ABCD discriminant variables.
 
-The results are listed below.  
-
 
  \begin{figure}[h!]
    \caption{Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}
@@ -67,7 +65,7 @@ Since one can not have access for data entry in the signal region, data's correl
 Therefore, one needs to find an alternative way to estimate data's $\hat{r}$(leadROI,Log10(muIPSig)) without unblinding data in the signal region.
 
 For this purpose, we define a new ABCD region, referred to as A'B'C'D'.
-A'-D' region is an orthogonal plane to the original ABCD, where the d$\phi$ category of the event selection is flipped while all other event selection cuts are removed.
+A'-D' region is an orthogonal plane to the original ABCD, where the $\Delta\Phi$(lead,exclead) category of the event selection is flipped while all other event selection cuts are removed.
 Region A', a correspondant Signal region of the orthogonal plane, should be much lower in signal ratio (background dominated): Only so, looking into data entry in A' is not problematic. 
 In figures of a-b, we confirm that background dominates the A' region while the signal entry is lower regardeless of the signal's MS and ctau.
 
@@ -80,30 +78,27 @@ In A'-D' region, we can see the correlation factor is about 10\%, still a neglig
 
 With $\hat{r}$(leadROI,Log10(muIPSig)) value in A'-D' region, It seems sufficient to claim that there should be negligible correlation between leadROI and Log10(muIPSig) for A-D region as well.
 Unfortunately, suspicious people could throw 1 last question.
-What if $\hat{r}$(leadROI,Log10(muIPSig)) value changes with respect to d$\phi$?
+What if $\hat{r}$(leadROI,Log10(muIPSig)) value changes with respect to $\Delta\Phi$(lead,exclead)?
 If the formula in \ref{eq:rhat} is not true, $\hat{r}$(leadROI,Log10(muIPSig)) obtained from A'-D' is not a good estimate for $\hat{r}$(leadROI,Log10(muIPSig)) for A-D.
 
 \begin{equation}
-\label{eq:covld}
-	D_{\mu}  = i\partial_{\mu}-\frac{1}{2}g\tau*W_{\mu}-\frac{1}{2}g^{'}YB_{\mu} 
+\label{eq:rhat}
+	\frac{d\hat{r}(leadROI,Log10(muIPSig))}{d\Delta\Phi(lead,exc)}=0
 \end{equation}
 To check that formula \ref{eq:rhat} is true, we subdivide A'-D'.
-A1'-D1' are orthogonal planes where d$\phi$ is closest to A-D.
-Increasing numeric value indicates how far the d$\phi$ is from the A-D.
+A1'-D1' are orthogonal planes where $\Delta\Phi$(lead,exclead) is closest to A-D.
+Increasing numeric value indicates how far the $\Delta\Phi$(lead,exclead) is from the A-D.
 $\hat{r}$(leadROI,Log10(muIPSig)) value for each of A'-D' region is plotted in figures and summarized in table.
 
 
 
-As we scan $\hat{r}$(leadROI,Log10(muIPSig)) for each d$\phi$ section, very small trend with respect to d$\phi$ is observed.
+As we scan $\hat{r}$(leadROI,Log10(muIPSig)) for each $\Delta\Phi$(lead,exclead) section, very small trend with respect to $\Delta\Phi$(lead,exclead) is observed.
 We can claim the formula \ref{eq:rhat} is true and $\hat{r}$(leadROI,Log10(muIPSig)) from A'-D' can be translated into A-D region as well.
-
-
 Since there is not correlation of 2 variables for ABCD region, we validated the background estimation method.
 With background rate in signal region estimated by ABCD method with data, and with signal MC, we can either claim there exists signal over the SM expectation or not.
 If it does not, we can claim an exclusion limit on the branching ratio of the signal to a certain value.
 
-
-Before that systematics
+Before that final step, systematic uncertainty is described in the following section for exclusion limit calculation.
 
 
 

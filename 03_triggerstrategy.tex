@@ -57,8 +57,8 @@ The exact names of paths for B-Parking triggers are listed in Table~\ref{tab:tri
  Data sample & Trigger \\
 \hline
  ParkingBPH*-Run2018A & HLT\_Mu9\_IP6\_part* \\
- \hline
  ParkingBPH*-Run2018B & HLT\_Mu9\_IP6\_part* \\
+ \hline
  ParkingBPH*-Run2018C & HLT\_Mu12\_IP6\_part* \\
  ParkingBPH*-Run2018D & HLT\_Mu12\_IP6\_part* \\
  \hline
@@ -80,6 +80,30 @@ The exact names of paths for B-Parking triggers are listed in Table~\ref{tab:tri
 \label{tab:GT}
 \end{center}
 \end{table}
+
+
+
+\begin{figure}[h!]
+  \caption{pt of the scalar products}
+  \label{fig:scalarpt}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figs/Scalar_pT100mm.pdf}
+\end{figure}
+
+\begin{figure}[h!]
+  \caption{DeltaR of the scalar products}
+  \label{fig:scalarpt}
+  \centering
+  \includegraphics[width=0.5\linewidth]{figs/Scalar_dR100mm.pdf}
+\end{figure}
+
+\begin{figure}[h!]
+  \caption{liftime of the scalar products in the lab frame}
+  \label{fig:scalarpt}
+  \centering
+  \includegraphics[width=0.57\linewidth]{figs/Scalar_gammactau100mm.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/Scalar_gammactau15GeV.pdf}
+\end{figure}
 
 
 Below is the trigger efficiency of various BPH trigger paths for different mass and lifetime points of the signal (HToSSTo4Tau) sample
@@ -128,7 +152,16 @@ Figure~\ref{fig:EraAData} shows the BPH1-Era A's HLT\_Mu9\_IP6 HLT path's Data P
   \caption{Bunch crossing of dataset /ParkingBPH1/Run2018A-UL2018\_MiniAODv2-v1/MINIAOD}
   \label{fig:EraAData}
   \centering
-  \includegraphics[width=0.67\linewidth]{figs/BPH1AData.pdf}
+  \includegraphics[width=0.67\linewidth]{figs/NVtx_BPHA.pdf}
+
+\end{figure}
+
+Figure~\ref{fig:EraAData} shows the BPH1-Era B's HLT\_Mu9\_IP6 HLT path's Data PU distribution.
+\begin{figure}[h!]
+  \caption{Bunch crossing of dataset /ParkingBPH1/Run2018B-UL2018\_MiniAODv2-v1/MINIAOD}
+  \label{fig:EraAData}
+  \centering
+  \includegraphics[width=0.67\linewidth]{figs/NVtx_BPHB.pdf}
 
 \end{figure}
 
@@ -137,7 +170,16 @@ Figure~\ref{fig:EraCData} shows the BPH1-Era C's HLT\_Mu12\_IP6 HLT path's Data 
 \caption{Bunch crossing of dataset /ParkingBPH1/Run2018C-UL2018\_MiniAODv2-v1/MINIAOD. Please note that the HLT path for EraC has higher muon object's pT threshold with 12GeV (compared to 9GeV in EraA).}
   \label{fig:EraCData}
   \centering
-  \includegraphics[width=0.67\linewidth]{figs/BPH1CData.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/NVtx_BPHC.pdf}
+
+\end{figure}
+
+Figure~\ref{fig:EraCData} shows the BPH1-Era D's HLT\_Mu12\_IP6 HLT path's Data PU distribution.
+\begin{figure}[h!]
+\caption{Bunch crossing of dataset /ParkingBPH1/Run2018D-UL2018\_MiniAODv2-v1/MINIAOD. Please note that the HLT path for EraD has higher muon object's pT threshold with 12GeV (compared to 9GeV in EraA).}
+  \label{fig:EraCData}
+  \centering
+  \includegraphics[width=0.57\linewidth]{figs/NVtx_BPHD.pdf}
 
 \end{figure}
 
@@ -146,7 +188,7 @@ Figure~\ref{fig:MCPU} shows DYJetsToLL\_M-50\_TuneCP5\_13TeV-madgraphMLM-pythia8
 	\caption{Bunch crossing of Monte Carlo Simulation for physics process of Drell-Yan. The dataset is /DYJetsToLL\_M-50\_TuneCP5\_13TeV-madgraphMLM-pythia8/RunIISummer20UL18MiniAODv2-106X\_upgrade2018\_realistic\_v16\_L1v1-v2/MINIAODSIM}
   \label{fig:MCPU}
   \centering
-  \includegraphics[width=0.67\linewidth]{figs/mcPU.pdf}
+  \includegraphics[width=0.67\linewidth]{figs/NVtx_DYJetsToLL_M-50_try.pdf}
 
 \end{figure}
 
@@ -155,6 +197,6 @@ Figure~\ref{fig:PUWeight9} shows resultant such PUWeight from BPH1\_A HLT\_Mu9\_
   \caption{PUweight calculated for Era A of B-parking dataset}
   \label{fig:PUWeight9}
   \centering
-  \includegraphics[width=0.67\linewidth]{figs/PUWeight_PUWeight.pdf}
+  \includegraphics[width=0.67\linewidth]{figs/NVtx_PUWeight.pdf}
 
 \end{figure}

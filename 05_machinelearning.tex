@@ -87,12 +87,12 @@ We input vertex and shell information into separate ML algorithms. Thus, we get 
 %\end{center}
 %\end{table}
 
-\subsection{Fine-Tuning of ML environemnt}
+\section{Fine-Tuning of ML environemnt}
 CMSSW includes image container for Keras-Tensorflow and researchers can submit remote batch jobs for its ML training as well.
 The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, f sizes) of our DNN layers thanks to submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
-Subsection ~\ref{sec:Ethan} below details the numerical results from such tests.
 The analysis also tested different combinations of signal vs background datasets for maximum discriminant power. 
-The list of mass scale and lifetime tested for signal points are listed in subsection~\ref{sec:Ethan2}. Different SM physics process (and their compositions) tested for background process are also listed in subsection~\ref{sec:Ethan2}
+The list of mass scale and lifetime tested for signal points are listed in appendix. 
+Different SM physics process (and their compositions) tested for background process are also listed in appendix.
 
 The final Tensorflow product, which was used for the analysis, were trained with parameters in the following section. 
 With these variables, Keras-Tensorflow DNN variable information was fine-tuned for maximum Area Under the Curve (AUC) calue.
@@ -113,66 +113,11 @@ Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
 \label{tab:ROIParam}
 \end{center}
 \end{table}
-\subsection{DNN Variable Test}\label{sec:Ethan}
-Batch size 
 
-
-\subsection{Signal and Background MC Test}\label{sec:Ethan2}
-For Ethan.
-
-\begin{table}[htb]
-\caption{Tensorflow information}
-\begin{center}
-\begin{tabular}{r|l|l|l|l|l}\hline
-Epoch &  loss & acc &  val\_loss & val\_acc & AUC\\
-\hline
-100& 0.2161 & 0.9074 & 0.2469 & 0.8942 & 0.9387\\
-150& 0.2039 & 0.9120 & 0.2393 & 0.8983 & 0.9414\\
-200& 0.1934 & 0.9151 & 0.2523 & 0.8953 & 0.9408\\
-250& 0.1977 & 0.9144 & 0.2459 & 0.8982 & 0.9399\\
-300& 0.1738 & 0.9272 & 0.2573 & 0.8977 & 0.9387\\
-350& 0.1607 & 0.9332 & 0.2693 & 0.8934 & 0.9403\\
-400& 0.1459 & 0.9387 & 0.2823 & 0.8970 & 0.9394\\
-\hline
-\end{tabular}
-\label{tab:Epoch Training}
-\end{center}
-\end{table}
-
-\begin{table}[htb]
-\caption{Tensorflow information}
-\begin{center}
-\begin{tabular}{r|l|l|l|l}\hline
-Signal & Background & Loss & Accuracy & AUC\\
-\hline
-ggH\_HToSSTo4Tau\_MH-125\_MS-7\_ctauS-10& QCDMuEnrichedPt5\_Pt20-30 & 0.1852 & 0.9244 & 0.9696\\
-& QCDMuEnrichedPt5\_Pt470-600 & 0.1597 & 0.9361 & 0.9727\\
-& TTJets & 0.1681 & 0.9320 & 0.9680\\
-\hline
-ggH\_HToSSTo4Tau\_MH-125\_MS-15\_ctauS-10& QCDMuEnrichedPt5\_Pt20-30 & 0.2133 & 0.9093 & 0.9598\\
-& QCDMuEnrichedPt5\_Pt470-600 & 0.1687 & 0.9306 & 0.9679\\
-& TTJets & 0.1838 & 0.9242 & 0.9610\\
-\hline
-ggH\_HToSSTo4Tau\_MH-125\_MS-15\_ctauS-100& QCDMuEnrichedPt5\_Pt20-30 & 0.0747 & 0.9755 & 0.9791\\
-& QCDMuEnrichedPt5\_Pt470-600 & 0.1596 & 0.9361 & 0.9727\\
-& TTJets & 0.1681 & 0.9320 & 0.9680\\
-\hline
-ggH\_HToSSTo4Tau\_MH-125\_MS-40\_ctauS-100& QCDMuEnrichedPt5\_Pt20-30 & 0.1898 & 0.9209 & 0.9695\\
-& QCDMuEnrichedPt5\_Pt470-600 & 0.1765 & 0.9275 & 0.9698\\
-& TTJets & 0.1576 & 0.9379 & 0.9705\\
-\hline
-ggH\_HToSSTo4Tau\_MH-125\_MS-55\_ctauS-100& QCDMuEnrichedPt5\_Pt20-30 & 0.1898 & 0.9227 & 0.9635\\
-& QCDMuEnrichedPt5\_Pt470-600 & 0.1480 & 0.9399 & 0.9674\\
-& TTJets & 0.1433 & 0.9450 & 0.9706\\
-\hline
-\end{tabular}
-\label{tab:Epoch Training}
-\end{center}
-\end{table}
 
 \section{ML scores of the ROIs}
 
-ROIs of all events inside the dataset listed in section ~\ref{sec:samples} are scored with the tensorflow, when the tensorflow was trained with information from section ~\ref{sec:MLIV}.
+ROIs of all events inside the dataset listed in appendix are scored with the tensorflow, when the tensorflow was trained with information from section ~\ref{sec:MLIV}.
 Because the signal process has 2 scalar decays as in Figure~\ref{fig:feynmanggH}, it's reasonable to require 2 high-scoring ROIs for our analysis.
 However, the 2 selected ROIs are not simply the 2 highest-scoring ROIs of the event, due to non-negligible lifetime of $\tau$ leptons (from signal process in the detector.
 After obtaining an ROI with highest ML output socre, we search for the next highest scored ROI that are $\Delta\Phi$>0.4 from the leading ROI.
@@ -184,20 +129,22 @@ Thus, the ordering of ROIs scores are only done by the vertex ML output value.
 %    \sigma(N_{\mathrm{displaced-tag}}) = \frac{S(N_{\mathrm{displaced-tag}})} {\sqrt{B(N_{\mathrm{displaced-tag}})} + 2.5 }.
 %\end{equation}
 
-\begin{figure}[h!]
-  \caption{Tensorflow scores}
-  \label{fig:TensorFlow scores}
-  \centering
-  \includegraphics[width=0.67\linewidth]{figs/Tensorflow_Disc_mostrecent.pdf}
-
-\end{figure}
+%\begin{figure}[h!]
+%  \caption{Tensorflow scores}
+%  \label{fig:TensorFlow scores}
+%  \centering
+%  \includegraphics[width=0.67\linewidth]{figs/Tensorflow_Disc_mostrecent.pdf}
+%
+%\end{figure}
 
  \begin{figure}[h!]
    \caption{Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadROIscore}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hloglead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_hloglead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_hloglead.pdf}
  \end{figure}
 
 
@@ -205,27 +152,45 @@ Thus, the ordering of ROIs scores are only done by the vertex ML output value.
    \caption{Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:excROIscore}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hlogexclead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_hlogexclead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_hlogexclead.pdf}
  \end{figure}
 
-
 \begin{figure}[h!]
-  \caption{Data/MC agreement for ROI scores}
+  \caption{Data/MC agreement for loglead/sublead scores}
   \label{fig:DataMCscore}
   \centering
-  \includegraphics[width=0.67\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIscore.pdf}
+  \includegraphics[width=0.67\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf}
+  \includegraphics[width=0.67\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf}
+\end{figure}
+
+\begin{figure}[h!]
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
+  \label{fig:DataMCscore2}
+  \centering
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hexcleaddxy.pdf}
 
 \end{figure}
 
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for loglead/sublead scroes}
-  \label{fig:DataMCscore}
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
+  \label{fig:DataMCscore3}
   \centering
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hloglead.pdf}
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_hlogexclead.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVert.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_excleadROINumVert.pdf}
 \end{figure}
 
 
+\begin{figure}[h!]
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
+  \label{fig:DataMCscore4}
+  \centering
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROIATNumber.pdf}
+  \includegraphics[width=0.57\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_excROIATNumber.pdf}
+
+\end{figure}
 

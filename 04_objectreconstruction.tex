@@ -29,11 +29,13 @@ Muon objects are required to have
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of muon objects pT and $\eta$}
+  \caption{Data/MC of muon objects pT, $\eta$, energy, nMu}
   \label{fig:muons}
   \centering
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mupt.pdf}
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_mueta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf}
 \end{figure}
 
 The motivations for isolation requirements on muons are further discussed in Section~\ref{sec:selections}.
@@ -57,11 +59,13 @@ Jet objects require
 The energy fraction cuts above are taken from the recommended Run2 Tight jet ID
 cuts for particle flow jets~\cite{jetid_2018}.
 \begin{figure}[h!]
-  \caption{Data/MC of jet objects}
+  \caption{Data/MC of jet objects for pT, $\eta$, energy, nJet}
   \label{fig:jets}
   \centering
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jetpt.pdf}
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_jeteta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nJet.pdf}
 \end{figure}
 
 \section{Taus}\label{sec:taus}
@@ -75,13 +79,22 @@ Tau objects require
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of tau objects}
+  \caption{Data/MC of tau objects for pT, $\eta$, energy, nJet}
   \label{fig:taus}
   \centering
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taupt.pdf}
-  \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_taueta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf}
 \end{figure}
 
+\begin{figure}[h!]
+  \caption{Data/MC of MET objects for pT, energy}
+  \label{fig:METs}
+  \centering
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf}
+  \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_METenergy.pdf}
+\end{figure}
 
 
 
@@ -161,9 +174,9 @@ With these crucial tracks' information, we are ready to discriminate signals fro
   \includegraphics[width=0.27\linewidth]{figs/MLP2.png}
   \includegraphics[width=0.27\linewidth]{figs/MLP1.png}
 \caption{The figures display cartoons of step-by-step formation of the Region of Interest (ROI). 
-	Dark like denotes a charged track: a muon track or electron track, or a charged hadron track from a tau lepton decay. 
-	Left figure shows the vertex (red color) fitting by KalmanVertexFitter in CMSSW, from two charged tracks which decayed from a neutral LLP.
-	Middle figure shows clustering of the region of vertex, with vertex (grey) formed by the extended tracks being clustered into original ROI, if the vertices are within 1cm limit.
+	Dark line denotes a charged track: a muon track or electron track, or a charged hadron track from a tau lepton decay. 
+	Left figure shows the vertex (red star) fitted by KalmanVertexFitter in CMSSW, from two charged tracks which decayed from a neutral LLP.
+	Middle figure shows clustering of the region of vertex, with vertex (grey) formed by the extended tracks being clustered into the original ROI, if the vertices are within 1cm limit.
 	Right figure shows non-clustering of vertex (sky), if the verex is out of 1cm limit. The track (thinner line) which forms non-clustered vertex is most likely from a pileup interaction.
 	}
   \label{fig:Clustering}
@@ -184,7 +197,7 @@ With these crucial tracks' information, we are ready to discriminate signals fro
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC of ROI distribution}
+  \caption{Data/MC of ROI distribution, distance along the transverse plane and beam direction}
   \label{fig:ROIs}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf}
@@ -192,7 +205,7 @@ With these crucial tracks' information, we are ready to discriminate signals fro
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{2Data/MC of ROI distribution}
+  \caption{Data/MC of ROI vertex and annulus track distribution}
   \label{fig:2ROIs}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf}

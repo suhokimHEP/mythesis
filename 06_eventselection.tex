@@ -33,8 +33,8 @@ This analysis applies a cut above 2.2 to reduce background contribution.
    \caption{Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadexcPosPhi}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf}
+   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf}
+   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf}
  \end{figure}
 
 \section{Isolation criteria for muons}\label{ref:muISO}
@@ -100,10 +100,21 @@ The analysis implements a cut on this variable.
    \caption{leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadmuIP}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadmuIP.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadmuIP.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf}
  \end{figure}
 
+ \begin{figure}[h!]
+   \caption{Amplified histograms of Log10muIPSig}
+   \label{fig:AmpleadmuIP}
+   \centering
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_AmpLog10muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_AmpLog10muIPSig.pdf}
+ \end{figure}
 
 \section{DeltaR(ROI, jet)}\label{ref:jetdR}
 $\tau$ leptons of the signal process can also decay hadronically, while only one of the $\tau$ leptons decay muonically to trigger B parking trigger.
@@ -116,34 +127,45 @@ Higher jet multiplicity makes the $\Delta$ R(ROI,jet) value to have a rather ran
 
  \begin{figure}[h!]
    \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
-   \label{fig:ANleadSize}
+   \label{fig:JetDeltaRleadSize}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadclosejetdR.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadclosejetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf}
  \end{figure}
 
+\begin{figure}[h!]
+  \caption{Data/MC agreement for distributions}
+  \label{fig:DataMCscore5}
+  \centering
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf}
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
 
-\section{Number of Annulus Tracks Associated with ROI}
- The tensorflow used for this analysis is trained with $p_T, \eta, \chi^{2}$, and other information of the annulus tracks (tracks that are inside ROI radius, but not fitted to vertex).
-Meanwhile, an ROI's total number of annulus tracks is not a direct input for ML and tensorflow can only learn such information indirectly via annulus tracks' $p_T$.
-Although having selected ROIs with high scores ($>$0.999), signal processes ROIs' number of annulus tracks show a quite different distribution from the background process.
-%Figure ~\ref{fig:ANnum}
-signal's high-scoring ROIs are mostly from the the exotic LLP scalar's decay into $\tau$ leptons. 
-%The $\tau$ leptons have most 3 charged tracks for 12\%, and 1 charged track for 80\% of its decay mode ~\cite{willbedonelater}
-Since the signal's high-score ROIs' are very well isolated, the ROI's number of annulus tracks is very low.
-QCD background events, which are our dominant background, have a poor isolation quality.
-Since QCD's high-scoring ROI's are poorly isolated due to QCD nature, these ROIs' numbers of annulus tracks are higher than the signal.
-More precisely, QCD's high-scoring ROI's are usually from B-mesons, which have higher track multiplicity than $\tau$ leptons.
+\end{figure}
 
-
-%% \begin{figure}[h!]
- \begin{figure}[h!]
-   \caption{Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
-   \label{fig:ANleadSize}
-   \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf}
- \end{figure}
+%\section{Number of Annulus Tracks Associated with ROI}
+% The tensorflow used for this analysis is trained with $p_T, \eta, \chi^{2}$, and other information of the annulus tracks (tracks that are inside ROI radius, but not fitted to vertex).
+%Meanwhile, an ROI's total number of annulus tracks is not a direct input for ML and tensorflow can only learn such information indirectly via annulus tracks' $p_T$.
+%Although having selected ROIs with high scores ($>$0.999), signal processes ROIs' number of annulus tracks show a quite different distribution from the background process.
+%%Figure ~\ref{fig:ANnum}
+%signal's high-scoring ROIs are mostly from the the exotic LLP scalar's decay into $\tau$ leptons. 
+%%The $\tau$ leptons have most 3 charged tracks for 12\%, and 1 charged track for 80\% of its decay mode ~\cite{willbedonelater}
+%Since the signal's high-score ROIs' are very well isolated, the ROI's number of annulus tracks is very low.
+%QCD background events, which are our dominant background, have a poor isolation quality.
+%Since QCD's high-scoring ROI's are poorly isolated due to QCD nature, these ROIs' numbers of annulus tracks are higher than the signal.
+%More precisely, QCD's high-scoring ROI's are usually from B-mesons, which have higher track multiplicity than $\tau$ leptons.
+%
+%
+%%% \begin{figure}[h!]
+% \begin{figure}[h!]
+%   \caption{Number of tracks in the annulus cone of the leading ROI. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+%   \label{fig:ANleadSize}
+%   \centering
+%   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadROIATNumber.pdf}
+%   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadROIATNumber.pdf}
+% \end{figure}
 
 
 %\section{Number of Annulus Tracks Associated with ROI}\label{ref:NumAnnulus}
