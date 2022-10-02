@@ -1,6 +1,14 @@
 \clearpage
 \chapter{Background Estimation}\label{sec:estimate}
 
+\begin{figure}[h!]
+  \caption{Data/MC agreement for distributions. High ROI scores and high muIPSig values lack MC statistics}
+  \label{fig:DataMCscore5}
+  \centering
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf}
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
+
+\end{figure}
 Section ~\ref{sec:selections} listed several different discriminant variables for the analysis.
 Leading ROI vertex score, subleading ROI vertex score, and leading muon's IP value have the most discriminatory power.
 Although the background MC samples describe the data's distribution fairly well, one can also see discrepancy at higher vertex score and higher IPSig values.
@@ -40,18 +48,29 @@ Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score f
 
 
  \begin{figure}[h!]
-   \caption{Cutflow histogram of MS15GeV-ct100mm point. Left plot is for region A, whereas the right plot is for region D}
+   \caption{Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D}
    \label{fig:ABmethod}
    \centering
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_A_Cutflow.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_D_Cutflow.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf}
  \end{figure}
 
+% \begin{figure}[h!]
+%   \caption{Cutflow histogram of MS55GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D}
+%   \label{fig:ABmethod2}
+%   \centering
+%   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-55_ctauS-10_A_Cutflow.pdf}
+%   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-55_ctauS-10_B_Cutflow.pdf}
+%   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-55_ctauS-10_C_Cutflow.pdf}
+%   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-55_ctauS-10_D_Cutflow.pdf}
+% \end{figure}
  \begin{figure}[h!]
-   \caption{eee}
-   \label{fig:ABCDmethod}
+   \caption{Final bin of cutflow}
+   \label{fig:Finalbin}
    \centering
-   \includegraphics[width=0.67\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_hfinalABCD.pdf}
+   \includegraphics[width=0.67\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf}
  \end{figure}
 
 \section{Validation of ABCD method}
@@ -69,10 +88,38 @@ A'-D' region is an orthogonal plane to the original ABCD, where the $\Delta\Phi$
 Region A', a correspondant Signal region of the orthogonal plane, should be much lower in signal ratio (background dominated): Only so, looking into data entry in A' is not problematic. 
 In figures of a-b, we confirm that background dominates the A' region while the signal entry is lower regardeless of the signal's MS and ctau.
 
+\begin{figure}[h!]
+  \caption{Cartoon description of ABCD method validation}
+  \label{fig:valcar}
+  \centering
+  \includegraphics[width=0.85\linewidth]{figs/Valcart.png}
+
+\end{figure}
 
 
+\begin{figure}[h!]
+  \caption{Profile plot of VR1}
+  \label{fig:valcar2}
+  \centering
+  \includegraphics[width=0.65\linewidth]{figs/VR1.png}
 
+\end{figure}
 
+\begin{figure}[h!]
+  \caption{Profile plot of VR2}
+  \label{fig:valcar2}
+  \centering
+  \includegraphics[width=0.65\linewidth]{figs/VR2.png}
+
+\end{figure}
+
+\begin{figure}[h!]
+  \caption{Profile plot of VR3}
+  \label{fig:valcar3}
+  \centering
+  \includegraphics[width=0.65\linewidth]{figs/VR3.png}
+
+\end{figure}
 In A'-D' region, we can see the correlation factor is about 10\%, still a negligible value. 
 
 

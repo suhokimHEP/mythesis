@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {frontmatter}{List of Figures}{viii}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {frontmatter}{Abstract}{xi}{chapter*.5}%
+\contentsline {frontmatter}{Abstract}{xii}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -71,30 +71,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Background Estimation}{57}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}ABCD method}{57}{section.8.1}%
+\contentsline {section}{\numberline {8.1}ABCD method}{58}{section.8.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Validation of ABCD method}{58}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{61}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{63}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Results}{62}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Results}{64}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusions}{63}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Conclusions}{67}{chapter.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {appendix}{Appendix}{63}{appendix.A}%
+\contentsline {appendix}{Appendix}{67}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Data Samples}{64}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Data Samples}{68}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}BrilCalc command for B-Parking HLT path}{64}{section.A.1}%
+\contentsline {section}{\numberline {A.1}BrilCalc command for B-Parking HLT path}{68}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Monte Carlo Samples}{65}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Monte Carlo Samples}{69}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Signal Model and Simulation}{65}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.1}Signal Model and Simulation}{69}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Background Monte Carlo}{66}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.2}Background Monte Carlo}{70}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Machine Learning Training Variable}{69}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Machine Learning Training Variable}{73}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{References}{71}{appendix*.75}%
+\contentsline {backmatter}{References}{75}{appendix*.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{Biographical Sketch}{77}{appendix*.76}%
+\contentsline {backmatter}{Biographical Sketch}{81}{appendix*.82}%
