@@ -2,20 +2,20 @@
 \chapter{Physics Object Definitions}\label{sec:objects}
 %reconstruction algorithms, isloation, cleaning, IDs, particle flow
 
-In this section, we provide the definitions of physics objects used in the analysis.
-The analysis uses 2 main CMS reco objects: muons, jets.
+This section provides the definitions of physics objects used in the analysis.
+The analysis uses two main CMS reconstructed objects: muons and jets.
 Photons do not show anywhere in our signal process.
-$\tau$'s of our signal process can decay into electrons with same probability as into muons. 
+$\tau$'s of our signal process can decay into electrons with the same probability as into muons.
 However, the analysis uses b-parking and only targets the muon decay mode of the tau.
-Electrons are not interest of our analysis either.
+Electrons are not an interest of our analysis either.
 
 Although the signal's final decay involves $\tau$ lepton, we do not use the CMS reconstructed $\tau$.
-Given that $\tau$ decay results into many different objects (muon, electron, and different combinations of hadrons) as shown in figure \ref{fig:tdecay}, the CMS uses a special reconstruction algorithm for $\tau$ object.
-Particle-Flow jets (PFjets), which are jets with all particle identification information within the jet, are the starting point for the $\tau$ reconstruction.
-With $\pi^{0}$ reconstructed in ECAL as a strip, the Hadronic-Plus-Strip (HPS) algorithm reconstructs $\tau$ (at 60\% efficiency in Run 1) when a charged hadron and a strip is reconstructed in the PFJet \cite{HPS}.
+Given that $\tau$ decay results in many different objects (muon, electron, and different combinations of hadrons) as shown in figure \ref{fig:tdecay}, the CMS uses a special reconstruction algorithm for $\tau$ object.
+Particle-Flow jets (PFjets), with all particle identification information within the jet, are the starting point for the $\tau$ reconstruction.
+With $\pi^{0}$ reconstructed in ECAL as a strip, the Hadronic-Plus-Strip (HPS) algorithm reconstructs $\tau$ (at 60\% efficiency in Run 1) when a charged hadron and a strip are reconstructed in the PFJet \cite{HPS}.
 Our signal process tau lepton decays into muon, in a leptonic mode, for the trigger.
-For other tau leptons in the signal process, we approach purely tracker oriented method with regions of Interest for our analysis.
-Direct usage of tau leptons in the analysis is accompanied by division of several different sub-channels ($\mu$,e,had), which result in 27 ($3^{3}$) different combinatorics. 
+We approach a tracker-oriented method with regions of interest to analyze other tau leptons in the signal process.
+Direct usage of tau leptons in the analysis is accompanied by a division of several different sub-channels ($\mu$,e, had), which result in 27 ($3^{3}$) different combinatorics.
 
 We use muon leptons, jets, and only tracks (ROIs) for this analysis.
 \section{Muons}\label{sec:muons}
@@ -42,11 +42,10 @@ The motivations for isolation requirements on muons are further discussed in Sec
 
 
 \section{Jets}\label{sec:jets}
-
 The analysis sources SlimmedJets collection from MINIAOD dataset to produce {\tt selectedJets}.
 CMS reconstructs jets from calorimeter energy deposits using the
 anti-$k_T$ clustering algorithm with a distance parameter of $R=0.4$~\cite{Cacciari:2008gp}.
-Then, the calojets are inputed into the Particle-Flow (PF) algorithms to produce the PFJets collection. Variables in PFJets class are then slimmed to be saved into MINIAOD files. 
+Then, the calojets are input into the Particle-Flow (PF) algorithms to produce the PFJets collection. Then, variables in PFJets class are slimmed to be saved into MINIAOD files.
 %The analysis uses these SlimmedJets for the jets' b tagging scores as well.
 Jet objects require
 \begin{itemize}
@@ -69,9 +68,9 @@ cuts for particle flow jets~\cite{jetid_2018}.
 \end{figure}
 
 \section{Taus}\label{sec:taus}
-Although we do not use tau leptons for event selection or background estimation, we still plotted basic variables of tau leptons for review. 
+Although we do not use tau leptons for event selection or background estimation, we still plotted essential variables of tau leptons for review.
 The analysis sources PAT::slimmedTaus from MINIAOD for MC and RECO::slimmedTaus for Data to produce {\tt selectedTaus}.
-$\tau$'s hadronic decay can be reconstructed with PFJets' charged hadrons in HCAL and 2 $\gamma$s from $\pi^{0}$ decays in ECAL.  
+$\tau$'s hadronic decay can be reconstructed with PFJets' charged hadrons in HCAL, and 2 $\gamma$s from $\pi^{0}$ decays in ECAL.
 Tau objects require
 \begin{itemize}
   \item pt $\geq$ 20 GeV
@@ -100,17 +99,16 @@ Tau objects require
 
 
 \section{Region of Interest}\label{sec:ROIs}
-Tracks contain many important qualities such as the impact parameter significance and the 4 vector.
+Tracks contain many essential qualities, such as the impact parameter significance and the four vectors.
 LLP scalar particles decay in the tracker, so these track qualities should be good discriminant against the background.
-However, we can not save all tracks in the event with all track information, as much as we have to filter out uninteresting events with trigger system in CMS.
-In our signal process, a geometrical concept can play a vital role to sort out only relevant tracks for our analysis purpose.
+However, we can not save all tracks in the event with all track information, as much as we have to filter out uninteresting events with the trigger system in CMS.
+In our signal process, a geometrical concept can play a vital role in sorting out only relevant tracks for our analysis.
 LLP scalar has no electric or color charge as described in section \ref{sec:theory}.
-LLP scalar leaves no tracks in the tracker, decay into 2 charged tau leptons, which subsequently decay into at least 1 charged track ($\mu$, electron, at least 1 charged hadron). 
-Like in the pair production, 2 charged tracks often travel opposite in their direction.
+LLP scalar leaves no tracks in the tracker and decays into 2 charged tau leptons, which decay into at least one charged track ($\mu$, electron, at least one charged hadron).
+Like in the pair production, two charged tracks often travel opposite directions.
 Thus, a geometric convergence of 2 charged tracks should point to the decay vertex of the neutral LLP.
-The tracker algorithm that we use to construct this "Interesting Geometric Region" provides us a converged vertex, and the area around this vertex is referred as "Region of Interest" (ROI).
-The complete reconstruction procedure of Regions of Interest is detailed in the following subsections.
-
+The tracker algorithm that we use to construct this "Interesting Geometric Region" provides us with a converged vertex, and the area around this vertex is referred to as the "Region of Interest" (ROI).
+The complete reconstruction procedure of the Regions of Interest is detailed in the following subsections.
 An ROI requires
 \begin{itemize}
   \item Good quality track selection
@@ -155,29 +153,29 @@ The clustering steps can be further detailed as below.
   \item A new ROI is formed where the position vector of ROI is averaged.
   \item Clustering is repeated until there is no other vertex within 1cm limit.
 \end{itemize}
-
 Although vertex clustering can be done with the step above, we can be creative and acquire more information.
-Isolation, containing information about the ROI's environment, could also be a useful information.
+Isolation, containing information about the ROI's environment, could also be helpful information.
 We can obtain information about isolation by defining an isolation shell.
-The shell's construction step is described as below.
+The shell's construction step is described below.
 \begin{itemize}
-  \item A cone of DeltaR < 0.3 around the center of the ROI is defined, where DeltaR is calculated with respect to the PV. 
-  \item	A plane that is perpendicular to the axis of the cone and that contains the center of the ROI is isolation plane. It becomes a circle. 
-  \item You make the circle into 3D sphere.
+  \item A cone of DeltaR < 0.3 around the center of the ROI is defined, where DeltaR is calculated with respect to the PV.
+  \item A plane that is perpendicular to the axis of the cone and that contains the center of the ROI is the isolation plane. It becomes a circle. 
+  \item Make the circle into a 3D sphere.
   \item Any tracks that pass through that sphere but not through the ROI are the annulus tracks.
 \end{itemize}
-With these crucial tracks' information, we are ready to discriminate signals from the background.
+With these essential tracks' information, we are ready to discriminate signals from the background.
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.27\linewidth]{figs/MLP3.png}
   \includegraphics[width=0.27\linewidth]{figs/MLP2.png}
   \includegraphics[width=0.27\linewidth]{figs/MLP1.png}
-\caption{The figures display cartoons of step-by-step formation of the Region of Interest (ROI). 
-	Dark line denotes a charged track: a muon track or electron track, or a charged hadron track from a tau lepton decay. 
-	Left figure shows the vertex (red star) fitted by KalmanVertexFitter in CMSSW, from two charged tracks which decayed from a neutral LLP.
-	Middle figure shows clustering of the region of vertex, with vertex (grey) formed by the extended tracks being clustered into the original ROI, if the vertices are within 1cm limit.
-	Right figure shows non-clustering of vertex (sky), if the verex is out of 1cm limit. The track (thinner line) which forms non-clustered vertex is most likely from a pileup interaction.
+\caption{
+        The figures display cartoons of the step-by-step formation of the Region of Interest (ROI).
+        A dark line denotes a charged track: a muon track or electron track, or a charged hadron track from a tau lepton decay.
+        The left figure shows the vertex (red star) fitted by KalmanVertexFitter in CMSSW from two charged tracks that decayed from a neutral LLP.
+        The middle figure shows the clustering of the vertex, with the vertex (grey) formed by the extended tracks being clustered into the original ROI if the vertices are within a 1cm limit.
+        The right figure shows the non-clustering of the vertex (sky) if the vertex is out of the 1cm limit. The track (thinner line), which forms a non-clustered vertex, is most likely from a pileup interaction.
 	}
   \label{fig:Clustering}
 \end{figure}
@@ -186,12 +184,13 @@ With these crucial tracks' information, we are ready to discriminate signals fro
   \centering
   \includegraphics[width=0.4\linewidth]{figs/MLP4.png}
   \includegraphics[width=0.4\linewidth]{figs/MLP5.png}
-\caption{The figures display cartoons of step-by-step formation of the shell structure. 
-	Left figure shows the axis of the cone, when the axis goes through the center of ROI.
-	Right figure shows the construction of the isolation plane, shown in red color of circle.
-	The isolation plane has $\Delta$R=0.3. 
-	You can see the pileup track goes through the isolation plane in the cartoon.
-	Thus, the shell formed by this isolation plane containes information about isolation variable.
+\caption{
+        The figures display cartoons of the step-by-step formation of the shell structure.
+        The left figure shows the axis of the cone when the axis goes through the center of ROI.
+        The right figure shows the construction of the isolation plane, shown in the red color of the circle.
+        The isolation plane has $\Delta$R=0.3.
+        One can see the pileup track goes through the isolation plane in the cartoon.
+        Thus, the shell formed by this isolation plane contains information about the isolation variable.
 	}
   \label{fig:Clustering}
 \end{figure}

@@ -1,22 +1,20 @@
 \clearpage
 \chapter{Machine Learning}\label{sec:machinelearning}
-
-ROIs are artificial regions created by the CMSSW mechanism, which are displaced vertex candiates.
-ROIs contain thorough information about fitted tracks, vertices, and isolation information, after following the formation procedure described in the previous section. 
-The exhaustive variables saved in each ROI contain information, which directly and indirectly tells whether the ROI is from signal process or background process.
-Given the extensive amount of variables within ROIs, it's inappropriate to use ROIs' single or a few variabes as our tagging variables, like in ZH analysis ~\cite{ZHAN}.  
-It is also ineffcient to implement a cut-based approach due to having approximately 20-30 variables from ROI.
-Optimization process for all 20-30 variables would be extremley time-consuming, inefficient, and error-prone as well.
-Therefore, the analysis exploits machine learning (ML) for these multivariate analysis.
-Boosted decision trees will also face similar problem as cut-based analysis, although to a lesser extent.
-Deep Neural Network are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs extensive list of ROI variables into a neural network, and receives a final score to discriminate ROIs that arise in signal process versus background processes. 
-The list of variables that are inputted into the ML algorithms are provided in subsection \ref{sec:MLIV}.
+ROIs are artificial regions created by the CMSSW mechanism, displaced vertex candidates.
+ROIs contain thorough information about fitted tracks, vertices, and isolation, following the formation procedure described in the previous section.
+The exhaustive variables saved in each ROI contain information that directly and indirectly tells whether the ROI is from the signal or background process.
+Given the extensive amount of variables within ROIs, it is inappropriate to use ROIs' single or a few variables as our tagging variables, like in ZH analysis ~\cite{ZHAN}.
+It is also inefficient to implement a cut-based approach due to having approximately 20-30 variables from ROI.
+The optimization process for all 20-30 variables would also be extremely time-consuming, inefficient, and error-prone.
+Therefore, the analysis exploits machine learning (ML) for this multivariate analysis.
+Boosted decision trees will also face a similar problem as cut-based analysis, although somewhat.
+Deep Neural networks are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs an extensive list of ROI variables into a neural network and receives a final score to discriminate ROIs that arise in signal process versus background processes.
+The list of variables inputted into the ML algorithms is provided in subsection \ref{sec:MLIV}.
 
 The analysis uses Keras-Tensorflow for its ML platform.
-CMSSW includes Keras-Tensorflow, which enables simple and easy usage of keras-Tensorflow with simple cmsenv command in various CMS remote clusters. 
-For CMSSW\_10\_6\_12 (to have access for BPH trigger path), Keras-Tensorflow version is 2.3.1.
+CMSSW includes Keras-Tensorflow, which enables simple and easy usage of Keras-Tensorflow with simple cmsenv command in various CMS remote clusters.
+For CMSSW\_10\_6\_12 (to have access to the BPH trigger path), the Keras-Tensorflow version is 2.3.1.
 It runs with CPUs and GPUs.
-
 \section{Machine Learning Input Variables}\label{sec:MLIV}
 As discussed in chapter \ref{sec:objects}, the ROI has vertex and shell (isolation) information.
 Vertex information is trained with 19 different variables, which are listed and categorized in Tables ~\ref{tab:ROITCvars}.
@@ -72,7 +70,7 @@ Shell information is trained with 8 different variables, which are listed in Tab
 \end{center}
 \end{table}
 
-We input vertex and shell information into separate ML algorithms. Thus, we get 2 final products from the ML algorithms, one for the vertex and the other for the shell.
+We input vertex and shell information into separate ML algorithms. Thus, we get two final products from the ML algorithms, one for the vertex and the other for the shell.
 %\begin{table}[htb]
 %\caption{Event variables by category}
 %\begin{center}
@@ -88,14 +86,14 @@ We input vertex and shell information into separate ML algorithms. Thus, we get 
 %\end{table}
 
 \section{Fine-Tuning of ML environemnt}
-CMSSW includes image container for Keras-Tensorflow and researchers can submit remote batch jobs for its ML training as well.
-The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, f sizes) of our DNN layers thanks to submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
-The analysis also tested different combinations of signal vs background datasets for maximum discriminant power. 
-The list of mass scale and lifetime tested for signal points are listed in appendix. 
-Different SM physics process (and their compositions) tested for background process are also listed in appendix.
+CMSSW includes an image container for Keras-Tensorflow, and researchers can also submit remote batch jobs for its ML training.
+The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, and f sizes) of our DNN layers thanks to the submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
+The analysis tested different signal vs. background dataset combinations for maximum discriminant power.
+The list of mass scale and lifetime tested for signal points are listed in the appendix.
+Different SM physics process (and their compositions) tested for background process are also listed in the appendix.
 
-The final Tensorflow product, which was used for the analysis, were trained with parameters in the following section. 
-With these variables, Keras-Tensorflow DNN variable information was fine-tuned for maximum Area Under the Curve (AUC) calue.
+The final Tensorflow product used for the analysis was trained with parameters in the following section.
+Keras-Tensorflow DNN variable information was fine-tuned with these variables for the maximum Area Under the Curve (AUC) value.
 Its information is listed in the table \ref{tab:ROIParam}.
 \begin{table}[htb]
 \caption{Tensorflow information}
@@ -116,13 +114,12 @@ Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
 
 
 \section{ML scores of the ROIs}
-
-ROIs of all events inside the dataset listed in appendix are scored with the tensorflow, when the tensorflow was trained with information from section ~\ref{sec:MLIV}.
-Because the signal process has 2 scalar decays as in Figure~\ref{fig:feynmanggH}, it's reasonable to require 2 high-scoring ROIs for our analysis.
-However, the 2 selected ROIs are not simply the 2 highest-scoring ROIs of the event, due to non-negligible lifetime of $\tau$ leptons (from signal process in the detector.
-After obtaining an ROI with highest ML output socre, we search for the next highest scored ROI that are $\Delta\Phi$>0.4 from the leading ROI.
-Vertex discriminant is more powerful thatn the shell discriminant.
-Thus, the ordering of ROIs scores are only done by the vertex ML output value.
+ROIs of all events inside the dataset listed in the appendix are scored with the TensorFlow when the TensorFlow was trained with information from section ~\ref{sec:MLIV}.
+Because the signal process has two scalar decays as in Figure~\ref{fig:feynmanggH}, it is reasonable to require two high-scoring ROIs for our analysis.
+However, the two selected ROIs are not simply the two highest-scoring ROIs of the event due to the non-negligible lifetime of $\tau$ leptons in the detector.
+After obtaining an ROI with the highest ML output score, we search for the next highest scored ROI, that is $\Delta\Phi$>0.4 from the leading ROI.
+Vertex discriminant is more potent than the shell discriminant.
+Thus, the ordering of ROIs scores is done by the vertex ML output value.
 %More detailed explanations are described in section~\ref{sec:lifetimeROI}.)  
 %The cuts on the leading ROI, and the subleading ROI are optimized based on maximizing the punzi significance formula with value $\sigma$ set to discovery value of 5.  
 %\begin{equation}\label{eq:significance}

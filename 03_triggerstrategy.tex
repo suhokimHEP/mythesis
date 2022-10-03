@@ -1,10 +1,9 @@
 \clearpage
 \chapter{B Parking Trigger Strategy}\label{sec:triggers}
-
-The analysis' signal process contains displaced SM $\tau$ leptons in its final state. 
-In order to exploit the leptonic decay of $\tau$ lepton with significant IP, specifically with muon final state for clean signal, the B-Parking triggers are used. 
-CMS implemented the B-Parking trigger since the year of 2018 of Run 2 for research on lepton universalities. 
-As described in chapter \ref{sec:detectors}, lepton universality tests claim that interaction between leptons and a gauge boson measures the same for each lepton. 
+The analysis signal process contains displaced SM $\tau$ leptons in their final state.
+In order to exploit the leptonic decay of $\tau$ lepton with significant IP, specifically with the final muon state for a clean signal, the B-Parking triggers are used.
+CMS implemented the B-Parking trigger in 2018 of Run 2 to research lepton universalities.
+As described in chapter \ref{sec:detectors}, lepton universality tests claim that interaction between leptons and a gauge boson measures the same for each lepton.
 In mathematical expression, R(K$^{*}$,D$^{*}$) defined as in formulae \ref{eq:rk} and \ref{eq:rd}, are tested.
 \begin{equation}
 \label{eq:rk}
@@ -14,11 +13,12 @@ In mathematical expression, R(K$^{*}$,D$^{*}$) defined as in formulae \ref{eq:rk
 \label{eq:rd}
 	R(D^{*})  = \frac{B->D^{*}\tau^{\pm}\nu}{B->D^{*}\mu^{\pm}\nu} 
 \end{equation}
-The first ratio specifically attracts investigation of many physicists.
+
+The first ratio specifically attracts the investigation of many physicists.
 R(K$^{*}$)'s physics process is highly suppressed due because Flavor-Changing Neutral Current (FCNC) is not allowed in the SM.
-For a b-quark to change its flavor to strange quark, it has to go through a loop process with 2 additional vertices, making the cross-section highly suppressed.
-Di-muon and di-electron signature of the highly suppressed process is very clean, making it optimal channel to test lepton universality,
-Its Feynman diagrams are shown in figures of \ref{fig:LU1} and \ref{fig:LU2} 
+For a b-quark to change its flavor to a strange quark, it has to go through a loop process with two additional vertices, suppressing the cross-section.
+Di-muon and di-electron signature of the highly suppressed process is very clean, making it an optimal channel to test lepton universality,
+Its Feynman diagrams are shown in figures of \ref{fig:LU1} and \ref{fig:LU2}
 \begin{figure}[h!]
   \caption{The figures show two different loop diagrams for B$->K^{*}l^{+}l^{-}$ processes. The FCNC is forbidden in the SM and there is no tree level process for B$->K^{*}l^{+}l^{-}$. Thus, these two processes are the leading contributors for B$->K^{*}l^{+}l^{-}$, which are highly suppressed.}
   \label{fig:LU1}
@@ -33,15 +33,14 @@ Its Feynman diagrams are shown in figures of \ref{fig:LU1} and \ref{fig:LU2}
   \includegraphics[width=0.57\linewidth]{figs/LU2.png}
   \includegraphics[width=0.57\linewidth]{figs/LU4.png}
 \end{figure}
-Because of this physics reason, muonic final state of B mesons are desired for research of R(K$^{*}$,D$^{*}$), . 
-Consequently, B-parking trigger requires a soft muon with modest displacement (measured using impact parameter) from the primary vertex, as in b-tagging, by exploiting the b-quark's long lifetime.
+Because of this physics reason, the muonic final state of B mesons are desired for research of R(K$^{*}$, D$^{*}$).
+Consequently, the B-parking trigger requires a soft muon with modest displacement (measured using impact parameter) from the primary vertex, as in b-tagging, exploiting the b-quark's long lifetime.
 It requires a muon with transverse momentum (pT) of 7-12 GeV with impact parameter (IP) significance 3-6.
 
-pp collisions in LHC produce extremely enormous amount of events, which could trigger the B parking trigger paths. 
- As discussed in chapter \ref{sec:detector}, Current CPU capacity of CMS is limited and not capable of reconstructing the entire event at such high trigger rate in HLT level.
-Thus, CMS scouts events, meaning it writes events that passed L1 trigger to a temporary dataset. Later, full HLT and RECO steps are implemented and served as a B-Parking dataset. 
+Pp collisions in LHC produce enormous events, which could trigger the B parking trigger paths.
+ As discussed in chapter \ref{sec:detector}, the Current CPU capacity of CMS is limited and not capable of reconstructing the entire event at such a high trigger rate at the HLT level.
+Thus, CMS scouts events, meaning it writes events that passed L1 trigger to a temporary dataset. Later, full HLT and RECO steps are implemented and serve as a B-Parking dataset.
 The prescale factor for BPH triggers is 5-6.
-
 
 \section{Trigger Paths}
 We use data collected by the B-Parking triggers for the year of 2018.
@@ -105,13 +104,12 @@ The exact names of paths for B-Parking triggers are listed in Table~\ref{tab:tri
   \includegraphics[width=0.57\linewidth]{figs/Scalar_gammactau15GeV.pdf}
 \end{figure}
 
-
 Below is the trigger efficiency of various BPH trigger paths for different mass and lifetime points of the signal (HToSSTo4Tau) sample
-Signal process shows an overall good efficiency.
+The signal process shows an overall good efficiency.
 Signal points with LLP's c$\tau$ = 10,100mm show the best performance.
-Signal points with LLP's c$\tau$ = 1000mm likely decays outside of the tracker region, leaving no track's impact parameter, and fails to pass the trigger.
-On the other hand signal point with LLP's c$\tau$ = 1mm may not reach the first pixel detector, which is at 2.7cm from the beam spot, and fails to pass the trigger.
-We can confirm this explanation with observation that lighter LLP's MS has better trigger efficiency for shorter lifetime thanks to higher boost, and the vice versa for heavier LLP's MS. 
+Signal points with LLP's c$\tau$ = 1000mm likely decay outside of the tracker region, leaving no track's impact parameter, and fails to pass the trigger.
+On the other hand signal point with LLP's c$\tau$ = 1mm may not reach the first-pixel detector, which is at 2.7cm from the beam spot, and fails to pass the trigger.
+We can confirm this explanation by observing that lighter LLP's MS has better trigger efficiency for a shorter lifetime thanks to a more significant boost and vice versa for heavier LLP's MS.
 \begin{figure}[h!]
   \caption{The plots show the trigger efficiency for each HLT path with respect to LLP's lifetime. Each line denotes mass scale of each scalar.}
   \label{fig:Trigger Efficiency}
@@ -128,25 +126,24 @@ We can confirm this explanation with observation that lighter LLP's MS has bette
 
 \end{figure}
 
-In contrast to the signal, the background process shows a poor trigger efficiency.
-Drell-Yan process and W-Jet process show an even poorer trigger efficiency due to absence of heavy flavor particles in its final state.
-TTJets, Single Tops, and QCD-MuEnriched passes the trigger at better efficiency.
-All these background processes have heavy flavor particles for its final state (b-quark or top quark).
-QCD-MuEnriched has better efficiency for higher Pt bin samples, since higher Pt and HT bin samples tend to have more b-jets for its final state as well.
+In contrast to the signal, the background process shows poor trigger efficiency.
+Drell-Yan and W-Jet processes show an even poorer trigger efficiency due to the absence of heavy flavor particles in their final state.
+TTJets, Single Tops, and QCD-MuEnriched pass the trigger at better efficiency.
+All these background processes have heavy flavor particles for their final state (b-quark or top quark).
+QCD-MuEnriched has better efficiency for higher Pt bin samples since higher Pt and HT bin samples tend to have more b-jets for their final state.
 
 
 \section{Integrated Luminosity and pileup weight for the HLT path}
+The integrated luminosity for each era has been summarized in table \ref{tab:datasample2018BPH} in Appendix A.
+The information was obtained with commands in section \ref{sec:PU} of Appendix A.
+The integrated Luminosity totals at 44$fb^{-1}$ lower than 58.7$fb^{-1}$ for the year 2018 due to prescaling.
+The bunch-crossing for the B-parking HLT path is also very different from other HLT paths.
+As expected, b-parking data are recorded during lower bunch-crossing runs due to its extreme rate in the CMS collider.
 
-The integrated luminosity for each era has been summarized in table \ref{tab:datasample2018BPH} in Appendix A. 
-The information was obtained with commands in section \ref{sec:PU} in Appendix A as well.
-The integrated Luminosity totals at 44$fb^{-1}$ lower than 58.7$fb^{-1}$ for the year of 2018 due to prescaling.
-The bunch-crossing for B-pakring HLT path is also very different form other HLT paths.
-B-parking data are recorded during lower bunch-crossing runs as expected, due to its extreme rate in the CMS collider.
-
-To model Monte Carlo (MC) simulation correctly to describe data, it is vital to adjust this bunch-crossing variable. 
-To achieve the purpose, we apply pileup weight on the MC simulation.
+It is vital to adjust this bunch-crossing variable for Monte Carlo (MC) simulation to model the data correctly.
+To achieve this purpose, we apply pileup weight to the MC simulation.
 Pileup weight is simply a bunch-crossing of data divided by the bunch-crossing of MC for a specific era.
-Pileup (PU) weight values are calculated for each era of data-taking (A,B,C,D).
+Pileup (PU) weight values are calculated for each era of data-taking (A, B, C, D).
 Figure~\ref{fig:EraAData} shows the BPH1-Era A's HLT\_Mu9\_IP6 HLT path's Data PU distribution.
 \begin{figure}[h!]
   \caption{Bunch crossing of dataset /ParkingBPH1/Run2018A-UL2018\_MiniAODv2-v1/MINIAOD}

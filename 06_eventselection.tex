@@ -1,13 +1,14 @@
 \clearpage
 \chapter{Event Selection, Signal and Control Regions}\label{sec:selections}
-We have introduced the leading ROI's vertex score and subleading ROI's vertex score, which were both highly discirminant (Score ordering is based upon the vertex score).
-Although we might have successful event selection with just triggers, and ROI vertex scores, we could strengthen the discriminant power further if we consider objects other than the trigger and ROIs(tracks).
+We have introduced the leading ROI's vertex score and subleading ROI's vertex score, which were both highly discriminant (Score ordering is based upon the vertex score).
+Although we might have successful event selection with just triggers and ROI vertex scores, we could strengthen the discriminant power further if we consider objects other than the trigger and ROIs(tracks).
 These variables could be
 \begin{itemize}
  \item Non-relevant to ROIs (muon, jet object)
  \item Missing input variable in the ROI training
 \end{itemize}
-These are not inputs of ML training, something that can't be learned by the ML, so not discriminated with scoring of the ROIs.
+These are not ML training inputs; something ML cannot learn.
+so not discriminated with scoring of the ROIs.
 For this phenomenological situation, the analysis implements further event selection categories itemized below.
 \begin{itemize}
   \item $\Delta\Phi(lead ROI,sublead ROI)$ 
@@ -20,12 +21,13 @@ Each of the cuts for the items above is motivated and explained in following sub
 
 \section{Delta Phi(lead ROI,sublead ROI)}\label{sec:DeltaPhi}
 This analysis looks for displaced vertices in the tracker region, coming from the decays of exotic LLPs from Higgs produced in gluon fusion mode, leaving the SM Higgs boson without boost.
-The largest mass of the exotic LLPs is 55 GeV, ranging down to 7 GeV. 
-Thus, exotic LLPs decayed from the SM Higgs become boosted, with their momentum vectors pointing back-to-back in the SM Higgs rest frame. 
-Exotic LLPs with lighter mass are more boosted than heavier LLPs, since less LLP mass means more leftover energy into kinetic energy.
+The largest mass of the exotic LLPs is 55 GeV, ranging down to 7 GeV.
+Thus, exotic LLPs decayed from the SM Higgs become boosted, with their momentum vectors pointing back-to-back in the SM Higgs rest frame.
+Exotic LLPs with lighter mass are more boosted than heavier LLPs since less LLP mass means more leftover energy into kinetic energy.
 Given that ROIs corresponding to an exotic LLP's decay should have the highest ROI score, one should expect that the leading ROI and subleading ROI in a single event would be back-to-back.
 Thus, in signal events, $\Delta\Phi$(lead ROI,sublead ROI) tends to have high values, while the background processes tend to have a more uniform distribution.
-This analysis applies a cut above 2.2 to reduce background contribution. 
+This analysis applies a cut above 2.2 to reduce background contribution.
+
 %Figure ~\ref{fig:dPhileadsub} shows the difference between the distribution of signal process and SM QCD backgrounds.
 
 
@@ -38,20 +40,21 @@ This analysis applies a cut above 2.2 to reduce background contribution.
  \end{figure}
 
 \section{Isolation criteria for muons}\label{ref:muISO}
-As discussed in ~\ref{sec:triggers}, the main background for our analysis comes from QCD background events, especially from B-meson decay of QCD events with high ROI scores. 
+As discussed in ~\ref{sec:triggers}, the main background for our analysis comes from QCD background events, especially from the B-meson decay of QCD events with high ROI scores.
 Leptonic decay of B-meson generates muons, which trigger the B-parking trigger of the analysis.
-Muons of B-meson decay have very poor isolation quality, just like ROIs formed around the B-meson decay.
+Like ROIs formed around the B-meson decay, muons of B-meson decay have inferior isolation quality.
 In contrast, muons of $\tau$ lepton decay have better isolation quality.
 In order to eliminate the dominant B-meson background from the QCD process, the analysis applies a PFISOLoose in selecting muon objects.
-The precise definition of PFISOLoose is defined as below.
+The precise definition of PFISOLoose is defined below.
 \begin{itemize}
   \item $(\Sigma pT(ch.had from PV)+max(0,\Sigma ET(neut.had) \Sigma ET (phot)-0.5* \Sigma pT(ch.had from PU)))/P_{T}(\mu)<0.25$
 \end{itemize}
 
 %Not only muons decayed from $\tau$ leptons with 55, 40GeV mass have a good isolation quality, but also muons of $\tau$ leptons from 15 GeV have a decent isolation quality based on gen-level $\Delta R(\tau,\bar_{\tau})$.
-Some muons decayed from $\tau$ lepton with 7 GeV mass fail isolation cut, due to its poorer isolation quality from the boost.
-However, it still benefits to apply the PFISOLoose cut on muons given it removes more background events than signal events.
-The table below demonstrates event yield drop before and after requiring PFISOLoose cut on muons, classified by its signal and background process. 
+Due to its poorer isolation quality from the boost, some muons decayed from $\tau$ lepton with a 7 GeV mass fail isolation cut.
+However, applying the PFISOLoose cut on muons is still beneficial since it removes more background events than signal events.
+The table below demonstrates event yield drop before and after requiring PFISOLoose cut on muons, classified by its signal and background process.
+
 
 \begin{tiny}
     \begin{table}
@@ -87,12 +90,13 @@ MC sample & events with BPH+1$\mu$ (noISO) & events with BPH+1$\mu$ (ISO) \\
 
 
 \section{Leading muon's transverse impact parameter significance to PV}\label{ref:muIP}
+
 With the B-Parking trigger, triggering muons have significant transverse displacement (impact parameter) in both background and signal processes.
-However, displacement in the signal process is greater than the that of the background process.
-The signal process has at minimum of c$\tau$ = 1mm, which is longer than B-meson lifetime.
-Thus, triggering muon object's transverse impact parameter to PV is larger in signal process than background process.
-In order to account for the error values associated with the parameter, we use impact parameter significance defined as the ratio of impact parameter divided by its error.
-In order to adjust the orders of magnitude observed for the variable impact parameter significance (IPSig), we exploint log value of the IPSig.
+However, displacement in the signal process is more significant than in the background process.
+The signal process has a minimum of c$\tau$ = 1mm, which is longer than the B-meson lifetime.
+Thus, triggering muon object's transverse impact parameter to PV (muIPSig) is larger in the signal process than in the background process.
+In order to account for the error values associated with the parameter, we use impact parameter significance, defined as the ratio of the impact parameter divided by its error.
+In order to adjust the orders of the magnitude observed for the variable impact parameter significance (IPS), we exploit the log value of the IPS.
 The analysis implements a cut on this variable.
 
 
@@ -117,13 +121,14 @@ The analysis implements a cut on this variable.
  \end{figure}
 
 \section{DeltaR(ROI, jet)}\label{ref:jetdR}
-$\tau$ leptons of the signal process can also decay hadronically, while only one of the $\tau$ leptons decay muonically to trigger B parking trigger.
-When $\tau$ leptons decay hadronically, its decay shower can get clustered in the calorimeter, and reconstructed as a jet.
-Given the $\tau$ lepton's on-shell mass is a fixed value, $\tau$ lepton and its hadronic decay products (to-be clustered into a jet) have a specific kinematic phase space.
-Thus, the $\Delta$ R(ROI, jet) has a distribution with a peak at a certain value (around 0.3-0.6).
-Meanwhile, the QCD backround has a different distribution shape.
-Given the hadronic nature of the process, jet multiplicity is high. 
-Higher jet multiplicity makes the $\Delta$ R(ROI,jet) value to have a rather randomized value, resulting in a flat distribution. 
+$\tau$ leptons of the signal process can also decay hadronically, while only one of the $\tau$ leptons decay into a muon to trigger the B parking trigger.
+When $\tau$ leptons decay, its decay shower can get clustered in the calorimeter and reconstructed as a jet.
+Given that the $\tau$ lepton's on-shell mass is a fixed value, $\tau$ lepton and its hadronic decay products (to be clustered into a jet) have a specific kinematic phase space.
+Thus, the $\Delta$ R(ROI, jet) has a distribution with a peak at a value around 0.3-0.6.
+Meanwhile, the QCD background has a different distribution shape.
+Given the hadronic nature of the process, jet multiplicity is high.
+Higher jet multiplicity makes the $\Delta$ R(ROI, jet) value somewhat randomized, resulting in a flat distribution.
+
 
  \begin{figure}[h!]
    \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
