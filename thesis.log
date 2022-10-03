@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.8)  27 SEP 2022 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.8)  2 OCT 2022 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,22 +812,22 @@ Chapter 1.
 <figs/Zh-llffff-SS.pdf, id=583, 124.465pt x 94.3525pt>
 File: figs/Zh-llffff-SS.pdf Graphic file (type pdf)
 <use figs/Zh-llffff-SS.pdf>
-Package pdftex.def Info: figs/Zh-llffff-SS.pdf  used on input line 49.
+Package pdftex.def Info: figs/Zh-llffff-SS.pdf  used on input line 55.
 (pdftex.def)             Requested size: 220.78542pt x 167.38396pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/sigprocess.png, id=588, 702.625pt x 412.54124pt>
+[2]
+<figs/sigprocess.png, id=625, 702.625pt x 412.54124pt>
 File: figs/sigprocess.png Graphic file (type png)
 <use figs/sigprocess.png>
-Package pdftex.def Info: figs/sigprocess.png  used on input line 72.
+Package pdftex.def Info: figs/sigprocess.png  used on input line 80.
 (pdftex.def)             Requested size: 220.78542pt x 129.63014pt.
-[2]
 <figs/Taudec.png, id=627, 672.5125pt x 367.3725pt>
 File: figs/Taudec.png Graphic file (type png)
 <use figs/Taudec.png>
-Package pdftex.def Info: figs/Taudec.png  used on input line 80.
+Package pdftex.def Info: figs/Taudec.png  used on input line 88.
 (pdftex.def)             Requested size: 408.68454pt x 223.25043pt.
 
 
@@ -836,13 +836,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figs/Taudet.png, id=628, 667.49374pt x 305.14pt>
 File: figs/Taudet.png Graphic file (type png)
 <use figs/Taudet.png>
-Package pdftex.def Info: figs/Taudet.png  used on input line 87.
+Package pdftex.def Info: figs/Taudet.png  used on input line 95.
 (pdftex.def)             Requested size: 408.68454pt x 186.83353pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./figs/Zh-llffff-SS.pdf> <./figs/sigprocess.png>]) (./01_theory.tex
-[4 <./figs/Taudec.png> <./figs/Taudet.png>] [5]
+[3 <./figs/Zh-llffff-SS.pdf> <./figs/sigprocess.png>] [4 <./figs/Taudec.png> <.
+/figs/Taudet.png>]) (./01_theory.tex [5]
 Chapter 2.
 [6
 
@@ -850,13 +850,13 @@ Chapter 2.
 <figs/Portalcartoon.png, id=687, 1344.02126pt x 585.18625pt>
 File: figs/Portalcartoon.png Graphic file (type png)
 <use figs/Portalcartoon.png>
-Package pdftex.def Info: figs/Portalcartoon.png  used on input line 82.
+Package pdftex.def Info: figs/Portalcartoon.png  used on input line 83.
 (pdftex.def)             Requested size: 408.68454pt x 177.94131pt.
  [7]
 <figs/TwinHiggs.png, id=701, 931.48pt x 397.485pt>
 File: figs/TwinHiggs.png Graphic file (type png)
 <use figs/TwinHiggs.png>
-Package pdftex.def Info: figs/TwinHiggs.png  used on input line 98.
+Package pdftex.def Info: figs/TwinHiggs.png  used on input line 101.
 (pdftex.def)             Requested size: 408.68454pt x 174.39659pt.
  [8 <./figs/Portalcartoon.png>]) (./02_samples.tex [9 <./figs/TwinHiggs.png>]
 Chapter 3.
@@ -1985,7 +1985,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  17709 strings out of 479304
  327703 string characters out of 5869780
- 1152427 words of memory out of 5000000
+ 1152403 words of memory out of 5000000
  34217 multiletter control sequences out of 15000+600000
  413591 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2005,7 +2005,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1095.pfb>
-Output written on thesis.pdf (93 pages, 5289614 bytes).
+Output written on thesis.pdf (93 pages, 5289749 bytes).
 PDF statistics:
  4821 PDF objects out of 5155 (max. 8388607)
  2617 compressed objects within 27 object streams

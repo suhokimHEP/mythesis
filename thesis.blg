@@ -1,22 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[77] biber:340> INFO - === Tue Sep 27, 2022, 08:56:15
-[91] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[171] Biber.pm:952> INFO - Found 66 citekeys in bib section 0
-[187] Biber.pm:4340> INFO - Processing section 0
+[79] biber:340> INFO - === Sun Oct  2, 2022, 21:54:26
+[93] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[174] Biber.pm:952> INFO - Found 66 citekeys in bib section 0
+[189] Biber.pm:4340> INFO - Processing section 0
 [200] Biber.pm:4531> INFO - Looking for bibtex format file 'myrefs.bib' for section 0
-[209] bibtex.pm:1689> INFO - LaTeX decoding ...
-[923] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
-[1072] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
-[1280] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_XoIk/2f36d927faf521b1e37377214e65c885_63146.utf8, line 718, warning: 5 characters of junk seen at toplevel
-[1280] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_XoIk/2f36d927faf521b1e37377214e65c885_63146.utf8, line 734, warning: 5 characters of junk seen at toplevel
-[1281] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_XoIk/2f36d927faf521b1e37377214e65c885_63146.utf8, line 806, warning: 1 characters of junk seen at toplevel
-[1281] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_XoIk/2f36d927faf521b1e37377214e65c885_63146.utf8, line 823, warning: 2 characters of junk seen at toplevel
-[1281] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_XoIk/2f36d927faf521b1e37377214e65c885_63146.utf8, line 857, warning: 20 characters of junk seen at toplevel
-[1337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1338] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1338] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1338] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1378] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1404] bbl.pm:757> INFO - Output to thesis.bbl
-[1404] Biber.pm:128> INFO - WARNINGS: 6
+[211] bibtex.pm:1689> INFO - LaTeX decoding ...
+[932] bibtex.pm:1494> INFO - Found BibTeX data source 'myrefs.bib'
+[1084] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'PhysRevD.91.012007' is not an integer - this will probably not sort properly.
+[1293] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_t1Ix/2f36d927faf521b1e37377214e65c885_16950.utf8, line 718, warning: 5 characters of junk seen at toplevel
+[1293] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_t1Ix/2f36d927faf521b1e37377214e65c885_16950.utf8, line 734, warning: 5 characters of junk seen at toplevel
+[1293] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_t1Ix/2f36d927faf521b1e37377214e65c885_16950.utf8, line 806, warning: 1 characters of junk seen at toplevel
+[1293] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_t1Ix/2f36d927faf521b1e37377214e65c885_16950.utf8, line 823, warning: 2 characters of junk seen at toplevel
+[1294] Utils.pm:384> WARN - BibTeX subsystem: /tmp/biber_tmp_t1Ix/2f36d927faf521b1e37377214e65c885_16950.utf8, line 857, warning: 20 characters of junk seen at toplevel
+[1353] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1353] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1353] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1353] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1396] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1421] bbl.pm:757> INFO - Output to thesis.bbl
+[1421] Biber.pm:128> INFO - WARNINGS: 6
