@@ -1673,8 +1673,8 @@
       \strng{authorbibnamehash}{f107353290369bf0bb079298429e792f}
       \strng{authornamehash}{f107353290369bf0bb079298429e792f}
       \strng{authorfullhash}{f107353290369bf0bb079298429e792f}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1986,8 +1986,8 @@
       \endverb
     \endentry
     \entry{det}{manual}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Detector}
       \verb{urlraw}
@@ -2218,8 +2218,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jet Identification Run2 -- 2018}
