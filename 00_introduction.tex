@@ -63,6 +63,8 @@ The mass limit on the scalar mass is 55GeV; we investigate only on-shell neutral
 A minimum 7 GeV mass for scalar particles is required to create on-shell $\tau$-lepton pairs.
 Feynman's scalar particle production mechanism diagram is depicted in Figure \ref{fig:sig}.
 %Displaced Jets analyses face challenges for $\tau$ final state due to $\tau$'s non-trivial hadronic and leptonic decay modes and complicated reconstruction mechanism. 
+
+
 The main challenge and reason for omitting a $\tau$ lepton analysis are the different decay modes of $\tau$ leptons.
 $\tau$ leptons decay hadronically and leptonically, with several different sub-decay modes.
 Its decay mode pie chart and CMS detection category pie chart are displayed in figures of \ref{fig:tdecay} and \ref{fig:tdet} respectively.
@@ -74,7 +76,7 @@ ROIs save all relevant track and fitted vertex qualities along with isolation in
 These variables are input for Machine Learning (ML) algorithms, enabling a highly generic and data-scientific search method.
 
 \begin{figure}[h!]
-  \caption{The analysis' signal process feynman diagram. The Higgs is created in gg production mode. The LLP scalar decays into $\tau$ lepton.}
+  \caption{The analysis' signal process feynman diagram. The Higgs is created in gg production mode. The LLP scalar decays into $\tau$ lepton pair.}
   \label{fig:sig}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/sigprocess.png}
@@ -106,13 +108,13 @@ We use a trigger of the B Parking High-Level Trigger (HLT) Path implemented in C
 
 The rest of the dissertation is organized as follows.
 In Section~\ref{sec:theory}, we discuss the theoretical background of the BSM and LLPs in more detail.
-In Section~\ref{sec:detectors}, CMS detector is thoroughly discussed with emphasis on the tracks and the calorimeter, which are relevant detector parts for the analysis.
+In Section~\ref{sec:detectors}, CMS detector is thoroughly discussed with emphasis on the tracker and the trigger system, which are relevant detector parts for the analysis.
 We discuss how the analysis exploited the b-parking trigger in Section~\ref{sec:triggers}, with a description of its original motive for the trigger's installation.
 The physics objects and formation of Regions of Interest are clarified in Section~\ref{sec:objects}.
 The machine learning algorithms are further explained in Section~\ref{sec:machinelearning}.
 The event selections are presented in Section~\ref{sec:selections}.
-Section~\ref{sec:estimate} describes the data driven background estimation method.
-Section~\ref{sec:systs} describes the background estimation method's validation process and systematic uncertainties.
+Section~\ref{sec:estimate} describes the data driven background estimation method and the method's validation process.
+Section~\ref{sec:systs} describes the systematic uncertainties.
 Finally, Section~\ref{sec:results} presents the search results.
 We conclude with Section~\ref{sec:conclusions}.
 

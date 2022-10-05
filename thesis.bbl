@@ -2111,6 +2111,35 @@
       \verb 1501.04020
       \endverb
     \endentry
+    \entry{Lep:2017aai}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=2b226b7d99f6c17db5b66cb7cc10f0f8}{%
+           family={R.Aaij},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \strng{fullhash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \strng{bibnamehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \strng{authorbibnamehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \strng{authornamehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \strng{authorfullhash}{edd75ef77a06eeb2afbd4aafcc06cca4}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{journaltitle}{JHEP 08}
+      \field{title}{{Test of lepton universality with B0$\to K^{*0} l^{+}l^{-}$ decays}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb doi:10.48550/arXiv.1705.05802
+      \endverb
+      \verb{eprint}
+      \verb 1705.05802
+      \endverb
+    \endentry
     \entry{HPS}{article}{}
       \name{author}{1}{}{%
         {{hash=5839e1247c14b145038fcd8e11cc5d49}{%
@@ -2147,8 +2176,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Muon POG -- Muon Identification Run2}
@@ -2184,8 +2213,8 @@
       \strng{authorbibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
