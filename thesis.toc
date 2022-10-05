@@ -61,13 +61,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Event Selection, Signal and Control Regions}{50}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Delta Phi(lead ROI,sublead ROI)}{50}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Isolation criteria for muons}{50}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Isolation criteria for muons}{51}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Delta Phi(lead ROI,sublead ROI)}{51}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Leading muon's transverse impact parameter significance to PV}{52}{section.7.3}%
+\contentsline {section}{\numberline {7.3}DeltaR(ROI, jet)}{52}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}DeltaR(ROI, jet)}{52}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Leading muon's transverse impact parameter significance to PV}{52}{section.7.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Background Estimation}{57}{chapter.8}%
 \defcounter {refsection}{0}\relax 

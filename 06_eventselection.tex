@@ -19,26 +19,6 @@ For this phenomenological situation, the analysis implements further event selec
 
 Each of the cuts for the items above is motivated and explained in following subsections.
 
-\section{Delta Phi(lead ROI,sublead ROI)}\label{sec:DeltaPhi}
-This analysis looks for displaced vertices in the tracker region, coming from the decays of exotic LLPs from Higgs produced in gluon fusion mode, leaving the SM Higgs boson without boost.
-The largest mass of the exotic LLPs is 55 GeV, ranging down to 7 GeV.
-Thus, exotic LLPs decayed from the SM Higgs become boosted, with their momentum vectors pointing back-to-back in the SM Higgs rest frame.
-Exotic LLPs with lighter mass are more boosted than heavier LLPs since less LLP mass means more leftover energy into kinetic energy.
-Given that ROIs corresponding to an exotic LLP's decay should have the highest ROI score, one should expect that the leading ROI and subleading ROI in a single event would be back-to-back.
-Thus, in signal events, $\Delta\Phi$(lead ROI,sublead ROI) tends to have high values, while the background processes tend to have a more uniform distribution.
-This analysis applies a cut above 2.2 to reduce background contribution.
-
-%Figure ~\ref{fig:dPhileadsub} shows the difference between the distribution of signal process and SM QCD backgrounds.
-
-
- \begin{figure}[h!]
-   \caption{Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
-   \label{fig:leadexcPosPhi}
-   \centering
-   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf}
-   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf}
- \end{figure}
-
 \section{Isolation criteria for muons}\label{ref:muISO}
 As discussed in ~\ref{sec:triggers}, the main background for our analysis comes from QCD background events, especially from the B-meson decay of QCD events with high ROI scores.
 Leptonic decay of B-meson generates muons, which trigger the B-parking trigger of the analysis.
@@ -88,6 +68,56 @@ MC sample & events with BPH+1$\mu$ (noISO) & events with BPH+1$\mu$ (ISO) \\
     \end{table}
 \end{tiny}    
 
+\section{Delta Phi(lead ROI,sublead ROI)}\label{sec:DeltaPhi}
+This analysis looks for displaced vertices in the tracker region, coming from the decays of exotic LLPs from Higgs produced in gluon fusion mode, leaving the SM Higgs boson without boost.
+The largest mass of the exotic LLPs is 55 GeV, ranging down to 7 GeV.
+Thus, exotic LLPs decayed from the SM Higgs become boosted, with their momentum vectors pointing back-to-back in the SM Higgs rest frame.
+Exotic LLPs with lighter mass are more boosted than heavier LLPs since less LLP mass means more leftover energy into kinetic energy.
+Given that ROIs corresponding to an exotic LLP's decay should have the highest ROI score, one should expect that the leading ROI and subleading ROI in a single event would be back-to-back.
+Thus, in signal events, $\Delta\Phi$(lead ROI,sublead ROI) tends to have high values, while the background processes tend to have a more uniform distribution.
+This analysis applies a cut above 2.2 to reduce background contribution.
+
+%Figure ~\ref{fig:dPhileadsub} shows the difference between the distribution of signal process and SM QCD backgrounds.
+
+
+ \begin{figure}[h!]
+   \caption{Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+   \label{fig:leadexcPosPhi}
+   \centering
+   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf}
+   \includegraphics[width=0.40\linewidth]{figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf}
+ \end{figure}
+
+
+\section{DeltaR(ROI, jet)}\label{ref:jetdR}
+$\tau$ leptons of the signal process can also decay hadronically, while only one of the $\tau$ leptons decay into a muon to trigger the B parking trigger.
+When $\tau$ leptons decay, its decay shower can get clustered in the calorimeter and reconstructed as a jet.
+Given that the $\tau$ lepton's on-shell mass is a fixed value, $\tau$ lepton and its hadronic decay products (to be clustered into a jet) have a specific kinematic phase space.
+Thus, the $\Delta$ R(ROI, jet) has a distribution with a peak at a value around 0.3-0.6.
+Meanwhile, the QCD background has a different distribution shape.
+Given the hadronic nature of the process, jet multiplicity is high.
+Higher jet multiplicity makes the $\Delta$ R(ROI, jet) value somewhat randomized, resulting in a flat distribution.
+
+
+ \begin{figure}[h!]
+   \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+   \label{fig:JetDeltaRleadSize}
+   \centering
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf}
+   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf}
+ \end{figure}
+
+\begin{figure}[h!]
+  \caption{Data/MC agreement for distributions}
+  \label{fig:DataMCscore5}
+  \centering
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf}
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
+  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
+
+\end{figure}
 
 \section{Leading muon's transverse impact parameter significance to PV}\label{ref:muIP}
 
@@ -119,36 +149,6 @@ The analysis implements a cut on this variable.
    \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_AmpLog10muIPSig.pdf}
  \end{figure}
-
-\section{DeltaR(ROI, jet)}\label{ref:jetdR}
-$\tau$ leptons of the signal process can also decay hadronically, while only one of the $\tau$ leptons decay into a muon to trigger the B parking trigger.
-When $\tau$ leptons decay, its decay shower can get clustered in the calorimeter and reconstructed as a jet.
-Given that the $\tau$ lepton's on-shell mass is a fixed value, $\tau$ lepton and its hadronic decay products (to be clustered into a jet) have a specific kinematic phase space.
-Thus, the $\Delta$ R(ROI, jet) has a distribution with a peak at a value around 0.3-0.6.
-Meanwhile, the QCD background has a different distribution shape.
-Given the hadronic nature of the process, jet multiplicity is high.
-Higher jet multiplicity makes the $\Delta$ R(ROI, jet) value somewhat randomized, resulting in a flat distribution.
-
-
- \begin{figure}[h!]
-   \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
-   \label{fig:JetDeltaRleadSize}
-   \centering
-   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf}
-   \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf}
- \end{figure}
-
-\begin{figure}[h!]
-  \caption{Data/MC agreement for distributions}
-  \label{fig:DataMCscore5}
-  \centering
-  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf}
-  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
-  \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf}
-
-\end{figure}
 
 %\section{Number of Annulus Tracks Associated with ROI}
 % The tensorflow used for this analysis is trained with $p_T, \eta, \chi^{2}$, and other information of the annulus tracks (tracks that are inside ROI radius, but not fitted to vertex).

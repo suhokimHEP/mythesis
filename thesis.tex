@@ -8,7 +8,7 @@
 \usepackage{lscape}
 \usepackage{mflogo}         % (not needed for general use)
 \usepackage{multicol}
-
+\usepackage{xspace}
 \usepackage[overload]{textcase}
 
 \usepackage[american]{babel}
@@ -37,9 +37,6 @@
 \widowpenalty=9999
 \clubpenalty=9999
 
-
-% Some shorthand
-% turn off italics
 \newcommand {\etal}{\mbox{et al.}\xspace} %et al. - no preceding comma
 \newcommand {\ie}{\mbox{i.e.}\xspace}     %i.e.
 \newcommand {\eg}{\mbox{e.g.}\xspace}     %e.g.
@@ -54,56 +51,18 @@
 \newcommand {\Lthree}{Level-3\xspace}
 
 % Some software programs (alphabetized)
-\newcommand{\ACERMC} {\textsc{AcerMC}\xspace}
-\newcommand{\ALPGEN} {{\textsc{alpgen}}\xspace}
-\newcommand{\BLACKHAT} {{\textsc{BlackHat}}\xspace}
-\newcommand{\CALCHEP} {{\textsc{CalcHEP}}\xspace}
-\newcommand{\CHARYBDIS} {{\textsc{charybdis}}\xspace}
-\newcommand{\CMKIN} {\textsc{cmkin}\xspace}
-\newcommand{\CMSIM} {{\textsc{cmsim}}\xspace}
 \newcommand{\CMSSW} {{\textsc{cmssw}}\xspace}
-\newcommand{\COBRA} {{\textsc{cobra}}\xspace}
-\newcommand{\COCOA} {{\textsc{cocoa}}\xspace}
-\newcommand{\COMPHEP} {\textsc{CompHEP}\xspace}
-\newcommand{\EVTGEN} {{\textsc{evtgen}}\xspace}
-\newcommand{\FAMOS} {{\textsc{famos}}\xspace}
 \newcommand{\FASTJET} {{\textsc{FastJet}}\xspace}
-\newcommand{\FEWZ} {{\textsc{fewz}}\xspace}
-\newcommand{\GARCON} {\textsc{garcon}\xspace}
-\newcommand{\GARFIELD} {{\textsc{garfield}}\xspace}
-\newcommand{\GEANE} {{\textsc{geane}}\xspace}
 \newcommand{\GEANTfour} {{\textsc{Geant4}}\xspace}
 \newcommand{\GEANTthree} {{\textsc{geant3}}\xspace}
 \newcommand{\GEANT} {{\textsc{geant}}\xspace}
-\newcommand{\HDECAY} {\textsc{hdecay}\xspace}
 \newcommand{\HERWIG} {{\textsc{herwig}}\xspace}
 \newcommand{\HERWIGpp} {{\textsc{herwig++}}\xspace}
 \newcommand{\POWHEG} {{\textsc{powheg}}\xspace}
-\newcommand{\HIGLU} {{\textsc{higlu}}\xspace}
-\newcommand{\HIJING} {{\textsc{hijing}}\xspace}
-\newcommand{\HYDJET} {{\textsc{hydjet}}\xspace}
-\newcommand{\IGUANA} {\textsc{iguana}\xspace}
-\newcommand{\ISAJET} {{\textsc{isajet}}\xspace}
-\newcommand{\ISAPYTHIA} {{\textsc{isapythia}}\xspace}
-\newcommand{\ISASUGRA} {{\textsc{isasugra}}\xspace}
-\newcommand{\ISASUSY} {{\textsc{isasusy}}\xspace}
-\newcommand{\ISAWIG} {{\textsc{isawig}}\xspace}
 \newcommand{\MADGRAPH} {\textsc{MadGraph}\xspace}
 \newcommand{\MCATNLO} {\textsc{mc@nlo}\xspace}
-\newcommand{\MCFM} {\textsc{mcfm}\xspace}
-\newcommand{\MILLEPEDE} {{\textsc{millepede}}\xspace}
-\newcommand{\ORCA} {{\textsc{orca}}\xspace}
-\newcommand{\OSCAR} {{\textsc{oscar}}\xspace}
-\newcommand{\PHOTOS} {\textsc{photos}\xspace}
-\newcommand{\PROSPINO} {\textsc{prospino}\xspace}
 \newcommand{\PYTHIA} {{\textsc{pythia}}\xspace}
 \newcommand{\SHERPA} {{\textsc{sherpa}}\xspace}
-\newcommand{\TAUOLA} {\textsc{tauola}\xspace}
-\newcommand{\TOPREX} {\textsc{TopReX}\xspace}
-\newcommand{\XDAQ} {{\textsc{xdaq}}\xspace}
-\newcommand{\MGvATNLO}{\MADGRAPH{}5\_a\MCATNLO}
-\newcommand{\TOPpp}{\textsc{Top++}\xspace}
-
 %  Experiments
 \newcommand {\DZERO}{D0\xspace}     %etc.
 
@@ -182,22 +141,51 @@
 \newcommand{\mht}{\ensuremath{H_{\mathrm{T}}^{\text{miss}}}\xspace}
 \newcommand{\htvecmiss}{\ensuremath{\vec{H}_{\text{T}}^{\text{miss}}}\xspace}
 
-%% roman face derivative
-%\newcommand{\dd}[2]{\ensuremath{\frac{\cmsSymbolFace{d} #1}{\cmsSymbolFace{d} #2}}}
-%\newcommand{\ddinline}[2]{\ensuremath{\cmsSymbolFace{d} #1/\cmsSymbolFace{d} #2}}
-%\newcommand{\rd}{\ensuremath{\cmsSymbolFace{d}}}
-%\newcommand{\re}{\ensuremath{\cmsSymbolFace{e}}}
-%% absolute value
-%\newcommand{\abs}[1]{\ensuremath{\lvert #1 \rvert}}
-%% misc
-%\newcommand{\CL}{\ensuremath{\text{CL}}\xspace} % needs to be overridden to C.L. for APS. Look out for \CL.
-%\newcommand{\CLs}{\ensuremath{\text{CL}_\text{s}}\xspace}
-%\newcommand{\CLsb}{\ensuremath{\text{CL}_\text{s+b}}\xspace}
-%
-%
-%
-%\ifthenelse{\boolean{cms@italic}}{\newcommand{\cmsSymbolFace}[1]{#1}}{\newcommand{\cmsSymbolFace}[1]{\mathrm{#1}}}
+% roman face derivative
+\newcommand{\dd}[2]{\ensuremath{\frac{\cmsSymbolFace{d} #1}{\cmsSymbolFace{d} #2}}}
+\newcommand{\ddinline}[2]{\ensuremath{\cmsSymbolFace{d} #1/\cmsSymbolFace{d} #2}}
+\newcommand{\rd}{\ensuremath{\cmsSymbolFace{d}}}
+\newcommand{\re}{\ensuremath{\cmsSymbolFace{e}}}
+% absolute value
+\newcommand{\abs}[1]{\ensuremath{\lvert #1 \rvert}}
+% misc
+\newcommand{\CL}{\ensuremath{\text{CL}}\xspace} % needs to be overridden to C.L. for APS. Look out for \CL.
+\newcommand{\CLs}{\ensuremath{\text{CL}_\text{s}}\xspace}
+\newcommand{\CLsb}{\ensuremath{\text{CL}_\text{s+b}}\xspace}
 
+
+
+\newcommand{\cmsSymbolFace}[1]{#1}
+%\newcommand{\cmsSymbolFace}[1]{\mathrm{#1}}
+%\ifthenelse{\boolean{cms@italic}}{\newcommand{\cmsSymbolFace}[1]{#1}}{\newcommand{\cmsSymbolFace}[1]{\mathrm{#1}}}
+% future symbols from heppennames2
+\providecommand{\PH}{\ensuremath{\cmsSymbolFace{H}}\xspace} % plain Higgs
+\providecommand{\PJGy}{\ensuremath{\cmsSymbolFace{J}\hspace{-.08em}/\hspace{-.14em}\psi}\xspace} % J/Psi (no mass)
+\providecommand{\PBzs}{\ensuremath{\cmsSymbolFace{B}^0_\cmsSymbolFace{s}}\xspace} % B^0_s
+\providecommand{\Pg}{\ensuremath{\cmsSymbolFace{g}}\xspace} % generic gluon
+\providecommand{\PSg}{\ensuremath{\widetilde{\cmsSymbolFace{g}}}\xspace} % gluino
+\providecommand{\PSQ}{\ensuremath{\widetilde{\cmsSymbolFace{q}}}\xspace} % squark
+\providecommand{\PXXG}{\ensuremath{\cmsSymbolFace{G}}\xspace} % graviton
+\providecommand{\PXXSG}{\ensuremath{\widetilde{\PXXG}}\xspace} % gravitino
+\providecommand{\PSGcp}{\ensuremath{\widetilde{\chi}^+}\xspace}
+\providecommand{\PSGc}{\ensuremath{\widetilde{\chi}}\xspace} % neutralino
+\providecommand{\PSGcz}{\ensuremath{\widetilde{\chi}^0}\xspace} % neutralino with superscript 0
+\providecommand{\PSGczDo}{\ensuremath{\widetilde{\chi}^{0}_{1}}\xspace} % neutralino
+\providecommand{\PSGczDt}{\ensuremath{\widetilde{\chi}^{0}_{2}}\xspace} % neutralino
+\providecommand{\PSGcpm}{\ensuremath{\widetilde{\chi}^\pm}\xspace} % neutralino
+\providecommand{\Pl}{\ensuremath{\cmsSymbolFace{l}}\xspace} % non-ell lepton
+\providecommand{\PAl}{\ensuremath{\overline{\cmsSymbolFace{l}}}\xspace} % non-ell anti-lepton
+\providecommand{\PGnl}{\ensuremath{\nu_\cmsSymbolFace{l}}\xspace} % lepton neutrino
+\providecommand{\PAGnl}{\ensuremath{\overline{\nu}_\cmsSymbolFace{l}}\xspace} % anti-lepton neutrino
+\providecommand{\PQtpr}{\ensuremath{\cmsSymbolFace{t}^{\prime}}\xspace} % t'
+\providecommand{\PAQtpr}{\ensuremath{\bar{\cmsSymbolFace{t}}^\prime}\xspace} % t'-bar; needs to be converted to overline-requires rework a la heppennames
+\providecommand{\PQbpr}{\ensuremath{\cmsSymbolFace{b}^{\prime}}\xspace} % b'
+\providecommand{\PAQbpr}{\ensuremath{\bar{\cmsSymbolFace{b}}^\prime}\xspace} % b'-bar; needs same as anti-t'
+\providecommand{\PGg}{\ensuremath{\gamma}\xspace} % gamma
+\providecommand{\PKzS}{\ensuremath{\cmsSymbolFace{K}^0_\cmsSymbolFace{S}}\xspace} % K short
+\providecommand{\PBs}{\ensuremath{\cmsSymbolFace{B}_\cmsSymbolFace{s}}\xspace} % B sub s
+\providecommand{\PSQt}{\ensuremath{\widetilde{\cmsSymbolFace{t}}}\xspace} % stop
+\providecommand{\PZpr}{\ensuremath{\cmsSymbolFace{Z}^\prime}} % plain Z'
 % Particle names which track the italic/non-italic face convention
 \newcommand{\zp}{{\PZpr}\xspace} % plain Z'
 \newcommand{\JPsi}{{\PJGy}\xspace} % J/Psi (no mass)
@@ -243,6 +231,9 @@
 \providecommand{\Pell}{\HepParticle{\ell}{}{}\Xspace} % generic lepton (like \Pl, but using \ell)
 \providecommand{\PQQ}{\HepParticle{Q}{}{}\Xspace} % generic heavy quark
 \providecommand{\PAQQ}{\HepAntiParticle{Q}{}{}\Xspace} % generic heavy antiquark
+
+
+
 
 %% for APS style tables
 %\ifthenelse{\boolean{cms@external}}{%
@@ -606,7 +597,7 @@
 \newcommand{\PsDm}{\PDms}
 \newcommand{\PsDp}{\PDps}
 \newcommand{\PsDst}{\HepParticle{\PD}{s}{\ast}\xspace}
-%
+
 
 
 
@@ -682,17 +673,17 @@ Thanks to many people.
 We present a search for long-lived particles (LLPs) produced in gluon fusion Higgs production mode (ggH), using a novel strategy of Regions of Interest (ROIs). Regions of Interest are collections of pair-wise track vertices fitted by the vertex fitter in CMSSW.
    The analysis focuses on LLPs with lifetimes that result in decay in the tracker region, with a concentration on the ggH production mode for the highest Higgs cross-section.
    Variables of the constructed ROIs become inputs for our Deep Neural Network (DNN) Machine Learning (ML) algorithms, as the main discriminator between the signal and the background.
-   We focus on the Standard Model (SM) $\tau$ lepton final state. This final state is particularly interesting, given $\tau$ lepton final state exclusion limits are mostly omitted in precedent analyses, due to $\tau$ leptons' nontrivial reconstruction mechanisms in CMS.
+   We focus on the Standard Model (SM) tau lepton final state. This final state is particularly interesting, given tau lepton final state exclusion limits are mostly omitted in precedent analyses, due to tau leptons' nontrivial reconstruction mechanisms in CMS.
   To trigger the ggH production mode of the Higgs particle, decaying into its leptonic signature via exotic long-lived scalar particles, we exploit the B-parking trigger.
  B-parking trigger is a newly installed High-Level Trigger path in CMS detector, targetting soft displaced muon.
- The trigger was installed in 2018, totaling an integrated Luminosity value of 41fb$^{-1}$.
+ The trigger was installed in 2018, totaling an integrated Luminosity value of 44fb$^{-1}$.
   No excess of events over the standard model expectation is observed.
   The results are interpreted in the context of exotic Higgs decays to a pair of long-lived scalars ($S$).
-  We set limits on the branching ratio of the Higgs to LLPs, \textbf{B}(H$\rightarrow SS \rightarrow \tau\tau\tau\tau$)
+	We set limits on the branching ratio of the Higgs to LLPs, \textbf{B}(H$\rightarrow SS \rightarrow \tau\bar{\tau}\tau\bar{\tau}$)
   , as a function of the proper lifetime.
-  The analysis has the strongest discriminant power for the scalar particle's lifetime from 1mm to 10mm for 7 and 15GeV, and from 10mm to 100mm for 40 and 55GeV.
-  The analysis' exclusion limit on the branching ratio for $\tau$ lepton final state (\textbf{B}(H$\rightarrow SS \rightarrow \tau\tau\tau\tau$)) is one of the most stringent results from the LHC detectors.
- The 9\% at 10mm for 7GeV, 5\% at 10mm for 15 GeV, 9\% at 100mm for 40 GeV, and 20\% at 1000mm for 55 GeV are respective values.
+  The analysis has the strongest discriminant power for the scalar particle's lifetime from 1\mm to 10\mm for 7 and 15\GeV, and from 10\mm to 100\mm for 40 and 55\GeV.
+	The analysis' exclusion limit on the branching ratio for $\tau$ lepton final state (\textbf{B}(H$\rightarrow SS \rightarrow \tau\bar{\tau}\tau\bar{\tau}$)) is one of the most stringent results from the LHC detectors.
+ The 9\% at 10\mm for 7\GeV, 5\% at 10\mm for 15\GeV, 9\% at 100\mm for 40\GeV, and 20\% at 1000\mm for 55\GeV are respective values.
 \end{abstract}
 
 %%% The abstract is the last element of the so-called "front matter"
