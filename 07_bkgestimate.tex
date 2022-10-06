@@ -2,7 +2,7 @@
 \chapter{Background Estimation}\label{sec:estimate}
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for distributions. High ROI scores and high muIPSig values lack MC statistics}
+	\caption{Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics}
   \label{fig:DataMCscore5}
   \centering
   \includegraphics[width=0.40\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf}
@@ -35,21 +35,21 @@ The simplest mathematical for is described in formula \ref{eq:ABCD}.
 	SR:CR1=CR2:CR3, SR=CR1*\frac{CR2}{CR3} 
 \end{equation}
 
-ABCD method requires two variables used for its estimation should be independent of each other for the background process.
+ABCD method requires two variables used for its estimation to be independent of each other for the background process.
 
 
 Unfortunately, leading ROI and subleading ROI vertex scores are correlated in the QCD background process.
 ROIs from B-mesons score higher in our TensorFlow.
 In QCD processes, the B-mesons are likely to be pair produced.
-Therefore, when the leading ROI vertex score is high due to its b-like behavior, the subleading ROI vertex score is also high because the anti-meson is produced on the other side of the detector.
+Therefore, when the leading ROI vertex score is high due to a B-meson, the subleading ROI vertex score is also high because the other meson is produced at the same time.
 Thus, due to their correlation, leading and subleading scores cannot be our ABCD discriminant variable candidates.
 
 The analysis selects leading ROI and leading muon's IP value as its ABCD discriminant variables.
 After implementing all other cuts (sublead ROI, $\Delta\Phi(lead,sublead)$, Annulus score, 1 Isolated $\mu$, $\Delta R(lead ROI, Jet)$), we tested the correlation factor between the leading ROI, and leading mu's IPSig values for each background process.
-The values are pretty minimal except for 2-3 processes where there were too few entries to derive a physical conclusion due to statistical limitations.
-Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score for its ABCD discriminant variables.
+The values are pretty minimal except for 2-3 processes where there were too few entries to derive a solid conclusion due to statistical limitations.
+%Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score for its ABCD discriminant variables.
  \begin{figure}[h!]
-   \caption{Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D}
+   \caption{Cutflow histogram of Signal versus background. The signal is MS15GeV-ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D}
    \label{fig:ABmethod}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf}
@@ -78,7 +78,7 @@ Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score f
 Although background MC's correlation factor($\hat{r}$) values are small, we need to verify that the data's correlation factor is negligible since data will be used for our background estimation.
 However, direct computation of $\hat{r}$(leadROI,Log10(muIPSig)) for data is problematic because CMS collaboration stipulates ``blinding.''
 In general, a high signal ratio is expected in the signal region.
-In order to avoid bias for discovery and to change their analysis strategy, CMS collaboration recommends physicists blind themselves from looking into data entry in the signal region until community acknowledgment is granted.
+In order to avoid bias for discovery and to change their analysis strategy accordingly, CMS collaboration recommends physicists blind themselves from looking into data entry in the signal region until community acknowledgment is granted.
 This concept is called ``blinding.''
 Since one can not access data entry in the signal region, the data's correlation factor($\hat{r}$) can not be computed.
 Therefore, one needs to find an alternative way to estimate data's $\hat{r}$(leadROI,Log10(muIPSig)) without unblinding data in the signal region.
@@ -89,10 +89,11 @@ Region A', a correspondent Signal region of the orthogonal plane, should be much
 In figures a-b, we confirm that the background dominates the A' region while the signal is low regardless of the signal's MS and ctau.
 
 \begin{figure}[h!]
-  \caption{Cartoon description of ABCD method validation}
+  \caption{Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. }
   \label{fig:valcar}
   \centering
-  \includegraphics[width=0.85\linewidth]{figs/Valcart.png}
+  \includegraphics[width=0.85\linewidth]{figs/SimpleVR.png}
+  \includegraphics[width=0.85\linewidth]{figs/SophiVR.png}
 
 \end{figure}
 
@@ -142,9 +143,9 @@ $\hat{r}$(leadROI,Log10(muIPSig)) value for each of A'-D' region is plotted in f
 
 As we scan $\hat{r}$(leadROI,Log10(muIPSig)) for each $\Delta\Phi$(lead,exclead) section, very small trend with respect to $\Delta\Phi$(lead,exclead) is observed.
 We can claim the formula \ref{eq:rhat} is true and $\hat{r}$(leadROI,Log10(muIPSig)) from A'-D' can be translated into A-D region as well.
-Since there is no correlation between the two variables for the ABCD region, we validated the background estimation method.
-With the background rate in the signal region estimated by the ABCD method with data and with signal MC, we can either claim there exists a signal over the SM expectation or not.
-If it does not, we can claim an exclusion limit on the branching ratio of the signal to a specific value.
+Since there is little correlation between the two variables for the ABCD region, we validated the background estimation method.
+With the background rate in the signal region estimated by the ABCD method with data, and with signal MC, we can either claim there exists a signal over the SM expectation or not.
+If it does not, we can claim an exclusion limit on the branching ratio of the signal process to a specific value.
 
 Before that final step, systematic uncertainty is described in the following section for exclusion limit calculation.
 

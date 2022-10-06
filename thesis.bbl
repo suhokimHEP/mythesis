@@ -2260,6 +2260,27 @@
       \verb https://twiki.cern.ch/twiki/bin/view/CMS/JetID13TeVRun2018
       \endverb
     \endentry
+    \entry{lumiUnc18}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{number}{CMS-PAS-LUM-18-002}
+      \field{title}{{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2676164
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2676164
+      \endverb
+    \endentry
     \entry{Heinemeyer:2013xd}{article}{}
       \true{moreauthor}
       \true{morelabelname}

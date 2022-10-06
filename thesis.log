@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.8)  5 OCT 2022 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.8)  6 OCT 2022 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,7 +874,7 @@ Chapter 1.
 
 
 ]
-<figs/Zh-llffff-SS.pdf, id=604, 124.465pt x 94.3525pt>
+<figs/Zh-llffff-SS.pdf, id=607, 124.465pt x 94.3525pt>
 File: figs/Zh-llffff-SS.pdf Graphic file (type pdf)
 <use figs/Zh-llffff-SS.pdf>
 Package pdftex.def Info: figs/Zh-llffff-SS.pdf  used on input line 55.
@@ -884,12 +884,12 @@ Package pdftex.def Info: figs/Zh-llffff-SS.pdf  used on input line 55.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<figs/sigprocess.png, id=645, 702.625pt x 412.54124pt>
+<figs/sigprocess.png, id=648, 702.625pt x 412.54124pt>
 File: figs/sigprocess.png Graphic file (type png)
 <use figs/sigprocess.png>
 Package pdftex.def Info: figs/sigprocess.png  used on input line 82.
 (pdftex.def)             Requested size: 220.78542pt x 129.63014pt.
-<figs/Taudec.png, id=647, 672.5125pt x 367.3725pt>
+<figs/Taudec.png, id=650, 672.5125pt x 367.3725pt>
 File: figs/Taudec.png Graphic file (type png)
 <use figs/Taudec.png>
 Package pdftex.def Info: figs/Taudec.png  used on input line 90.
@@ -898,7 +898,7 @@ Package pdftex.def Info: figs/Taudec.png  used on input line 90.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Taudet.png, id=648, 667.49374pt x 305.14pt>
+<figs/Taudet.png, id=651, 667.49374pt x 305.14pt>
 File: figs/Taudet.png Graphic file (type png)
 <use figs/Taudet.png>
 Package pdftex.def Info: figs/Taudet.png  used on input line 97.
@@ -912,13 +912,13 @@ Chapter 2.
 [6
 
 ]
-<figs/Portalcartoon.png, id=707, 1344.02126pt x 585.18625pt>
+<figs/Portalcartoon.png, id=710, 1344.02126pt x 585.18625pt>
 File: figs/Portalcartoon.png Graphic file (type png)
 <use figs/Portalcartoon.png>
 Package pdftex.def Info: figs/Portalcartoon.png  used on input line 83.
 (pdftex.def)             Requested size: 408.68454pt x 177.94131pt.
  [7]
-<figs/TwinHiggs.png, id=721, 926.46124pt x 541.02126pt>
+<figs/TwinHiggs.png, id=724, 926.46124pt x 541.02126pt>
 File: figs/TwinHiggs.png Graphic file (type png)
 <use figs/TwinHiggs.png>
 Package pdftex.def Info: figs/TwinHiggs.png  used on input line 101.
@@ -928,23 +928,23 @@ Chapter 3.
 [10
 
 ]
-<figs/LHC.png, id=746, 346.896pt x 282.3348pt>
+<figs/LHC.png, id=749, 346.896pt x 282.3348pt>
 File: figs/LHC.png Graphic file (type png)
 <use figs/LHC.png>
 Package pdftex.def Info: figs/LHC.png  used on input line 30.
 (pdftex.def)             Requested size: 469.75499pt x 382.35039pt.
  [11 <./figs/LHC.png>]
-<figs/cms.png, id=754, 1067.99pt x 601.24625pt>
+<figs/cms.png, id=757, 1067.99pt x 601.24625pt>
 File: figs/cms.png Graphic file (type png)
 <use figs/cms.png>
 Package pdftex.def Info: figs/cms.png  used on input line 56.
 (pdftex.def)             Requested size: 469.75499pt x 264.45741pt.
-<figs/CMS.png, id=757, 834.11626pt x 593.21625pt>
+<figs/CMS.png, id=760, 834.11626pt x 593.21625pt>
 File: figs/CMS.png Graphic file (type png)
 <use figs/CMS.png>
 Package pdftex.def Info: figs/CMS.png  used on input line 63.
 (pdftex.def)             Requested size: 408.68454pt x 290.65135pt.
-<figs/cmsxsec.png, id=761, 987.69pt x 528.97626pt>
+<figs/cmsxsec.png, id=764, 987.69pt x 528.97626pt>
 File: figs/cmsxsec.png Graphic file (type png)
 <use figs/cmsxsec.png>
 Package pdftex.def Info: figs/cmsxsec.png  used on input line 71.
@@ -959,7 +959,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/ECAL.png, id=764, 644.4075pt x 424.58624pt>
+<figs/ECAL.png, id=767, 644.4075pt x 424.58624pt>
 File: figs/ECAL.png Graphic file (type png)
 <use figs/ECAL.png>
 Package pdftex.def Info: figs/ECAL.png  used on input line 79.
@@ -968,7 +968,7 @@ Package pdftex.def Info: figs/ECAL.png  used on input line 79.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12]
-<figs/HCAL.png, id=772, 853.1875pt x 471.7625pt>
+<figs/HCAL.png, id=775, 853.1875pt x 471.7625pt>
 File: figs/HCAL.png Graphic file (type png)
 <use figs/HCAL.png>
 Package pdftex.def Info: figs/HCAL.png  used on input line 93.
@@ -983,41 +983,41 @@ LaTeX Warning: Text page 14 contains only floats.
 
 [14 <./figs/CMS.png> <./figs/cmsxsec.png>] [15 <./figs/ECAL.png (PNG copy)> <./
 figs/HCAL.png>] [16]
-<figs/MCcms.png, id=798, 355.3275pt x 362.35374pt>
+<figs/MCcms.png, id=801, 355.3275pt x 362.35374pt>
 File: figs/MCcms.png Graphic file (type png)
 <use figs/MCcms.png>
 Package pdftex.def Info: figs/MCcms.png  used on input line 135.
 (pdftex.def)             Requested size: 187.89912pt x 191.62083pt.
  [17 <./figs/MCcms.png>]
-<figs/Tracker.png, id=806, 718.685pt x 338.26375pt>
+<figs/Tracker.png, id=809, 718.685pt x 338.26375pt>
 File: figs/Tracker.png Graphic file (type png)
 <use figs/Tracker.png>
 Package pdftex.def Info: figs/Tracker.png  used on input line 158.
 (pdftex.def)             Requested size: 422.77661pt x 198.99579pt.
  [18 <./figs/Tracker.png (PNG copy)>]
-<figs/Trig.png, id=811, 934.49126pt x 533.995pt>
+<figs/Trig.png, id=814, 934.49126pt x 533.995pt>
 File: figs/Trig.png Graphic file (type png)
 <use figs/Trig.png>
 Package pdftex.def Info: figs/Trig.png  used on input line 191.
 (pdftex.def)             Requested size: 446.2658pt x 255.01099pt.
  [19 <./figs/Trig.png>]) (./03_triggerstrategy.tex [20]
 Chapter 4.
-<figs/Fig1a.png, id=830, 1247.66125pt x 760.8425pt>
+<figs/Fig1a.png, id=833, 1247.66125pt x 760.8425pt>
 File: figs/Fig1a.png Graphic file (type png)
 <use figs/Fig1a.png>
 Package pdftex.def Info: figs/Fig1a.png  used on input line 26.
 (pdftex.def)             Requested size: 267.76378pt x 163.2761pt.
-<figs/Fig1b.png, id=831, 1167.36125pt x 712.6625pt>
+<figs/Fig1b.png, id=834, 1167.36125pt x 712.6625pt>
 File: figs/Fig1b.png Graphic file (type png)
 <use figs/Fig1b.png>
 Package pdftex.def Info: figs/Fig1b.png  used on input line 27.
 (pdftex.def)             Requested size: 267.76378pt x 163.46307pt.
-<figs/Fig1c.png, id=834, 1201.48875pt x 734.745pt>
+<figs/Fig1c.png, id=837, 1201.48875pt x 734.745pt>
 File: figs/Fig1c.png Graphic file (type png)
 <use figs/Fig1c.png>
 Package pdftex.def Info: figs/Fig1c.png  used on input line 33.
 (pdftex.def)             Requested size: 267.76378pt x 163.7409pt.
-<figs/Fig1d.png, id=835, 1307.88625pt x 797.98125pt>
+<figs/Fig1d.png, id=838, 1307.88625pt x 797.98125pt>
 File: figs/Fig1d.png Graphic file (type png)
 <use figs/Fig1d.png>
 Package pdftex.def Info: figs/Fig1d.png  used on input line 34.
@@ -1032,7 +1032,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-<figs/Scalar_pT100mm.pdf, id=844, 569.12625pt x 714.67pt>
+<figs/Scalar_pT100mm.pdf, id=847, 569.12625pt x 714.67pt>
 File: figs/Scalar_pT100mm.pdf Graphic file (type pdf)
 <use figs/Scalar_pT100mm.pdf>
 Package pdftex.def Info: figs/Scalar_pT100mm.pdf  used on input line 92.
@@ -1041,7 +1041,7 @@ Package pdftex.def Info: figs/Scalar_pT100mm.pdf  used on input line 92.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Scalar_dR100mm.pdf, id=845, 569.12625pt x 554.07pt>
+<figs/Scalar_dR100mm.pdf, id=848, 569.12625pt x 554.07pt>
 File: figs/Scalar_dR100mm.pdf Graphic file (type pdf)
 <use figs/Scalar_dR100mm.pdf>
 Package pdftex.def Info: figs/Scalar_dR100mm.pdf  used on input line 99.
@@ -1049,13 +1049,13 @@ Package pdftex.def Info: figs/Scalar_dR100mm.pdf  used on input line 99.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Scalar_gammactau100mm.pdf, id=846, 569.12625pt x 554.07pt>
+<figs/Scalar_gammactau100mm.pdf, id=849, 569.12625pt x 554.07pt>
 File: figs/Scalar_gammactau100mm.pdf Graphic file (type pdf)
 <use figs/Scalar_gammactau100mm.pdf>
 Package pdftex.def Info: figs/Scalar_gammactau100mm.pdf  used on input line 106
 .
 (pdftex.def)             Requested size: 267.76378pt x 260.69193pt.
-<figs/Scalar_gammactau15GeV.pdf, id=847, 569.12625pt x 554.07pt>
+<figs/Scalar_gammactau15GeV.pdf, id=850, 569.12625pt x 554.07pt>
 File: figs/Scalar_gammactau15GeV.pdf Graphic file (type pdf)
 <use figs/Scalar_gammactau15GeV.pdf>
 Package pdftex.def Info: figs/Scalar_gammactau15GeV.pdf  used on input line 107
@@ -1064,25 +1064,25 @@ Package pdftex.def Info: figs/Scalar_gammactau15GeV.pdf  used on input line 107
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/TrigEff_HLT_Mu7_IP4_part.pdf, id=848, 569.12625pt x 714.67pt>
+<figs/TrigEff_HLT_Mu7_IP4_part.pdf, id=851, 569.12625pt x 714.67pt>
 File: figs/TrigEff_HLT_Mu7_IP4_part.pdf Graphic file (type pdf)
 <use figs/TrigEff_HLT_Mu7_IP4_part.pdf>
 Package pdftex.def Info: figs/TrigEff_HLT_Mu7_IP4_part.pdf  used on input line 
 120.
 (pdftex.def)             Requested size: 220.78542pt x 277.248pt.
-<figs/TrigEff_HLT_Mu8_IP3_part.pdf, id=849, 569.12625pt x 714.67pt>
+<figs/TrigEff_HLT_Mu8_IP3_part.pdf, id=852, 569.12625pt x 714.67pt>
 File: figs/TrigEff_HLT_Mu8_IP3_part.pdf Graphic file (type pdf)
 <use figs/TrigEff_HLT_Mu8_IP3_part.pdf>
 Package pdftex.def Info: figs/TrigEff_HLT_Mu8_IP3_part.pdf  used on input line 
 121.
 (pdftex.def)             Requested size: 220.78542pt x 277.248pt.
-<figs/TrigEff_HLT_Mu9_IP6_part.pdf, id=850, 569.12625pt x 714.67pt>
+<figs/TrigEff_HLT_Mu9_IP6_part.pdf, id=853, 569.12625pt x 714.67pt>
 File: figs/TrigEff_HLT_Mu9_IP6_part.pdf Graphic file (type pdf)
 <use figs/TrigEff_HLT_Mu9_IP6_part.pdf>
 Package pdftex.def Info: figs/TrigEff_HLT_Mu9_IP6_part.pdf  used on input line 
 127.
 (pdftex.def)             Requested size: 220.78542pt x 277.248pt.
-<figs/TrigEff_HLT_Mu12_IP6_part.pdf, id=851, 569.12625pt x 714.67pt>
+<figs/TrigEff_HLT_Mu12_IP6_part.pdf, id=854, 569.12625pt x 714.67pt>
 File: figs/TrigEff_HLT_Mu12_IP6_part.pdf Graphic file (type pdf)
 <use figs/TrigEff_HLT_Mu12_IP6_part.pdf>
 Package pdftex.def Info: figs/TrigEff_HLT_Mu12_IP6_part.pdf  used on input line
@@ -1101,7 +1101,7 @@ Underfull \hbox (badness 7047) in paragraph at lines 157--157
 18A-UL2018[]MiniAODv2-
  []
 
-<figs/NVtx_BPHA.pdf, id=914, 569.12625pt x 469.755pt>
+<figs/NVtx_BPHA.pdf, id=917, 569.12625pt x 469.755pt>
 File: figs/NVtx_BPHA.pdf Graphic file (type pdf)
 <use figs/NVtx_BPHA.pdf>
 Package pdftex.def Info: figs/NVtx_BPHA.pdf  used on input line 160.
@@ -1115,7 +1115,7 @@ Underfull \hbox (badness 7221) in paragraph at lines 166--166
 18B-UL2018[]MiniAODv2-
  []
 
-<figs/NVtx_BPHB.pdf, id=916, 569.12625pt x 469.755pt>
+<figs/NVtx_BPHB.pdf, id=919, 569.12625pt x 469.755pt>
 File: figs/NVtx_BPHB.pdf Graphic file (type pdf)
 <use figs/NVtx_BPHB.pdf>
 Package pdftex.def Info: figs/NVtx_BPHB.pdf  used on input line 169.
@@ -1129,7 +1129,7 @@ Underfull \hbox (badness 5161) in paragraph at lines 175--175
 018C-UL2018[]MiniAODv2-
  []
 
-<figs/NVtx_BPHC.pdf, id=918, 569.12625pt x 469.755pt>
+<figs/NVtx_BPHC.pdf, id=921, 569.12625pt x 469.755pt>
 File: figs/NVtx_BPHC.pdf Graphic file (type pdf)
 <use figs/NVtx_BPHC.pdf>
 Package pdftex.def Info: figs/NVtx_BPHC.pdf  used on input line 178.
@@ -1144,7 +1144,7 @@ Underfull \hbox (badness 5022) in paragraph at lines 184--184
 018D-UL2018[]MiniAODv2-
  []
 
-<figs/NVtx_BPHD.pdf, id=969, 569.12625pt x 469.755pt>
+<figs/NVtx_BPHD.pdf, id=972, 569.12625pt x 469.755pt>
 File: figs/NVtx_BPHD.pdf Graphic file (type pdf)
 <use figs/NVtx_BPHD.pdf>
 Package pdftex.def Info: figs/NVtx_BPHD.pdf  used on input line 187.
@@ -1152,7 +1152,7 @@ Package pdftex.def Info: figs/NVtx_BPHD.pdf  used on input line 187.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/NVtx_DYJetsToLL_M-50_try.pdf, id=971, 569.12625pt x 469.755pt>
+<figs/NVtx_DYJetsToLL_M-50_try.pdf, id=974, 569.12625pt x 469.755pt>
 File: figs/NVtx_DYJetsToLL_M-50_try.pdf Graphic file (type pdf)
 <use figs/NVtx_DYJetsToLL_M-50_try.pdf>
 Package pdftex.def Info: figs/NVtx_DYJetsToLL_M-50_try.pdf  used on input line 
@@ -1163,7 +1163,7 @@ ar_gammactau15GeV.pdf, page is rotated 90 degrees>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/NVtx_PUWeight.pdf, id=1063, 569.12625pt x 469.755pt>
+<figs/NVtx_PUWeight.pdf, id=1066, 569.12625pt x 469.755pt>
 File: figs/NVtx_PUWeight.pdf Graphic file (type pdf)
 <use figs/NVtx_PUWeight.pdf>
 Package pdftex.def Info: figs/NVtx_PUWeight.pdf  used on input line 206.
@@ -1180,7 +1180,7 @@ degrees> <./figs/NVtx_BPHD.pdf, page is rotated 90 degrees>] [31 <./figs/NVtx_D
 YJetsToLL_M-50_try.pdf, page is rotated 90 degrees> <./figs/NVtx_PUWeight.pdf, 
 page is rotated 90 degrees>]
 Chapter 5.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf, id=1520, 569.12625pt x 608
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf, id=1523, 569.12625pt x 608
 .2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf Graphic file (type pdf
 )
@@ -1188,7 +1188,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf Graphic file (type pdf
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf  us
 ed on input line 36.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf, id=1521, 569.12625pt x 60
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf, id=1524, 569.12625pt x 60
 8.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf Graphic file (type pd
 f)
@@ -1196,7 +1196,7 @@ f)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf  u
 sed on input line 37.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf, id=1522, 569.12625pt x
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf, id=1525, 569.12625pt x
  608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf Graphic file (type
  pdf)
@@ -1204,7 +1204,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf Graphic file (type
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf
   used on input line 38.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf, id=1523, 569.12625pt x 608.
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf, id=1526, 569.12625pt x 608.
 2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf Graphic file (type pdf)
 
@@ -1228,7 +1228,7 @@ MINIAOD dataset to pro-duce \OT1/cmtt/m/n/10.95 selectedJets\OT1/cmr/m/n/10.95
 [33 <./figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf> <./figs/Data_log_Ana
 lysisNote_MS-15_ctauS-10_mueta.pdf> <./figs/Data_log_AnalysisNote_MS-15_ctauS-1
 0_muenergy.pdf> <./figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf>]
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf, id=1711, 569.12625pt x 60
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf, id=1714, 569.12625pt x 60
 8.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf Graphic file (type pd
 f)
@@ -1236,7 +1236,7 @@ f)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf  u
 sed on input line 65.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf, id=1712, 569.12625pt x 6
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf, id=1715, 569.12625pt x 6
 08.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf Graphic file (type p
 df)
@@ -1244,7 +1244,7 @@ df)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf  
 used on input line 66.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pdf, id=1713, 569.12625pt 
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pdf, id=1716, 569.12625pt 
 x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pdf Graphic file (typ
 e pdf)
@@ -1252,7 +1252,7 @@ e pdf)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pd
 f  used on input line 67.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nJet.pdf, id=1714, 569.12625pt x 608
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nJet.pdf, id=1717, 569.12625pt x 608
 .2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_nJet.pdf Graphic file (type pdf
 )
@@ -1264,7 +1264,7 @@ ed on input line 68.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf, id=1715, 569.12625pt x 60
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf, id=1718, 569.12625pt x 60
 8.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf Graphic file (type pd
 f)
@@ -1272,7 +1272,7 @@ f)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf  u
 sed on input line 85.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf, id=1716, 569.12625pt x 6
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf, id=1719, 569.12625pt x 6
 08.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf Graphic file (type p
 df)
@@ -1280,7 +1280,7 @@ df)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf  
 used on input line 86.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pdf, id=1717, 569.12625pt 
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pdf, id=1720, 569.12625pt 
 x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pdf Graphic file (typ
 e pdf)
@@ -1288,7 +1288,7 @@ e pdf)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pd
 f  used on input line 87.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf, id=1718, 569.12625pt x 608
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf, id=1721, 569.12625pt x 608
 .2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf Graphic file (type pdf
 )
@@ -1299,7 +1299,7 @@ ed on input line 88.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf, id=1719, 569.12625pt x 60
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf, id=1722, 569.12625pt x 60
 8.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf Graphic file (type pd
 f)
@@ -1307,7 +1307,7 @@ f)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf  u
 sed on input line 95.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_METenergy.pdf, id=1720, 569.12625pt 
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_METenergy.pdf, id=1723, 569.12625pt 
 x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_METenergy.pdf Graphic file (typ
 e pdf)
@@ -1326,17 +1326,17 @@ alysisNote_MS-15_ctauS-10_taueta.pdf> <./figs/Data_log_AnalysisNote_MS-15_ctauS
 -10_tauenergy.pdf> <./figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf>]
 [37 <./figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf> <./figs/Data_log_An
 alysisNote_MS-15_ctauS-10_METenergy.pdf>]
-<figs/ROICT1.png, id=2173, 1371.1225pt x 770.88pt>
+<figs/ROICT1.png, id=2176, 1371.1225pt x 770.88pt>
 File: figs/ROICT1.png Graphic file (type png)
 <use figs/ROICT1.png>
 Package pdftex.def Info: figs/ROICT1.png  used on input line 172.
 (pdftex.def)             Requested size: 305.33788pt x 171.66435pt.
-<figs/ROICT2.png, id=2174, 1371.1225pt x 770.88pt>
+<figs/ROICT2.png, id=2177, 1371.1225pt x 770.88pt>
 File: figs/ROICT2.png Graphic file (type png)
 <use figs/ROICT2.png>
 Package pdftex.def Info: figs/ROICT2.png  used on input line 173.
 (pdftex.def)             Requested size: 305.33788pt x 171.66435pt.
-<figs/ROICT3.png, id=2175, 1371.1225pt x 770.88pt>
+<figs/ROICT3.png, id=2178, 1371.1225pt x 770.88pt>
 File: figs/ROICT3.png Graphic file (type png)
 <use figs/ROICT3.png>
 Package pdftex.def Info: figs/ROICT3.png  used on input line 174.
@@ -1348,17 +1348,17 @@ LaTeX Warning: Float too large for page by 20.19281pt on input line 184.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/ROICT4.png, id=2176, 1371.1225pt x 770.88pt>
+<figs/ROICT4.png, id=2179, 1371.1225pt x 770.88pt>
 File: figs/ROICT4.png Graphic file (type png)
 <use figs/ROICT4.png>
 Package pdftex.def Info: figs/ROICT4.png  used on input line 188.
 (pdftex.def)             Requested size: 305.33788pt x 171.66435pt.
-<figs/ROICT5.png, id=2177, 1371.1225pt x 770.88pt>
+<figs/ROICT5.png, id=2180, 1371.1225pt x 770.88pt>
 File: figs/ROICT5.png Graphic file (type png)
 <use figs/ROICT5.png>
 Package pdftex.def Info: figs/ROICT5.png  used on input line 189.
 (pdftex.def)             Requested size: 305.33788pt x 171.66435pt.
-<figs/ROICT6.png, id=2178, 1371.1225pt x 770.88pt>
+<figs/ROICT6.png, id=2181, 1371.1225pt x 770.88pt>
 File: figs/ROICT6.png Graphic file (type png)
 <use figs/ROICT6.png>
 Package pdftex.def Info: figs/ROICT6.png  used on input line 190.
@@ -1366,12 +1366,12 @@ Package pdftex.def Info: figs/ROICT6.png  used on input line 190.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/ROICT7.png, id=2179, 1371.1225pt x 770.88pt>
+<figs/ROICT7.png, id=2182, 1371.1225pt x 770.88pt>
 File: figs/ROICT7.png Graphic file (type png)
 <use figs/ROICT7.png>
 Package pdftex.def Info: figs/ROICT7.png  used on input line 202.
 (pdftex.def)             Requested size: 328.82706pt x 184.87383pt.
-<figs/ROICT8.png, id=2180, 1371.1225pt x 770.88pt>
+<figs/ROICT8.png, id=2183, 1371.1225pt x 770.88pt>
 File: figs/ROICT8.png Graphic file (type png)
 <use figs/ROICT8.png>
 Package pdftex.def Info: figs/ROICT8.png  used on input line 203.
@@ -1379,7 +1379,7 @@ Package pdftex.def Info: figs/ROICT8.png  used on input line 203.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf, id=2181, 569.12625pt x 
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf, id=2184, 569.12625pt x 
 608.2725pt>
 File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf Graphic file (type 
 pdf)
@@ -1387,7 +1387,7 @@ pdf)
 Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dxy.pdf 
  used on input line 219.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf, id=2182, 569.12625pt x 6
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf, id=2185, 569.12625pt x 6
 08.2725pt>
 File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_roi_dz.pdf Graphic file (type p
 df)
@@ -1398,7 +1398,7 @@ used on input line 220.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf, id=2183, 
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf, id=2186, 
 569.12625pt x 608.2725pt>
 File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.pdf Graph
 ic file (type pdf)
@@ -1406,7 +1406,7 @@ ic file (type pdf)
 Package pdftex.def Info: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClus
 terNumber.pdf  used on input line 227.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf, id=2184,
+<figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf, id=2187,
  569.12625pt x 608.2725pt>
 File: figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf Grap
 hic file (type pdf)
@@ -1424,12 +1424,12 @@ plot_MS-15_ctauS-10_roi_dxy.pdf> <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_r
 oi_dz.pdf> <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROITrackClusterNumber.p
 df> <./figs/Data_AnalysisNoteplot_MS-15_ctauS-10_ROIAnnulusTracksNumber.pdf>]
 Chapter 6.
-<figs/PhiVNet.png, id=2391, 1371.1225pt x 770.88pt>
+<figs/PhiVNet.png, id=2394, 1371.1225pt x 770.88pt>
 File: figs/PhiVNet.png Graphic file (type png)
 <use figs/PhiVNet.png>
 Package pdftex.def Info: figs/PhiVNet.png  used on input line 79.
 (pdftex.def)             Requested size: 281.85585pt x 158.46664pt.
-<figs/PhiANet.png, id=2392, 1371.1225pt x 770.88pt>
+<figs/PhiANet.png, id=2395, 1371.1225pt x 770.88pt>
 File: figs/PhiANet.png Graphic file (type png)
 <use figs/PhiANet.png>
 Package pdftex.def Info: figs/PhiANet.png  used on input line 80.
@@ -1441,7 +1441,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [44] [45 <./figs/PhiVnet.png> <./figs/PhiANet.png>]
-<figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf, id=2412, 569.12625pt x 452.
+<figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf, id=2415, 569.12625pt x 452.
 69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf Graphic file (type pdf)
 
@@ -1449,7 +1449,7 @@ File: figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf  use
 d on input line 162.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf, id=2413, 569.12625pt x 452
+<figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf, id=2416, 569.12625pt x 452
 .69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf Graphic file (type pdf
 )
@@ -1457,7 +1457,7 @@ File: figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf Graphic file (type pdf
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-100_hloglead.pdf  us
 ed on input line 163.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-1000_hloglead.pdf, id=2414, 569.12625pt x 45
+<figs/log_AnalysisNote_MS-15_ctauS-1000_hloglead.pdf, id=2417, 569.12625pt x 45
 2.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-1000_hloglead.pdf Graphic file (type pd
 f)
@@ -1465,7 +1465,7 @@ f)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-1000_hloglead.pdf  u
 sed on input line 164.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-55_ctauS-10_hloglead.pdf, id=2415, 569.12625pt x 452.
+<figs/log_AnalysisNote_MS-55_ctauS-10_hloglead.pdf, id=2418, 569.12625pt x 452.
 69125pt>
 File: figs/log_AnalysisNote_MS-55_ctauS-10_hloglead.pdf Graphic file (type pdf)
 
@@ -1477,7 +1477,7 @@ d on input line 165.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf, id=2416, 569.12625pt x 4
+<figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf, id=2419, 569.12625pt x 4
 52.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf Graphic file (type p
 df)
@@ -1485,7 +1485,7 @@ df)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf  
 used on input line 173.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-100_hlogexclead.pdf, id=2417, 569.12625pt x 
+<figs/log_AnalysisNote_MS-15_ctauS-100_hlogexclead.pdf, id=2420, 569.12625pt x 
 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-100_hlogexclead.pdf Graphic file (type 
 pdf)
@@ -1493,7 +1493,7 @@ pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-100_hlogexclead.pdf 
  used on input line 174.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf, id=2418, 569.12625pt x
+<figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf, id=2421, 569.12625pt x
  452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf Graphic file (type
  pdf)
@@ -1501,7 +1501,7 @@ File: figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf Graphic file (type
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-1000_hlogexclead.pdf
   used on input line 175.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-55_ctauS-10_hlogexclead.pdf, id=2419, 569.12625pt x 4
+<figs/log_AnalysisNote_MS-55_ctauS-10_hlogexclead.pdf, id=2422, 569.12625pt x 4
 52.69125pt>
 File: figs/log_AnalysisNote_MS-55_ctauS-10_hlogexclead.pdf Graphic file (type p
 df)
@@ -1512,7 +1512,7 @@ used on input line 176.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf, id=2420, 569.12625pt x
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf, id=2423, 569.12625pt x
  608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf Graphic file (type
  pdf)
@@ -1520,7 +1520,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf Graphic file (type
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf
   used on input line 183.
 (pdftex.def)             Requested size: 314.73497pt x 336.39793pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf, id=2421, 569.12625p
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf, id=2424, 569.12625p
 t x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf Graphic file (t
 ype pdf)
@@ -1534,7 +1534,7 @@ LaTeX Warning: Float too large for page by 68.19557pt on input line 185.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf, id=2422, 569.12625pt x
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf, id=2425, 569.12625pt x
  608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf Graphic file (type
  pdf)
@@ -1542,7 +1542,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf Graphic file (type
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hleaddxy.pdf
   used on input line 191.
 (pdftex.def)             Requested size: 267.76378pt x 286.19441pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hexcleaddxy.pdf, id=2423, 569.12625p
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_hexcleaddxy.pdf, id=2426, 569.12625p
 t x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_hexcleaddxy.pdf Graphic file (t
 ype pdf)
@@ -1553,7 +1553,7 @@ pdf  used on input line 192.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVert.pdf, id=2424, 569.126
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVert.pdf, id=2427, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVert.pdf Graphic file
  (type pdf)
@@ -1561,7 +1561,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVert.pdf Graphic file
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROINumVe
 rt.pdf  used on input line 201.
 (pdftex.def)             Requested size: 267.76378pt x 286.19441pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_excleadROINumVert.pdf, id=2425, 569.
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_excleadROINumVert.pdf, id=2428, 569.
 12625pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_excleadROINumVert.pdf Graphic f
 ile (type pdf)
@@ -1572,7 +1572,7 @@ mVert.pdf  used on input line 202.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROIATNumber.pdf, id=2426, 569.12
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROIATNumber.pdf, id=2429, 569.12
 625pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROIATNumber.pdf Graphic fil
 e (type pdf)
@@ -1580,7 +1580,7 @@ e (type pdf)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadROIATNum
 ber.pdf  used on input line 210.
 (pdftex.def)             Requested size: 267.76378pt x 286.19441pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_excROIATNumber.pdf, id=2427, 569.126
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_excROIATNumber.pdf, id=2430, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_excROIATNumber.pdf Graphic file
  (type pdf)
@@ -1635,13 +1635,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 \OT1/cmr/m/n/10.95 BPH+1$\OML/cmm/m/it/10.95 ^^V$
  []
 
-<figs/taugendR.pdf, id=3157, 569.12625pt x 469.755pt>
+<figs/taugendR.pdf, id=3160, 569.12625pt x 469.755pt>
 File: figs/taugendR.pdf Graphic file (type pdf)
 <use figs/taugendR.pdf>
 Package pdftex.def Info: figs/taugendR.pdf  used on input line 78.
-(pdftex.def)             Requested size: 187.89912pt x 155.09131pt.
-[54 <./figs/taugendR.pdf, page is rotated 90 degrees>]
-<figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf, id=3206, 569.12625pt x
+(pdftex.def)             Requested size: 281.85585pt x 232.65488pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf, id=3161, 569.12625pt x
  452.69125pt>
 File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf Graphic file (type
  pdf)
@@ -1649,7 +1651,7 @@ File: figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf Graphic file (type
 Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf
   used on input line 101.
 (pdftex.def)             Requested size: 187.89912pt x 149.45764pt.
-<figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, id=3207, 569.12625pt 
+<figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, id=3162, 569.12625pt 
 x 452.69125pt>
 File: figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf Graphic file (typ
 e pdf)
@@ -1657,7 +1659,10 @@ e pdf)
 Package pdftex.def Info: figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pd
 f  used on input line 102.
 (pdftex.def)             Requested size: 187.89912pt x 149.45764pt.
-<figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf, id=3208, 569.12625pt 
+[54] [55 <./figs/taugendR.pdf, page is rotated 90 degrees> <./figs/AnalysisNote
+plot_MS-15_ctauS-10_leadexcPosPhi.pdf, page is rotated 90 degrees> <./figs/Anal
+ysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, page is rotated 90 degrees>]
+<figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf, id=3302, 569.12625pt 
 x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf Graphic file (typ
 e pdf)
@@ -1665,7 +1670,7 @@ e pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pd
 f  used on input line 120.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf, id=3209, 569.12625pt
+<figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf, id=3303, 569.12625pt
  x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.pdf Graphic file (ty
 pe pdf)
@@ -1673,7 +1678,7 @@ pe pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-100_leadcloseJetdR.p
 df  used on input line 121.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf, id=3210, 569.12625p
+<figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf, id=3304, 569.12625p
 t x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.pdf Graphic file (t
 ype pdf)
@@ -1681,7 +1686,7 @@ ype pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-1000_leadcloseJetdR.
 pdf  used on input line 122.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf, id=3211, 569.12625pt 
+<figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf, id=3305, 569.12625pt 
 x 452.69125pt>
 File: figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pdf Graphic file (typ
 e pdf)
@@ -1689,22 +1694,20 @@ e pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-55_ctauS-10_leadcloseJetdR.pd
 f  used on input line 123.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
- [55 <./figs/AnalysisNoteplot_MS-15_ctauS-10_leadexcPosPhi.pdf, page is rotated
- 90 degrees> <./figs/AnalysisNoteplot_MS-15_ctauS-100_leadexcPosPhi.pdf, page i
-s rotated 90 degrees>]
+
 [56 <./figs/log_AnalysisNote_MS-15_ctauS-10_leadclosejetdR.pdf, page is rotated
  90 degrees> <./figs/log_AnalysisNote_MS-15_ctauS-100_leadclosejetdR.pdf, page 
 is rotated 90 degrees> <./figs/log_AnalysisNote_MS-15_ctauS-1000_leadclosejetdR
 .pdf, page is rotated 90 degrees> <./figs/log_AnalysisNote_MS-55_ctauS-10_leadc
 losejetdR.pdf, page is rotated 90 degrees>]
-<figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf, id=3480, 569.12625pt x 452.6
+<figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf, id=3483, 569.12625pt x 452.6
 9125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf Graphic file (type pdf)
 <use figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf>
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-10_muIPSig.pdf  used
  on input line 141.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf, id=3481, 569.12625pt x 452.
+<figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf, id=3484, 569.12625pt x 452.
 69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf Graphic file (type pdf)
 
@@ -1712,7 +1715,7 @@ File: figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-100_muIPSig.pdf  use
 d on input line 142.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf, id=3482, 569.12625pt x 452
+<figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf, id=3485, 569.12625pt x 452
 .69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf Graphic file (type pdf
 )
@@ -1720,14 +1723,14 @@ File: figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf Graphic file (type pdf
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-1000_muIPSig.pdf  us
 ed on input line 143.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf, id=3483, 569.12625pt x 452.6
+<figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf, id=3486, 569.12625pt x 452.6
 9125pt>
 File: figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf Graphic file (type pdf)
 <use figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf>
 Package pdftex.def Info: figs/log_AnalysisNote_MS-55_ctauS-10_muIPSig.pdf  used
  on input line 144.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf, id=3484, 569.12625pt
+<figs/log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf, id=3487, 569.12625pt
  x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf Graphic file (ty
 pe pdf)
@@ -1735,7 +1738,7 @@ pe pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.p
 df  used on input line 151.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-100_AmpLog10muIPSig.pdf, id=3485, 569.12625p
+<figs/log_AnalysisNote_MS-15_ctauS-100_AmpLog10muIPSig.pdf, id=3488, 569.12625p
 t x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-100_AmpLog10muIPSig.pdf Graphic file (t
 ype pdf)
@@ -1743,7 +1746,7 @@ ype pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-100_AmpLog10muIPSig.
 pdf  used on input line 152.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig.pdf, id=3486, 569.12625
+<figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig.pdf, id=3489, 569.12625
 pt x 452.69125pt>
 File: figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig.pdf Graphic file (
 type pdf)
@@ -1751,7 +1754,7 @@ type pdf)
 Package pdftex.def Info: figs/log_AnalysisNote_MS-15_ctauS-1000_AmpLog10muIPSig
 .pdf  used on input line 153.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_AnalysisNote_MS-55_ctauS-10_AmpLog10muIPSig.pdf, id=3487, 569.12625pt
+<figs/log_AnalysisNote_MS-55_ctauS-10_AmpLog10muIPSig.pdf, id=3490, 569.12625pt
  x 452.69125pt>
 File: figs/log_AnalysisNote_MS-55_ctauS-10_AmpLog10muIPSig.pdf Graphic file (ty
 pe pdf)
@@ -1763,7 +1766,7 @@ df  used on input line 154.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf, id=3488, 569.1262
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf, id=3491, 569.1262
 5pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf Graphic file 
 (type pdf)
@@ -1771,7 +1774,7 @@ File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPhi.pdf Graphic file
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadexcPosPh
 i.pdf  used on input line 161.
 (pdftex.def)             Requested size: 187.89912pt x 200.82336pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf, id=3489, 569.12
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf, id=3492, 569.12
 625pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIPSig.pdf Graphic fil
 e (type pdf)
@@ -1779,7 +1782,7 @@ e (type pdf)
 Package pdftex.def Info: figs/Data_log_AnalysisNote_MS-15_ctauS-10_AmpLog10muIP
 Sig.pdf  used on input line 162.
 (pdftex.def)             Requested size: 187.89912pt x 200.82336pt.
-<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf, id=3490, 569.126
+<figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf, id=3493, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_AnalysisNote_MS-15_ctauS-10_leadcloseJetdR.pdf Graphic file
  (type pdf)
@@ -1819,7 +1822,7 @@ Sig.pdf  used on input line 9.
 
 
 ]
-<figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf, id=3984, 569.12625pt 
+<figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf, id=3987, 569.12625pt 
 x 452.69125pt>
 File: figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf Graphic file (typ
 e pdf)
@@ -1827,7 +1830,7 @@ e pdf)
 Package pdftex.def Info: figs/log_CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pd
 f  used on input line 55.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf, id=3985, 569.12625pt 
+<figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf, id=3988, 569.12625pt 
 x 452.69125pt>
 File: figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf Graphic file (typ
 e pdf)
@@ -1835,7 +1838,7 @@ e pdf)
 Package pdftex.def Info: figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pd
 f  used on input line 56.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf, id=3986, 569.12625pt 
+<figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf, id=3989, 569.12625pt 
 x 452.69125pt>
 File: figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf Graphic file (typ
 e pdf)
@@ -1843,7 +1846,7 @@ e pdf)
 Package pdftex.def Info: figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pd
 f  used on input line 57.
 (pdftex.def)             Requested size: 220.78542pt x 175.61636pt.
-<figs/log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf, id=3987, 569.12625pt 
+<figs/log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf, id=3990, 569.12625pt 
 x 452.69125pt>
 File: figs/log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf Graphic file (typ
 e pdf)
@@ -1855,7 +1858,7 @@ f  used on input line 58.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/log_CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf, id=3988, 569.12
+<figs/log_CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf, id=3991, 569.12
 625pt x 452.69125pt>
 File: figs/log_CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf Graphic fil
 e (type pdf)
@@ -1867,47 +1870,52 @@ ate.pdf  used on input line 74.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [61]
-<figs/Valcart.png, id=3995, 1185.42876pt x 655.44875pt>
-File: figs/Valcart.png Graphic file (type png)
-<use figs/Valcart.png>
-Package pdftex.def Info: figs/Valcart.png  used on input line 95.
-(pdftex.def)             Requested size: 399.2946pt x 220.77934pt.
+<figs/SimpleVR.png, id=3998, 1238.6275pt x 631.35875pt>
+File: figs/SimpleVR.png Graphic file (type png)
+<use figs/SimpleVR.png>
+Package pdftex.def Info: figs/SimpleVR.png  used on input line 95.
+(pdftex.def)             Requested size: 399.2946pt x 203.53215pt.
+<figs/SophiVR.png, id=3999, 1090.0725pt x 662.475pt>
+File: figs/SophiVR.png Graphic file (type png)
+<use figs/SophiVR.png>
+Package pdftex.def Info: figs/SophiVR.png  used on input line 96.
+(pdftex.def)             Requested size: 399.2946pt x 242.66565pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/VR1.png, id=3996, 524.96124pt x 370.38374pt>
+<figs/VR1.png, id=4000, 524.96124pt x 370.38374pt>
 File: figs/VR1.png Graphic file (type png)
 <use figs/VR1.png>
-Package pdftex.def Info: figs/VR1.png  used on input line 104.
+Package pdftex.def Info: figs/VR1.png  used on input line 105.
 (pdftex.def)             Requested size: 305.33788pt x 215.43874pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/VR2.png, id=3997, 511.9125pt x 359.3425pt>
+<figs/VR2.png, id=4001, 511.9125pt x 359.3425pt>
 File: figs/VR2.png Graphic file (type png)
 <use figs/VR2.png>
-Package pdftex.def Info: figs/VR2.png  used on input line 112.
+Package pdftex.def Info: figs/VR2.png  used on input line 113.
 (pdftex.def)             Requested size: 305.33788pt x 214.33507pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/VR3.png, id=3998, 507.8975pt x 360.34625pt>
+<figs/VR3.png, id=4002, 507.8975pt x 360.34625pt>
 File: figs/VR3.png Graphic file (type png)
 <use figs/VR3.png>
-Package pdftex.def Info: figs/VR3.png  used on input line 120.
+Package pdftex.def Info: figs/VR3.png  used on input line 121.
 (pdftex.def)             Requested size: 305.33788pt x 216.63829pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.43646pt too wide) in paragraph at lines 126--130
+Overfull \hbox (2.43646pt too wide) in paragraph at lines 127--131
 \OT1/cmr/m/n/10.95 Un-for-tu-nately, sus-pi-cious peo-ple could throw one last 
 ques-tion. What if $[]$(leadROI,Log10(muIPSig))
  []
 
 
-Overfull \hbox (43.71196pt too wide) in paragraph at lines 126--130
+Overfull \hbox (43.71196pt too wide) in paragraph at lines 127--131
 \OT1/cmr/m/n/10.95 value changes with re-spect to $^^A^^H$(lead,exclead)? If th
 e for-mula in [][]8.2[][] is not true, $[]$(leadROI,Log10(muIPSig))
  []
@@ -1916,22 +1924,22 @@ e for-mula in [][]8.2[][] is not true, $[]$(leadROI,Log10(muIPSig))
  90 degrees> <./figs/log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf, page i
 s rotated 90 degrees> <./figs/log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pd
 f, page is rotated 90 degrees> <./figs/log_CutflAnalysisNote_MS-15_ctauS-10_D_C
-utflow.pdf, page is rotated 90 degrees>] [63 <./figs/log_CutflAnalysisNote_MS-1
-5_ctauS-10_ABCD_final_rate.pdf, page is rotated 90 degrees> <./figs/Valcart.png
->] [64 <./figs/VR1.png> <./figs/VR2.png>]
-Overfull \hbox (70.6307pt too wide) in paragraph at lines 143--148
+utflow.pdf, page is rotated 90 degrees>]
+Overfull \hbox (70.6307pt too wide) in paragraph at lines 144--149
 \OT1/cmr/m/n/10.95 with re-spect to $^^A^^H$(lead,exclead) is ob-served. We can
  claim the for-mula [][]8.2[][] is true and $[]$(leadROI,Log10(muIPSig))
  []
 
-) (./08_systematics.tex [65 <./figs/VR3.png>]
+[63 <./figs/log_CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf, page is r
+otated 90 degrees>]) (./08_systematics.tex [64 <./figs/SimpleVR.png> <./figs/So
+phiVR.png>] [65 <./figs/VR1.png> <./figs/VR2.png>] [66 <./figs/VR3.png>]
 Chapter 9.
-) (./09_results.tex [66
+) (./09_results.tex [67
 
 
 ]
 Chapter 10.
-<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf, id=4246, 569.126
+<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf, id=4258, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf Graphic file
  (type pdf)
@@ -1939,7 +1947,7 @@ File: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf Graphic file
 Package pdftex.def Info: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutfl
 ow.pdf  used on input line 11.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf, id=4247, 569.126
+<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf, id=4259, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf Graphic file
  (type pdf)
@@ -1947,7 +1955,7 @@ File: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf Graphic file
 Package pdftex.def Info: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutfl
 ow.pdf  used on input line 12.
 (pdftex.def)             Requested size: 220.78542pt x 235.97232pt.
-<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf, id=4248, 569.126
+<figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf, id=4260, 569.126
 25pt x 608.2725pt>
 File: figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf Graphic file
  (type pdf)
@@ -1958,12 +1966,12 @@ ow.pdf  used on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/7GeVUpperLimit.pdf, id=4249, 569.12625pt x 408.52625pt>
+<figs/7GeVUpperLimit.pdf, id=4261, 569.12625pt x 408.52625pt>
 File: figs/7GeVUpperLimit.pdf Graphic file (type pdf)
 <use figs/7GeVUpperLimit.pdf>
 Package pdftex.def Info: figs/7GeVUpperLimit.pdf  used on input line 21.
 (pdftex.def)             Requested size: 225.48038pt x 161.85544pt.
-<figs/15GeVUpperLimit.pdf, id=4250, 569.12625pt x 408.52625pt>
+<figs/15GeVUpperLimit.pdf, id=4262, 569.12625pt x 408.52625pt>
 File: figs/15GeVUpperLimit.pdf Graphic file (type pdf)
 <use figs/15GeVUpperLimit.pdf>
 Package pdftex.def Info: figs/15GeVUpperLimit.pdf  used on input line 22.
@@ -1971,12 +1979,12 @@ Package pdftex.def Info: figs/15GeVUpperLimit.pdf  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/40GeVUpperLimit.pdf, id=4251, 569.12625pt x 408.52625pt>
+<figs/40GeVUpperLimit.pdf, id=4263, 569.12625pt x 408.52625pt>
 File: figs/40GeVUpperLimit.pdf Graphic file (type pdf)
 <use figs/40GeVUpperLimit.pdf>
 Package pdftex.def Info: figs/40GeVUpperLimit.pdf  used on input line 28.
 (pdftex.def)             Requested size: 225.48038pt x 161.85544pt.
-<figs/55GeVUpperLimit.pdf, id=4252, 569.12625pt x 408.52625pt>
+<figs/55GeVUpperLimit.pdf, id=4264, 569.12625pt x 408.52625pt>
 File: figs/55GeVUpperLimit.pdf Graphic file (type pdf)
 <use figs/55GeVUpperLimit.pdf>
 Package pdftex.def Info: figs/55GeVUpperLimit.pdf  used on input line 29.
@@ -1984,17 +1992,17 @@ Package pdftex.def Info: figs/55GeVUpperLimit.pdf  used on input line 29.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./10_conclusions.tex [67
+) (./10_conclusions.tex [68
 
 
-] [68 <./figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf> <./figs/
+] [69 <./figs/Data_log_CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf> <./figs/
 Data_log_CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf> <./figs/Data_log_Cutfl
-AnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf>] [69 <./figs/7GeVUpperLimit.pdf, pag
+AnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf>] [70 <./figs/7GeVUpperLimit.pdf, pag
 e is rotated 90 degrees> <./figs/15GeVUpperLimit.pdf, page is rotated 90 degree
 s> <./figs/40GeVUpperLimit.pdf, page is rotated 90 degrees> <./figs/55GeVUpperL
 imit.pdf, page is rotated 90 degrees>]
 Chapter 11.
-) (./appendix.tex [70
+) (./appendix.tex [71
 
 
 ]
@@ -2004,10 +2012,10 @@ Overfull \hbox (7.98299pt too wide) in paragraph at lines 13--50
  [] 
  []
 
-[71
+[72
 
 ]
-<figs/feynmanggH.pdf, id=4580, 882.29625pt x 541.02126pt>
+<figs/feynmanggH.pdf, id=4591, 882.29625pt x 541.02126pt>
 File: figs/feynmanggH.pdf Graphic file (type pdf)
 <use figs/feynmanggH.pdf>
 Package pdftex.def Info: figs/feynmanggH.pdf  used on input line 104.
@@ -2021,7 +2029,7 @@ Package caption Warning: \label without proper reference on input line 157.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:sigsample' on page 72 undefined on input line 122
+LaTeX Warning: Reference `tab:sigsample' on page 73 undefined on input line 122
 .
 
 
@@ -2030,23 +2038,23 @@ Overfull \hbox (37.12122pt too wide) in paragraph at lines 183--188
 ODv2-106X[]upgrade2018[]realistic[]v16[]L1v1.
  []
 
-[72] [73 <./figs/feynmanggH.pdf>] [74] [75]
+[73] [74 <./figs/feynmanggH.pdf>] [75] [76]
 Appendix B.
-[76
+[77
 
-] [77
+] [78
 
-]) [78
+]) [79
 
 
-] [79] [80] [81] [82]
+] [80] [81] [82] [83]
 Overfull \hbox (9.7241pt too wide) in paragraph at lines 787--787
 \OT1/cmr/m/n/10.95 2020. \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : [][]$\OT1/
 cmtt/m/n/10.95 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS / P
 dmVAnalysisSummaryTable$[][]\OT1/cmr/m/n/10.95 . 
  []
 
-[83] [84
+[84] [85
 
 ] (./thesis.aux)
 
@@ -2062,10 +2070,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18579 strings out of 479304
- 334333 string characters out of 5869780
- 1172422 words of memory out of 5000000
- 35062 multiletter control sequences out of 15000+600000
+ 18589 strings out of 479304
+ 334556 string characters out of 5869780
+ 1172625 words of memory out of 5000000
+ 35069 multiletter control sequences out of 15000+600000
  413591 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,75p,1051b,2870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2084,10 +2092,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1095.pfb>
-Output written on thesis.pdf (96 pages, 5810324 bytes).
+Output written on thesis.pdf (97 pages, 5856770 bytes).
 PDF statistics:
- 4918 PDF objects out of 5155 (max. 8388607)
- 2673 compressed objects within 27 object streams
- 305 named destinations out of 1000 (max. 500000)
- 953 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4933 PDF objects out of 5155 (max. 8388607)
+ 2685 compressed objects within 27 object streams
+ 307 named destinations out of 1000 (max. 500000)
+ 958 words of extra memory for PDF output out of 10000 (max. 10000000)
 

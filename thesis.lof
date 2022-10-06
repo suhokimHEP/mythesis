@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces $\Delta $R value of tau lepton pair from LLP decay is plotted. $\tau $s' mass are low enough to be resolved when decayed from heavier LLP.\relax }}{54}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces $\Delta $R value of tau lepton pair from LLP decay is plotted. $\tau $s' mass are low enough to be resolved when decayed from heavier LLP.\relax }}{55}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{55}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
@@ -117,34 +117,34 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Data/MC agreement for distributions. High ROI scores and high muIPSig values lack MC statistics\relax }}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics\relax }}{60}{figure.caption.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D\relax }}{62}{figure.caption.65}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Cutflow histogram of Signal versus background. The signal is MS15GeV-ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D\relax }}{62}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Final bin of cutflow\relax }}{63}{figure.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Cartoon description of ABCD method validation\relax }}{63}{figure.caption.67}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. \relax }}{64}{figure.caption.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR1\relax }}{64}{figure.caption.68}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR1\relax }}{65}{figure.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR2\relax }}{64}{figure.caption.69}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR2\relax }}{65}{figure.caption.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR3\relax }}{65}{figure.caption.70}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D\relax }}{68}{figure.caption.72}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots for lower mass LLP\relax }}{69}{figure.caption.73}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Current Preliminary limit plots for higher mass LLP\relax }}{69}{figure.caption.74}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR3\relax }}{66}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode\relax }}{73}{figure.caption.76}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D\relax }}{69}{figure.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots for lower mass LLP\relax }}{70}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Current Preliminary limit plots for higher mass LLP\relax }}{70}{figure.caption.74}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode\relax }}{74}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
