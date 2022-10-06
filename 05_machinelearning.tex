@@ -4,16 +4,16 @@ ROIs are artificial regions created by the CMSSW mechanism, displaced vertex can
 ROIs contain thorough information about fitted tracks, vertices, and isolation, following the formation procedure described in the previous section.
 The exhaustive variables saved in each ROI contain information that directly and indirectly tells whether the ROI is from the signal or background process.
 Given the extensive amount of variables within ROIs, it is inappropriate to use ROIs' single or a few variables as our tagging variables, like in ZH analysis ~\cite{ZHAN}.
-It is also inefficient to implement a cut-based approach due to having approximately 20-30 variables from ROI.
-The optimization process for all 20-30 variables would also be extremely time-consuming, inefficient, and error-prone.
+It is also inefficient to implement a cut-based approach due to having so many variables from ROI.
+The optimization process for all these vertex, isolation, and track variables would be extremely time-consuming, inefficient, and error-prone.
 Therefore, the analysis exploits machine learning (ML) for this multivariate analysis.
 Boosted decision trees will also face a similar problem as cut-based analysis, although somewhat.
 Deep Neural networks are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs an extensive list of ROI variables into a neural network and receives a final score to discriminate ROIs that arise in signal process versus background processes.
 The list of variables inputted into the ML algorithms is provided in subsection \ref{sec:MLIV}.
 
 The analysis uses Keras-Tensorflow for its ML platform.
-CMSSW includes Keras-Tensorflow, which enables simple and easy usage of Keras-Tensorflow with simple cmsenv command in various CMS remote clusters.
-For CMSSW\_10\_6\_12 (to have access to the BPH trigger path), the Keras-Tensorflow version is 2.3.1.
+CMSSW includes Keras-Tensorflow, which enables simple and easy usage of Keras-Tensorflow with simple commands in various CMS remote clusters.
+For CMSSW\_10\_6\_12 (to have access to the B Parking trigger path), the Keras-Tensorflow version is 2.3.1.
 It runs with CPUs and GPUs.
 \section{Machine Learning Input Variables}\label{sec:MLIV}
 As discussed in chapter \ref{sec:objects}, the ROI has vertex and shell (isolation) information.
@@ -62,7 +62,7 @@ Shell information is trained with 8 different variables, which are listed in Tab
               & pfCandidate/LostTracks & pfCandidate/LostTracks.dz \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.normalizedChi2 \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.HighPurityInt \\
-              & pfCandidate/LostTracks & pfCandidate/LostTracks.DeltaR(trackMomentum) \\
+              & pfCandidate/LostTracks & pfCandidate/LostTracks.$\Delta$R(trackMomentum) \\
  \hline
  \hline
 \end{tabular}
@@ -70,7 +70,16 @@ Shell information is trained with 8 different variables, which are listed in Tab
 \end{center}
 \end{table}
 
-We input vertex and shell information into separate ML algorithms. Thus, we get two final products from the ML algorithms, one for the vertex and the other for the shell.
+We input vertex and shell information into separate ML networks. Thus, we get two final products from the ML networks, one for the vertex information and the other for the shell information.
+
+ \begin{figure}[h!]
+   \caption{Simple cartoon showing ML network for vertex and annulus shell.}
+   \label{fig:NetworkML}
+   \centering
+   \includegraphics[width=0.6\linewidth]{figs/PhiVNet.png}
+   \includegraphics[width=0.6\linewidth]{figs/PhiANet.png}
+ \end{figure}
+
 %\begin{table}[htb]
 %\caption{Event variables by category}
 %\begin{center}
@@ -114,12 +123,24 @@ Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
 
 
 \section{ML scores of the ROIs}
-ROIs of all events inside the dataset listed in the appendix are scored with the TensorFlow when the TensorFlow was trained with information from section ~\ref{sec:MLIV}.
-Because the signal process has two scalar decays as in Figure~\ref{fig:feynmanggH}, it is reasonable to require two high-scoring ROIs for our analysis.
-However, the two selected ROIs are not simply the two highest-scoring ROIs of the event due to the non-negligible lifetime of $\tau$ leptons in the detector.
-After obtaining an ROI with the highest ML output score, we search for the next highest scored ROI, that is $\Delta\Phi$>0.4 from the leading ROI.
-Vertex discriminant is more potent than the shell discriminant.
-Thus, the ordering of ROIs scores is done by the vertex ML output value.
+More than 10 ROIs per event often exist from our ROI reconstruction mechanism.
+However, we do not need all ROIs per event, as most of them are low-scoring ROIs that came from track misconstruction and others.
+The signal process has two scalar decays as in Figure~\ref{fig:feynmanggH}, and it is reasonable to use only the two highest-scoring ROIs for our analysis.
+Thus, we define the leading ROI (leadROI) as an ROI with the highest vertex score in the event.
+Likewise, it would be easy to define the subleading ROI (subleadROI) as an ROI with the second highest vertex score in the event.
+However, the subleadROI is not simply the second highest-scoring ROI of the event due to the non-negligible lifetime of $\tau$ leptons in the detector.
+After obtaining an ROI with the highest ML vertex score, we search for the next highest scored ROI, $\Delta\Phi$>0.4, from the leading ROI to avoid counting ROI from the same LLP decay.
+The ordering is done by vertex discriminant since it is more potent than the shell discriminant.
+For better numerical representation, we use log base 10 value of ROI vertex score subtracted from 1.
+Mathmatical definition of loglead and logexclead are in formulae \ref{eq:log} and \ref{eq:logexc}. 
+\begin{equation}
+\label{eq:log}
+	loglead = Log10(1-ROI's\;leading\;Vertex\;score)
+\end{equation}
+\begin{equation}
+\label{eq:logexc}
+	logexclead = Log10(1-ROI's\;subleading\;Vertex\;score),\;with\;\Delta\Phi(lead,sublead) \geq 0.4.
+\end{equation}
 %More detailed explanations are described in section~\ref{sec:lifetimeROI}.)  
 %The cuts on the leading ROI, and the subleading ROI are optimized based on maximizing the punzi significance formula with value $\sigma$ set to discovery value of 5.  
 %\begin{equation}\label{eq:significance}
@@ -135,7 +156,7 @@ Thus, the ordering of ROIs scores is done by the vertex ML output value.
 %\end{figure}
 
  \begin{figure}[h!]
-   \caption{Signal versus Background for log10(1-ROIscore), where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+   \caption{Signal versus Background for loglead, where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadROIscore}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf}
@@ -146,7 +167,7 @@ Thus, the ordering of ROIs scores is done by the vertex ML output value.
 
 
  \begin{figure}[h!]
-   \caption{Signal versus Background for log10(1-subROIscore), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
+	 \caption{Signal versus Background for logexclead (sublead), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:excROIscore}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_AnalysisNote_MS-15_ctauS-10_hlogexclead.pdf}
@@ -156,7 +177,7 @@ Thus, the ordering of ROIs scores is done by the vertex ML output value.
  \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for loglead/sublead scores}
+  \caption{Data/MC agreement for loglead and logexclead scores}
   \label{fig:DataMCscore}
   \centering
   \includegraphics[width=0.67\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_hloglead.pdf}
