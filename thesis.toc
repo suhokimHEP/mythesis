@@ -5,7 +5,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {frontmatter}{List of Figures}{viii}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {frontmatter}{Abstract}{xii}{chapter*.5}%
+\contentsline {frontmatter}{List of Symbols}{xii}{chapter*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {frontmatter}{Abstract}{xiii}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -17,9 +19,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Calorimetry}{12}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ECAL of CMS.}{12}{figure.caption.17}%
+\contentsline {subsubsection}{ECAL of CMS.}{12}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{HCAL of CMS.}{13}{figure.caption.19}%
+\contentsline {subsubsection}{HCAL of CMS.}{13}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}The superconducting Magnet of CMS}{16}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
@@ -95,6 +97,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Machine Learning Training Variable}{77}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{References}{79}{appendix*.84}%
+\contentsline {backmatter}{References}{79}{appendix*.85}%
 \defcounter {refsection}{0}\relax 
-\contentsline {backmatter}{Biographical Sketch}{85}{appendix*.85}%
+\contentsline {backmatter}{Biographical Sketch}{85}{appendix*.86}%

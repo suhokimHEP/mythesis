@@ -6,7 +6,7 @@ This section provides the definitions of physics objects used in the analysis.
 The analysis uses two main CMS reconstructed objects: muons and jets.
 Photons do not show anywhere in our signal process.
 $\tau$'s of our signal process can decay into electrons with the same probability as into muons.
-However, the analysis uses b-parking and only targets the muon decay mode of the tau.
+However, the analysis uses b-parking and only targets the muon decay mode of the $\tau$.
 Electrons are not an interest of our analysis either.
 
 Although the signal's final decay involves $\tau$ lepton, we do not use CMS reconstructed $\tau$.
@@ -15,7 +15,7 @@ Particle-Flow jets (PFjets), with all particle identification information within
 With $\pi^{0}$ reconstructed in ECAL as a strip, the Hadronic-Plus-Strip (HPS) algorithm reconstructs $\tau$ (at 60\% efficiency in Run 1) when a charged hadron and a strip are reconstructed in the PFJet \cite{HPS}.
 Therefore, CMS reconstructed $\tau$ collection only includes hadronically decayed $\tau$ lepton.
 One of our signal process tau lepton decays into muon, in a leptonic mode, for the trigger.
-Although other tau lepton could still decay hadronically, usage of CMS reconstructed tau leptons in the analysis would be accompanied by a division of several different sub-channels ($\mu$,e, had), which result in 27 ($3^{3}$) different combinatorics.
+Although other tau lepton could still decay hadronically, usage of CMS reconstructed tau leptons in the analysis would be accompanied by a division of several different sub-channels (muon, electron, had), which result in 27 ($3^{3}$) different combinatorics.
 Thus, we approach a tracker-oriented method with regions of interest to analyze other tau leptons in the signal process.
 
 We use muons, jets, and only tracks (ROIs) for this analysis.
@@ -23,14 +23,14 @@ We use muons, jets, and only tracks (ROIs) for this analysis.
 The analysis sources the ``SlimmedMuons'' collection from the MINIAOD MC datasets to produce {\tt selectedPatMuons}.
 Muon objects are required to have 
 \begin{itemize}
-  \item $pT$ $\geq$ 12 GeV to reach B Parking trigger plateau
-  \item $|\eta|$ $\leq$ 1.5 for L1 seed $|\eta|$ cut in B Parking trigger
-  \item reco::Muon object matched to the B Parking trigger object
+  \item \pt $\geq$ 12\GeV to reach B-Parking trigger plateau
+  \item $|\eta|$ $\leq$ 1.5 for L1 seed $|\eta|$ cut in B-Parking trigger
+  \item reco::Muon object matched to the B-Parking trigger object
   \item Pass the Loose ID criterion (isLooseMuon) as described in the Muon POG~\cite{muonpog}.
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of muon objects pT, $\eta$, energy, nMu}
+  \caption{Data/MC of muon objects \pt, $\eta$, energy, nMu}
   \label{fig:muons}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf}
@@ -50,7 +50,7 @@ Then, the calojets are input into the Particle-Flow (PF) algorithms to produce t
 %The analysis uses these SlimmedJets for the jets' b tagging scores as well.
 Jet objects require
 \begin{itemize}
-  \item pt $\geq$ 20 GeV
+  \item \pt $\geq$ 20\GeV
   \item $|\eta|$ $\leq$ 2.4
   \item 0 $\leq$ emEnergyFraction $\leq$ 0.9
   \item 0 $\leq$ energyFractionHadronic $\leq$ 0.9
@@ -59,7 +59,7 @@ Jet objects require
 The energy fraction cuts above are taken from the recommended Run2 Tight jet ID
 cuts for particle flow jets~\cite{jetid_2018}.
 \begin{figure}[h!]
-  \caption{Data/MC of jet objects for pT, $\eta$, energy, nJet}
+  \caption{Data/MC of jet objects for \pt, $\eta$, energy, nJet}
   \label{fig:jets}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf}
@@ -69,17 +69,17 @@ cuts for particle flow jets~\cite{jetid_2018}.
 \end{figure}
 
 \section{Taus}\label{sec:taus}
-Although we do not use tau leptons for event selection or background estimation, we still plotted essential variables of tau leptons for review.
+Although we do not use $\tau$ leptons for event selection or background estimation, we still plotted essential variables of $\tau$ leptons for review.
 The analysis sources ``PAT::slimmedTaus'' from MINIAOD for MC and ``RECO::slimmedTaus'' for Data to produce {\tt selectedTaus}.
 $\tau$'s hadronic decay can be reconstructed with PFJets' charged hadrons in HCAL, and 2 $\gamma$s from $\pi^{0}$ decays in ECAL.
-Tau objects require
+$\tau$ objects require
 \begin{itemize}
-  \item pt $\geq$ 20 GeV
+  \item \pt$\geq$ 20\GeV
   \item $|\eta|$ $\leq$ 2.4
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of tau objects for pT, $\eta$, energy, nJet}
+  \caption{Data/MC of $\tau$ objects for \pt, $\eta$, energy, nJet}
   \label{fig:taus}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf}
@@ -89,7 +89,7 @@ Tau objects require
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC of MET objects for pT, energy}
+  \caption{Data/MC of MET objects for \pt, energy}
   \label{fig:METs}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf}
@@ -105,7 +105,7 @@ LLPs decay in the tracker, so these track qualities should be good discriminant 
 However, we can not save all tracks in the event with all track information, as much as we have to filter out uninteresting events with the trigger and Data Acquisition system in CMS.
 In our signal process, a geometrical concept can play a vital role in sorting out only relevant tracks for our analysis.
 LLP has no electric or color charge as described in section \ref{sec:theory}.
-LLP leaves no tracks in the tracker and decays into 2 charged tau leptons, which decay into at least one charged track ($\mu$, electron, at least one charged hadron).
+LLP leaves no tracks in the tracker and decays into 2 charged $\tau$ leptons, which decay into at least one charged track (muon, electron, at least one charged hadron).
 Like in the pair production, two charged tracks often travel opposite directions.
 Thus, a geometric convergence of 2 charged tracks should point to the decay vertex of the neutral LLP.
 The tracker algorithm we use to construct this ``Interesting Geometric Region'' provides us a converged vertex.
@@ -127,7 +127,7 @@ Track parameters and convariance values will be propagated along the ROI product
   \item !isinf(tracks.parameter)  and !isnan(tracks.parameter) 
   \item !isinf(tracks.covariance) and !isnan(tracks.covariance) 
   \item Number of valid hits $>$ 3
-  \item pt $\geq$ 0.35
+  \item \pt $\geq$ 0.35
   \item Track $IPSig_{XY}\geq$2.
   \item Track $IPSig_{Z}\geq$-1.
   \item Track normalized $\chi^{2}\geq$10.
@@ -141,7 +141,7 @@ Vertex fitter is ``KalmanVertexFitter'' with vertex cuts as below.
 \begin{itemize}
   \item Vertex $\chi^{2}\geq$6.63 
   \item Transverse Decay distance significance$\geq$15.
-  \item V0mass $\geq$13000GeV
+  \item V0mass $\geq$13000\GeV
   \item cos($\theta_{XY}$) between x and p of V0 candidate $\geq$ 0
   \item cos($\theta_{XYZ}$) between x and p of V0 candidate $\geq$ -2
 \end{itemize}
