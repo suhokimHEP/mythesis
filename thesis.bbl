@@ -1854,8 +1854,8 @@
       \strng{authorbibnamehash}{0f25b9333fb373f2879df500afbef147}
       \strng{authornamehash}{0f25b9333fb373f2879df500afbef147}
       \strng{authorfullhash}{520dda3969720c02d2dcf8b918cd1d69}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1892,8 +1892,8 @@
       \strng{authorbibnamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
       \strng{authornamehash}{5fa2d100f9b04c93f31c189d60fba1e9}
       \strng{authorfullhash}{5fa2d100f9b04c93f31c189d60fba1e9}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1940,8 +1940,8 @@
       \strng{authorbibnamehash}{555d1dd1b741b020ce89ea5683a57e75}
       \strng{authornamehash}{555d1dd1b741b020ce89ea5683a57e75}
       \strng{authorfullhash}{bdf380325148932b3ad2cc8d232fe4e9}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1961,8 +1961,8 @@
       \endverb
     \endentry
     \entry{LHCweb}{manual}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Facts and Figures about the LHC}
       \field{year}{2022}
@@ -1974,8 +1974,8 @@
       \endverb
     \endentry
     \entry{CERN}{manual}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Facts and figures about the LHC}
       \verb{urlraw}
@@ -2013,8 +2013,8 @@
       \strng{authorbibnamehash}{fc42e395a080a0e9cb80bd2525832e00}
       \strng{authornamehash}{fc42e395a080a0e9cb80bd2525832e00}
       \strng{authorfullhash}{fc42e395a080a0e9cb80bd2525832e00}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Overview of CMS Physics Goals and Detector}
@@ -2042,8 +2042,8 @@
       \strng{authorbibnamehash}{3c7c9a78ae7757eb404a4d58a5da658c}
       \strng{authornamehash}{3c7c9a78ae7757eb404a4d58a5da658c}
       \strng{authorfullhash}{3c7c9a78ae7757eb404a4d58a5da658c}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Instrumentation}
@@ -2068,8 +2068,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -2095,8 +2095,8 @@
       \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
       \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -2125,8 +2125,8 @@
       \strng{authorbibnamehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
       \strng{authornamehash}{edd75ef77a06eeb2afbd4aafcc06cca4}
       \strng{authorfullhash}{edd75ef77a06eeb2afbd4aafcc06cca4}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -2154,8 +2154,8 @@
       \strng{authorbibnamehash}{5839e1247c14b145038fcd8e11cc5d49}
       \strng{authornamehash}{5839e1247c14b145038fcd8e11cc5d49}
       \strng{authorfullhash}{5839e1247c14b145038fcd8e11cc5d49}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Performance of reconstruction and identification of tau leptons in their decays to hadrons and tau neutrino in LHC Run-2}}
@@ -2247,8 +2247,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jet Identification Run2 -- 2018}
@@ -2267,8 +2267,8 @@
       \list{location}{1}{%
         {Geneva}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{number}{CMS-PAS-LUM-18-002}
       \field{title}{{CMS luminosity measurement for the 2018 data-taking period at $\sqrt{s} = 13~\mathrm{TeV}$}}
@@ -2297,8 +2297,8 @@
       \strng{authorbibnamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authornamehash}{ec4bd9be83251bf78c030ded3fce3ff4}
       \strng{authorfullhash}{ec4bd9be83251bf78c030ded3fce3ff4}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -2330,8 +2330,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -2359,8 +2359,8 @@
       \strng{authornamehash}{01f3ea00989155d704eb48e75b71f0be}
       \strng{authorfullhash}{01f3ea00989155d704eb48e75b71f0be}
       \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Physics Performance Datasets -- PPD Run2 Analysis Recipe Summary}
