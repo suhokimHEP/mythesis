@@ -81,70 +81,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.7}{\ignorespaces The figures display cartoons of the step-by-step inclusion of isolation track information. The first figure shows an electron or charged hadron track (orange color) originating from a Pile-up interaction. One can see the pileup track goes through the isolation shell in the cartoon. The second figure shows that the track is outside of the ROI and inside of the isolation shell. Thus, the track becomes an isolation track. \relax }}{41}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Data/MC of ROI distribution, distance along the transverse plane (xy plane) and beam direction ($\hat {z}$)\relax }}{42}{figure.caption.46}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Data/MC of number of fitted vertices in ROI and nember of annulus tracks in ROI\relax }}{42}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Simple cartoon showing ML network for vertex and annulus shell.\relax }}{44}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Signal versus Background for loglead, where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{46}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Signal versus Background for logexclead (sublead), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{47}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Data/MC agreement for loglead and logexclead scores\relax }}{48}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{49}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{50}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{51}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Simple cartoon showing ML network for vertex and annulus shell.\relax }}{45}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces $\Delta $R value of tau lepton pair from LLP decay is plotted. $\tau $s' mass are low enough to be resolved when decayed from heavier LLP.\relax }}{54}{figure.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Signal versus Background for loglead, where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{47}{figure.caption.52}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{54}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Signal versus Background for logexclead (sublead), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{48}{figure.caption.53}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{55}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Data/MC agreement for loglead and logexclead scores\relax }}{49}{figure.caption.54}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{56}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{50}{figure.caption.55}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Amplified histograms of Log10muIPSig\relax }}{57}{figure.caption.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{51}{figure.caption.56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Data/MC agreement for leading and subleading ROI distributions\relax }}{52}{figure.caption.57}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Data/MC agreement for distributions\relax }}{58}{figure.caption.62}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces $\Delta $R value of tau lepton pair from LLP decay is plotted. $\tau $s' mass are low enough to be resolved when decayed from heavier LLP.\relax }}{55}{figure.caption.59}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics\relax }}{59}{figure.caption.63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal versus Background for Delta Phi(leadROI, subleadROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{55}{figure.caption.60}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Cutflow histogram of Signal versus background. The signal is MS15\ensuremath {\,\text {Ge\hspace {-.08em}V}}\xspace -ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D\relax }}{61}{figure.caption.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{56}{figure.caption.61}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Final bin of cutflow\relax }}{62}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point\relax }}{57}{figure.caption.62}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. \relax }}{66}{figure.caption.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Amplified histograms of Log10muIPSig\relax }}{58}{figure.caption.63}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat.\relax }}{67}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Data/MC agreement for distributions\relax }}{59}{figure.caption.64}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR2. Correlation factor is 0.1229. ProfileX is rather flat.\relax }}{67}{figure.caption.71}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics\relax }}{60}{figure.caption.65}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Cutflow histogram of Signal versus background. The signal is MS15\ensuremath {\,\text {Ge\hspace {-.08em}V}}\xspace -ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D\relax }}{62}{figure.caption.66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Final bin of cutflow\relax }}{63}{figure.caption.67}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. \relax }}{64}{figure.caption.68}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR1\relax }}{65}{figure.caption.69}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR2\relax }}{65}{figure.caption.70}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR3\relax }}{66}{figure.caption.71}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR3. Correlation factor is 0.1203. ProfileX is rather flat.\relax }}{68}{figure.caption.72}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Cutflow histogram of MS15GeV-ct10mm point. Left plot is for region A, whereas the right plot is for region D\relax }}{69}{figure.caption.73}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Current Preliminary limit plots for lower mass LLP\relax }}{71}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots for lower mass LLP\relax }}{70}{figure.caption.74}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Current Preliminary limit plots for higher mass LLP\relax }}{70}{figure.caption.75}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Current Preliminary limit plots for higher mass LLP\relax }}{71}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode\relax }}{74}{figure.caption.77}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Leading Feynman diagrams for ggH production mode\relax }}{75}{figure.caption.79}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
