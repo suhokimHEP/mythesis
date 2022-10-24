@@ -15,12 +15,12 @@ Particle-Flow jets (PFjets), with all particle identification information within
 With $\pi^{0}$ reconstructed in ECAL as a strip, the Hadronic-Plus-Strip (HPS) algorithm reconstructs $\tau$ (at 60\% efficiency in Run 1) when a charged hadron and a strip are reconstructed in the PFJet \cite{HPS}.
 Therefore, CMS reconstructed $\tau$ collection only includes hadronically decayed $\tau$ lepton.
 One of our signal process tau lepton decays into muon, in a leptonic mode, for the trigger.
-Although other tau lepton could still decay hadronically, usage of CMS reconstructed tau leptons in the analysis would be accompanied by a division of several different sub-channels (muon, electron, had), which result in 27 ($3^{3}$) different combinatorics.
-Thus, we approach a tracker-oriented method with regions of interest to analyze other tau leptons in the signal process.
+Although other tau lepton could still decay hadronically, usage of CMS reconstructed $\tau$ leptons in the analysis would be accompanied by a division of several different sub-channels (muon, electron, had), which result in 27 ($3^{3}$) different combinatorics.
+In order to circumvent this difficulty, we approach a tracker-oriented method with regions of interest to analyze other $\tau$ leptons in the signal process.
 
 We use muons, jets, and only tracks (ROIs) for this analysis.
 \section{Muons}\label{sec:muons}
-The analysis sources the ``SlimmedMuons'' collection from the MINIAOD MC datasets to produce {\tt selectedPatMuons}.
+The analysis sources the ``SlimmedMuons'' collection from the MINIAOD (A simpler format of Analysis Object Data files produced by CMS) MC datasets to produce {\tt selectedPatMuons}.
 Muon objects are required to have 
 \begin{itemize}
   \item \pt $\geq$ 12\GeV to reach B-Parking trigger plateau

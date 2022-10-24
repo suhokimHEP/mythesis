@@ -107,7 +107,7 @@ One can gauge triggering muons' IP significance values, pt, and isolation inform
   \includegraphics[width=0.57\linewidth]{figs/Scalar_gammactau15GeV.pdf}
 \end{figure}
 
-Below is the trigger efficiency of various BPH trigger paths for different mass scale and lifetime points of the signal ($H \to SS \to \tau^{+}\tau^{-}\tau^{+}\tau^{-}$) sample
+Figure \ref{fig:Trigger Efficiency} and \ref{fig:Trigger Efficiency2} are the trigger efficiency of various BPH trigger paths for different mass scale and lifetime points of the signal ($H \to SS \to \tau^{+}\tau^{-}\tau^{+}\tau^{-}$) sample
 The signal process shows an overall good efficiency.
 Signal points with LLP's c$\uptau$ = 10,100mm show the best performance.
 Signal points with LLP's c$\uptau$ = 1000mm likely decay outside of the tracker region, leaving no track's impact parameter, and fails to pass the trigger.
@@ -123,22 +123,23 @@ We can confirm this explanation by observing that lighter LLP has better trigger
 \end{figure}
 \begin{figure}[h!]
 \caption{The plots show the trigger efficiency for each HLT path with respect to LLP's lifetime. Each line denotes mass scale of each LLP. The analysis uses Mu9\_IP6 for Era A,B of data and Mu12\_IP6 for Era C,D of data. Please note the efficiency is set to 0 for MS=7\GeV c$\uptau$ = 1mm due to absece of Monte Carlo (MC).}
+  \label{fig:Trigger Efficiency2}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/TrigEff_HLT_Mu9_IP6_part.pdf}
   \includegraphics[width=0.47\linewidth]{figs/TrigEff_HLT_Mu12_IP6_part.pdf}
 
 \end{figure}
 
-In contrast to the signal, the background processes show poor trigger efficiency.
+In contrast to the signal, the background processes have poor trigger efficiency.
 \ttbar Jets, Single Tops, and QCD pass the trigger at low but non-negligible efficiency.
 All these background processes have heavy flavor particles for their final state (\PQb or \PQt quark).
 From the trigger efficiency and enormous cross-section of the QCD process, we can infer that the QCD process will become a significant contribution to our background.
 Many physics analyses groups across CMS use the QCD MC datasets.
 Thanks to their popularity and need for heavy statistics, CMS group generates QCD MC datasets filtered to different groups' focuses.
 We use QCD's Muon Enriched datasets to improve background events' statistics, which would pass the B-Parking trigger.
-CMS group names the dataset QCD-MuEnrichedPt5, with QCD's muon decay product passing a \pt threshold of 5\GeV.
+CMS group names the dataset as ``QCD-MuEnrichedPt5'', with QCD's muon decay product passing a \pt threshold of 5\GeV.
 QCD-MuEnriched has better efficiency for higher \pt bin samples since higher \pt bin samples tend to have more b-jets for their final state.
-Drell-Yan and W-Jet processes show a very poor trigger efficiency due to the absence of heavy flavor particles in their final state.
+Drell-Yan and W-Jet processes have a very poor trigger efficiency due to the absence of heavy flavor particles in their final state.
 
 
 \section{Integrated Luminosity and pileup weight for the HLT path}
@@ -150,7 +151,7 @@ As expected, b-parking data are recorded during lower bunch-crossing runs due to
 
 It is vital to adjust this bunch-crossing variable for MC simulation to model the data correctly.
 To achieve this purpose, we apply pileup weight to the MC simulation.
-Pileup weight is simply a bunch-crossing of data divided by the bunch-crossing of MC for a specific era.
+Pileup weight is simply a number of collisions per bunch-crossing of data divided by the number of collisions per bunch-crossing of MC for a specific era.
 Pileup (PU) weight values are calculated for each era of data-taking (A, B, C, D).
 Figure~\ref{fig:EraAData} shows the BPH1-Era A's HLT\_Mu9\_IP6 HLT path's Data PU distribution.
 \begin{figure}[h!]

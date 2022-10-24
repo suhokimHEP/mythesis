@@ -1,12 +1,13 @@
 \chapter{Introduction}\label{sec:introduction}
 
-The discovery of particles at the electroweak scale, such as the top quark at Fermilab's CDF and \DZERO~\cite{topD0,topCDF} and the Higgs boson at the Large Hadron Collider (LHC) in CERN~\cite{higgscms,higgsatlas}, led to the discovery of all constituents in the Standard Model (SM).
+The discovery of particles at the electroweak scale, such as the top quark at Fermilab's CDF and \DZERO~\cite{topD0,topCDF} and the Higgs boson at the Large Hadron Collider (LHC) at CERN~\cite{higgscms,higgsatlas}, led to the discovery of all constituents in the Standard Model (SM).
 The SM describes the nature of fundamental particles and their interactions with precision.
 Despite its success, the SM suffers from a few obstacles:
 the evidence of neutrino masses and mixing~\cite{neutrino}, the observations of bullet clusters confirming the presence of dark matter (DM)~\cite{Baumgart:2009tn,Kaplan:2009ag,Chan:2011aa,Dienes:2011ja,Dienes:2012yz}, and baryon-antibaryon asymmetry~\cite{Cui:2014twa} all remain unexplained in the framework of SM.
 In addition, the SM suffers from the naturalness problem.
 One needs to look for physics Beyond the Standard Model (BSM) to solve such issues.
 
+Problems with the Standard Model have led to both theoretical and experimental attempts to explore BSM physics.
 To search for the BSM, the high energy physics (HEP) community has completed many types of research, both on the theoretical and experimental sides.
 The theoretical high energy physics community approached the issue with two main approaches.
 The first approach tackles the issue of precision.
@@ -24,16 +25,16 @@ The new particles' mass scale can range from the collider level to the astrophys
 
 
 
-To find the new BSM particles, the experimental high energy physics community conducted many different kinds of research based on collider and astrophysical data.
-Experimental physicists invested strenuous effort in data from collider physics since the lightest particles from popular theory, such as supersymmetry (SUSY), were within the collider's hard scattering energy level.
+To find the new BSM particles, the experimental high energy physics community has conducted many different kinds of research based on collider and astrophysical data.
+Experimental physicists invested strenuous effort in data from collider physics since the lightest particles from popular theory, such as supersymmetry (SUSY), were within reach of high energy colliders.
 Experimentalists searching for the BSM particles can also divide their main approaches into two, the first with prompt decay of the BSM particle and the second with a long-lived lifetime signature.
 CMS analysis targeting the BSM particles with prompt lifetime has been exhaustively studied and resulted in no deviation from the SM prediction ~\cite{SUSY}.
 However, the second approach, which has not been fully investigated, is when particles decay with a Long-Lived signature, in other words, Long-Lived particles (LLP).
-This signature is uniquely exciting and challenging for scientists.
+This signature is uniquely exciting and challenging.
 It requires a different analysis strategy depending on the BSM particle's mass scale (MS) and lifetime (c$\uptau$).
 Thus, HEP experimental scientists perceive this frontier as the blue ocean for HEP experimentalists, to the extent that they are planning a new detector to target LLPs solely ~\cite{Barron:2022aac}.
 
-In this dissertation, we focus on the LLPs originating from the LHC, specifically CMS, review precedent analyses, and propose a novel strategy.
+In this dissertation, we focus on the LLPs originating from the LHC collisions, review preceding analyses, and propose a novel strategy.
 Searches for LLPs decaying into final states containing jets were investigated
 at the Tevatron ( $\sqrt{s}$ = 1.96~\TeV) by both CDF~\cite{Aaltonen:2011rja} and \DZERO~\cite{Abazov:2009ik} Collaborations,
 at the LHC by "A Toroidal LHC Apparatus" (ATLAS) and LHCb Collaborations at $\sqrt{s}$ = 7~\TeV~\cite{ATLAS:2012av,Aaij:2014nma},
@@ -45,7 +46,7 @@ CMS Collaboration released a new result in 2021.
 In the new paper, the Higgs decaying into LLPs is created in association with a Z vector boson \cite{ZHAN}.
 This analysis' Feynman diagram is displayed in figure \ref{fig:ZHfeyn}.
 The new analysis sheds light on LLPs with lighter masses thanks to the clean dilepton trigger from the Z vector boson.
-The precedent analyses successfully put the exclusion limit on the branching ratio, the Higgs to the LLPs to \PQb and d-quark, below unitarity. 
+The preceding analyses successfully put the exclusion limit on the branching ratio, the Higgs to the LLPs to \PQb and d-quark, below unitarity. 
 However, the exclusion limit for $\tau$ final state has been omitted or presented with values above 1.
 
 \begin{figure}[h!]
@@ -61,19 +62,19 @@ This analysis searches for LLPs originating from the Higgs Portal model with the
 Since the coupling strength of the Higgs' to SM fermions are quantified by the Yukawa couplings, focus on Leptophilic Higgs translates into a focus on $\tau$ final state decaying back from the LLPs via the Higgs Portal.
 The mass limit on the scalar mass is 55GeV; we investigate only on-shell neutral scalar particles from the Higgs.
 A minimum 7 GeV mass for scalar particles is required to create on-shell $\tau$-lepton pairs.
-Feynman's scalar particle production mechanism diagram is depicted in Figure \ref{fig:sig}.
+The Feynman diagram for scalar particle production mechanism is depicted in Figure \ref{fig:sig}.
 %Displaced Jets analyses face challenges for $\tau$ final state due to $\tau$'s non-trivial hadronic and leptonic decay modes and complicated reconstruction mechanism. 
 
 
 The main challenge and reason for omitting a $\tau$ lepton analysis are the different decay modes of $\tau$ leptons.
 $\tau$ leptons decay hadronically and leptonically, with several different sub-decay modes.
 Its decay mode pie chart and CMS detection category pie chart are displayed in figures of \ref{fig:tdecay} and \ref{fig:tdet} respectively.
-Developing analysis strategies to optimize the search for each sub-decay mode is exceptionally complicated—the main reason for the omission or no reasonable exclusion limit in precedent LHC results.
+Developing analysis strategies to optimize the search for each sub-decay mode is exceptionally complicated—the main reason for the omission or no reasonable exclusion limit in preceding LHC results.
 A displaced vertex search can be more efficient than displaced objects (jet, muon, electrons) search to be inclusive of all $\tau$ leptons' decay modes.
 We exploit the newly developed Regions of Interest mechanism in the tracker volume.
-Regions of Interest (ROI) form displaced vertex candidates by fitting pair-wise tracks of Lost-tracks and PackedPFCandidates classes in MINIAOD data into a vertex.
+The mechanism fits pair-wise tracks of Lost-tracks and PackedPFCandidates classes in CMS data into a vertex, and cluster the vertices to form Regions of Interest. 
 ROIs save all relevant track and fitted vertex qualities along with isolation information.
-These variables are input for Machine Learning (ML) algorithms, enabling a highly generic and data-scientific search method.
+These variables are input for Machine Learning (ML) algorithms for a data-scientific search method.
 
 \begin{figure}[h!]
   \caption{The analysis' signal process feynman diagram. The Higgs is created in gg production mode. The LLP scalar decays into $\tau$ lepton pair.}
@@ -98,9 +99,9 @@ These variables are input for Machine Learning (ML) algorithms, enabling a highl
 \end{figure}
 
 
-Another challenge is that CMS searches are not optimal for detecting Higgs boson decays due to its decay products' soft \pt nature.
+Another challenge is that CMS searches are not optimal for detecting Higgs boson decays due to its decay products' relatively low momenta.
 Higgs produced in association with Z vector boson analysis~\cite{ZHAN} overcame this barrier with the help of dilepton trigger.
-Although the ggH production mode gives the most significant Higgs cross-section, it further complicates the trigger strategy.
+Although the ggH production mode gives the largest Higgs cross-section, it further complicates the trigger strategy.
 This analysis exploits the $\tau$ lepton's leptonic decay, where the $\tau$ lepton decays into a soft muon.
 We use a trigger of the B Parking High-Level Trigger (HLT) Path implemented in CMS for the 2018 portion of Run 2 to trigger on the soft muon.
 

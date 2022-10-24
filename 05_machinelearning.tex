@@ -8,7 +8,7 @@ It is also inefficient to implement a cut-based approach due to having so many v
 The optimization process for all these vertex, isolation, and track variables would be extremely time-consuming, inefficient, and error-prone.
 Therefore, the analysis exploits machine learning (ML) for this multivariate analysis.
 Boosted decision trees will also face a similar problem as cut-based analysis, although somewhat.
-Deep Neural networks are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs an extensive list of ROI variables into a neural network and receives a final score to discriminate ROIs that arise in signal process versus background processes.
+Deep Neural Networks are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs an extensive list of ROI variables into a neural network and receives a final score to discriminate ROIs that arise in signal process versus background processes.
 The list of variables inputted into the ML algorithms is provided in subsection \ref{sec:MLIV}.
 
 The analysis uses Keras-Tensorflow for its ML platform.
@@ -17,7 +17,7 @@ For CMSSW\_10\_6\_12 (to have access to the B Parking trigger path), the Keras-T
 It runs with CPUs and GPUs.
 \section{Machine Learning Input Variables}\label{sec:MLIV}
 As discussed in chapter \ref{sec:objects}, the ROI has vertex and shell (isolation) information.
-Vertex information is trained with 19 different variables, which are listed and categorized in Tables ~\ref{tab:ROITCvars}.
+Vertex information is trained with 27 different variables, which are listed and categorized in Tables ~\ref{tab:ROITCvars}.
 %, ~\ref{tab:ROIANvars}, and ~\ref{tab:ROIEVvars}.
 
 \begin{table}[htb]
@@ -38,6 +38,8 @@ Vertex information is trained with 19 different variables, which are listed and 
               & Track0,1 & Track0,1.phi \\
               & Track0,1 & Track0,1.dxy \\
               & Track0,1 & Track0,1.dz \\
+              & Track0,1 & Track0,1.dxyError \\
+              & Track0,1 & Track0,1.dzError \\
               & Track0,1 & Track0,1.normalizedChi2 \\
               & Track0,1 & Track0,1.HighPurityInt \\
  \hline
@@ -49,7 +51,7 @@ Vertex information is trained with 19 different variables, which are listed and 
 
 
 
-Shell information is trained with 8 different variables, which are listed in Tables ~\ref{tab:ROIANvars}.
+Shell information is trained with 9 different variables, which are listed in Tables ~\ref{tab:ROIANvars}.
 
 \begin{table}[htb]
 \caption{ROI (Annulus) variables by category}
@@ -60,9 +62,10 @@ Shell information is trained with 8 different variables, which are listed in Tab
               & pfCandidate/LostTracks & pfCandidate/LostTracks.phi \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.dxy \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.dz \\
+              & pfCandidate/LostTracks & pfCandidate/LostTracks.dxyError \\
+              & pfCandidate/LostTracks & pfCandidate/LostTracks.dzError \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.normalizedChi2 \\
               & pfCandidate/LostTracks & pfCandidate/LostTracks.HighPurityInt \\
-              & pfCandidate/LostTracks & pfCandidate/LostTracks.$\Delta$R(trackMomentum) \\
  \hline
  \hline
 \end{tabular}
@@ -98,10 +101,10 @@ We input vertex and shell information into separate ML networks. Thus, we get tw
 CMSSW includes an image container for Keras-Tensorflow, and researchers can also submit remote batch jobs for its ML training.
 The analysis tested multiple variables (such as epoch numbers, batch sizes, phi sizes, and f sizes) of our DNN layers thanks to the submission of remote batch jobs with CMSSW's Keras-Tensorflow image container.
 The analysis tested different signal vs. background dataset combinations for maximum discriminant power.
-The list of mass scale and lifetime tested for signal points are listed in the appendix.
-Different SM physics process (and their compositions) tested for background process are also listed in the appendix.
+The list of mass scale and lifetime tested for signal points are listed in the appendix \ref{sec:train}.
+Different SM physics process (and their compositions) tested for background process are also listed in the appendix \ref{sec:train}.
 
-The final Tensorflow product used for the analysis was trained with parameters in the following section.
+The final Tensorflow product used for the analysis was trained with parameters in table \ref{tab:ROIParam}.
 Keras-Tensorflow DNN variable information was fine-tuned with these variables for the maximum Area Under the Curve (AUC) value.
 Its information is listed in the table \ref{tab:ROIParam}.
 \begin{table}[htb]
@@ -124,12 +127,12 @@ Background & QCD\_Pt120-170\_MuEneriched and TTJets \\
 
 \section{ML scores of the ROIs}
 More than 10 ROIs per event often exist from our ROI reconstruction mechanism.
-However, we do not need all ROIs per event, as most of them are low-scoring ROIs that came from track misconstruction and others.
+However, we do not need all ROIs per event, as many of them are low-scoring ROIs that come from track misconstruction and others.
 The signal process has two scalar decays as in Figure~\ref{fig:feynmanggH}, and it is reasonable to use only the two highest-scoring ROIs for our analysis.
 Thus, we define the leading ROI (leadROI) as an ROI with the highest vertex score in the event.
 Likewise, it would be easy to define the subleading ROI (subleadROI) as an ROI with the second highest vertex score in the event.
 However, the subleadROI is not simply the second highest-scoring ROI of the event due to the non-negligible lifetime of $\tau$ leptons in the detector.
-After obtaining an ROI with the highest ML vertex score, we search for the next highest scored ROI, $\Delta\Phi$>0.4, from the leading ROI to avoid counting ROI from the same LLP decay.
+After obtaining an ROI with the highest ML vertex score, we search for the next highest scored ROI, $\Delta\Phi>$0.4, from the leading ROI to avoid counting ROI from the same LLP decay.
 The ordering is done by vertex discriminant since it is more potent than the shell discriminant.
 For better numerical representation, we use log base 10 value of ROI vertex score subtracted from 1.
 Mathmatical definition of loglead and logexclead are in formulae \ref{eq:log} and \ref{eq:logexc}. 

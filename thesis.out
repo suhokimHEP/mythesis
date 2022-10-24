@@ -6,45 +6,50 @@
 \BOOKMARK [1][-]{chapter*.6}{Abstract}{contents.0}% 6
 \BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 7
 \BOOKMARK [0][-]{chapter.2}{2 The Standard Model and Its Future}{}% 8
-\BOOKMARK [0][-]{chapter.3}{3 CMS Detector}{}% 9
-\BOOKMARK [1][-]{section.3.1}{3.1 The LHC and CMS}{chapter.3}% 10
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Calorimetry}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 The superconducting Magnet of CMS}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 The Muon Chamber of CMS}{section.3.1}% 13
-\BOOKMARK [1][-]{section.3.2}{3.2 Tracker of CMS}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{3.3 Trigger of CMS}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{4 B Parking Trigger Strategy}{}% 16
-\BOOKMARK [1][-]{section.4.1}{4.1 Trigger Paths}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{4.2 Integrated Luminosity and pileup weight for the HLT path}{chapter.4}% 18
-\BOOKMARK [0][-]{chapter.5}{5 Physics Object Definitions}{}% 19
-\BOOKMARK [1][-]{section.5.1}{5.1 Muons}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.2}{5.2 Jets}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.3}{5.3 Taus}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.4}{5.4 Region of Interest}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Tracks}{section.5.4}% 24
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Vertex Fitter}{section.5.4}% 25
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 ROI formation}{section.5.4}% 26
-\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 27
-\BOOKMARK [1][-]{section.6.1}{6.1 Machine Learning Input Variables}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{6.2 Fine-Tuning of ML environemnt}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{6.3 ML scores of the ROIs}{chapter.6}% 30
-\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 31
-\BOOKMARK [1][-]{section.7.1}{7.1 Isolation criteria for muons}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.2}{7.2 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.3}{7.3 DeltaR\(ROI, jet\)}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter significance to PV}{chapter.7}% 35
-\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 36
-\BOOKMARK [1][-]{section.8.1}{8.1 ABCD method}{chapter.8}% 37
-\BOOKMARK [1][-]{section.8.2}{8.2 Validation of ABCD method}{chapter.8}% 38
-\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 39
-\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 40
-\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 41
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 42
-\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 43
-\BOOKMARK [1][-]{section.A.1}{A.1 BrilCalc command for B-Parking HLT path}{appendix.A}% 44
-\BOOKMARK [1][-]{section.A.2}{A.2 Monte Carlo Samples}{appendix.A}% 45
-\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Signal Model and Simulation}{section.A.2}% 46
-\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 Background Monte Carlo}{section.A.2}% 47
-\BOOKMARK [0][-]{appendix.B}{B Machine Learning Training Variable}{}% 48
-\BOOKMARK [0][-]{appendix*.87}{References}{}% 49
-\BOOKMARK [0][-]{appendix*.88}{Biographical Sketch}{}% 50
+\BOOKMARK [1][-]{section.2.1}{2.1 The Standard Model}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Fermion sector}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Gauge Sector}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Scalar Sector}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{2.2 Motivation for Neutral Naturalness}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{3 CMS Detector}{}% 14
+\BOOKMARK [1][-]{section.3.1}{3.1 The LHC and CMS}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Calorimetry}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 The superconducting Magnet of CMS}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 The Muon Chamber of CMS}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{3.2 Tracker of CMS}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{3.3 Trigger of CMS}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{4 B Parking Trigger Strategy}{}% 21
+\BOOKMARK [1][-]{section.4.1}{4.1 Trigger Paths}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{4.2 Integrated Luminosity and pileup weight for the HLT path}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{5 Physics Object Definitions}{}% 24
+\BOOKMARK [1][-]{section.5.1}{5.1 Muons}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{5.2 Jets}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{5.3 Taus}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.4}{5.4 Region of Interest}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Tracks}{section.5.4}% 29
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Vertex Fitter}{section.5.4}% 30
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 ROI formation}{section.5.4}% 31
+\BOOKMARK [0][-]{chapter.6}{6 Machine Learning}{}% 32
+\BOOKMARK [1][-]{section.6.1}{6.1 Machine Learning Input Variables}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.2}{6.2 Fine-Tuning of ML environemnt}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.3}{6.3 ML scores of the ROIs}{chapter.6}% 35
+\BOOKMARK [0][-]{chapter.7}{7 Event Selection, Signal and Control Regions}{}% 36
+\BOOKMARK [1][-]{section.7.1}{7.1 Isolation criteria for muons}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.2}{7.2 Delta Phi\(lead ROI,sublead ROI\)}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.3}{7.3 DeltaR\(ROI, jet\)}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.4}{7.4 Leading muon's transverse impact parameter significance to PV}{chapter.7}% 40
+\BOOKMARK [0][-]{chapter.8}{8 Background Estimation}{}% 41
+\BOOKMARK [1][-]{section.8.1}{8.1 ABCD method}{chapter.8}% 42
+\BOOKMARK [1][-]{section.8.2}{8.2 Validation of ABCD method}{chapter.8}% 43
+\BOOKMARK [0][-]{chapter.9}{9 Systematic Uncertainties}{}% 44
+\BOOKMARK [0][-]{chapter.10}{10 Results}{}% 45
+\BOOKMARK [0][-]{chapter.11}{11 Conclusions}{}% 46
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 47
+\BOOKMARK [0][-]{appendix.A}{A Data Samples}{}% 48
+\BOOKMARK [1][-]{section.A.1}{A.1 BrilCalc command for B-Parking HLT path}{appendix.A}% 49
+\BOOKMARK [1][-]{section.A.2}{A.2 Monte Carlo Samples}{appendix.A}% 50
+\BOOKMARK [2][-]{subsection.A.2.1}{A.2.1 Signal Model and Simulation}{section.A.2}% 51
+\BOOKMARK [2][-]{subsection.A.2.2}{A.2.2 Background Monte Carlo}{section.A.2}% 52
+\BOOKMARK [0][-]{appendix.B}{B Machine Learning Training Variable}{}% 53
+\BOOKMARK [0][-]{appendix*.88}{References}{}% 54
+\BOOKMARK [0][-]{appendix*.89}{Biographical Sketch}{}% 55

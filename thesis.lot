@@ -9,60 +9,60 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces HLT trigger paths used in the analysis\relax }}{24}{table.caption.26}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces HLT trigger paths used in the analysis\relax }}{26}{table.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Data and MC Global tags used for 2018 datasets\relax }}{24}{table.caption.27}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces ROI (trackCluster) variables by category\relax }}{43}{table.caption.46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces ROI (Annulus) variables by category\relax }}{43}{table.caption.47}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Parameters for ML network\relax }}{45}{table.caption.49}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Ptbinned Isocut\relax }}{53}{table.caption.56}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Region A's cutflow histogram by bin entry (weighted)\relax }}{63}{table.caption.66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.2}{\ignorespaces Region A's cutflow histogram by bin event number\relax }}{64}{table.caption.67}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.3}{\ignorespaces c$\uptau $,MS vs Signal Contamination in A' (Bkg :108k)\relax }}{65}{table.caption.68}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9.1}{\ignorespaces Systematic Uncertainty Table\relax }}{69}{table.caption.73}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.1}{\ignorespaces Final Data entry in each region\relax }}{70}{table.caption.74}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.2}{\ignorespaces Median value of 95\% CL exclusion limit on the branching ratio \textbf {B}(\ensuremath {H}\xspace $\to SS \to \tau ^{+}\tau ^{-}\tau ^{+}\tau ^{-} $) \relax }}{71}{table.caption.75}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Data and MC Global tags used for 2018 datasets\relax }}{26}{table.caption.27}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces Datasets used in the analysis\relax }}{73}{table.caption.78}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces ROI (trackCluster) variables by category\relax }}{45}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces Signal Monte Carlo samples \newline CAMPAIGN:RunIIAutumn18MiniAOD-rp\_102X\_upgrade2018\_realistic\_v15-v1\relax }}{75}{table.caption.80}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces ROI (Annulus) variables by category\relax }}{46}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces QCD MuEnriched Pt5 background Monte Carlo samples\relax }}{76}{table.caption.81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.4}{\ignorespaces W,Z,H boson background Monte Carlo samples\relax }}{76}{table.caption.82}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.5}{\ignorespaces Top background Monte Carlo samples\relax }}{76}{table.caption.83}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.6}{\ignorespaces Monte Carlo sample summary\relax }}{77}{table.caption.84}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Parameters for ML network\relax }}{47}{table.caption.49}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces Output scores for different Epoch training\relax }}{78}{table.caption.85}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Ptbinned Isocut\relax }}{55}{table.caption.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Output scores for different Signal and Background MC combination\relax }}{79}{table.caption.86}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.1}{\ignorespaces Region A's cutflow histogram by bin entry (weighted)\relax }}{65}{table.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.2}{\ignorespaces Region A's cutflow histogram by bin event number\relax }}{66}{table.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {8.3}{\ignorespaces c$\uptau $,MS vs Signal Contamination in A' (Bkg :108k)\relax }}{67}{table.caption.68}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Systematic Uncertainty Table\relax }}{72}{table.caption.74}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.1}{\ignorespaces Final Data entry in each region\relax }}{73}{table.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.2}{\ignorespaces Median value of 95\% CL exclusion limit on the branching ratio \textbf {B}(\ensuremath {H}\xspace $\to SS \to \tau ^{+}\tau ^{-}\tau ^{+}\tau ^{-} $) \relax }}{74}{table.caption.76}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.1}{\ignorespaces Datasets used in the analysis\relax }}{76}{table.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.2}{\ignorespaces Signal Monte Carlo samples \newline CAMPAIGN:RunIIAutumn18MiniAOD-rp\_102X\_upgrade2018\_realistic\_v15-v1\relax }}{78}{table.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.3}{\ignorespaces QCD MuEnriched Pt5 background Monte Carlo samples\relax }}{79}{table.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.4}{\ignorespaces W,Z,H boson background Monte Carlo samples\relax }}{79}{table.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.5}{\ignorespaces Top background Monte Carlo samples\relax }}{79}{table.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.6}{\ignorespaces Monte Carlo sample summary\relax }}{80}{table.caption.85}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.1}{\ignorespaces Output scores for different Epoch training\relax }}{81}{table.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.2}{\ignorespaces Output scores for different Signal and Background MC combination\relax }}{82}{table.caption.87}%

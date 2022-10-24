@@ -26,7 +26,7 @@ Since MC does not adequately describe the data, the analysis uses data-driven ba
 
 
 \section{ABCD method}
-ABCD method is the most preferred for any background estimation method thanks to its simplicity.
+ABCD method is the most preferred option for any background estimation method thanks to its simplicity.
 ABCD method is the simplest form of transfer factor.
 A ratio of background events at two control regions (CR) is applied to another CR's background event to infer background events in signal regions (SR) without unblinding.
 The simplest mathematical for is described in formula \ref{eq:ABCD}.
@@ -268,7 +268,7 @@ Lifetime & MS7 & MS15&MS40&MS55 \\
 For this purpose, we define a new ABCD region, referred to as A'B'C'D'.
 A'-D' region is an orthogonal plane to the original ABCD, where the $\Delta\Phi$(lead,exclead) category of the event selection is flipped while all other event selection cuts are removed.
 Region A', a correspondent Signal region of the orthogonal plane, should be much lower in the signal ratio (background dominated): Only so, looking into data entry in A' is not problematic.
-In table ~\ref{tab:sigcont}, we confirm that the background dominates the A' region while the signal is low regardless of the signal's MS and ctau.
+In table \ref{tab:sigcont}, we confirm that the background dominates the A' region while the signal is low regardless of the signal's MS and ctau.
 
 
 
@@ -282,10 +282,18 @@ In table ~\ref{tab:sigcont}, we confirm that the background dominates the A' reg
 
 \end{figure}
 
+\begin{figure}[h!]
+  \caption{Profile plot of VR. Correlation factor is 0.105. ProfileX is rather flat.}
+  \label{fig:valcar}
+  \centering
+  \includegraphics[width=0.65\linewidth]{figs/VR3.png}
+
+\end{figure}
+
 
 \begin{figure}[h!]
   \caption{Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat.}
-  \label{fig:valcar2}
+  \label{fig:valcar1}
   \centering
   \includegraphics[width=0.65\linewidth]{figs/VR1.png}
 
@@ -306,11 +314,11 @@ In table ~\ref{tab:sigcont}, we confirm that the background dominates the A' reg
   \includegraphics[width=0.65\linewidth]{figs/VR3.png}
 
 \end{figure}
-In A'-D' region, we can see the correlation factor is about 10\%, still a negligible value.
 
 
+In figure \ref{fig:valcar}, we can see the correlation factor is small at about 10\%, still a negligible value.
 With $\hat{r}$(leadROI,Log10(muIPSig)) value in A'-D' region, It seems sufficient to claim that there should be a negligible correlation between leadROI and Log10(muIPSig) for the A-D region as well.
-Unfortunately, suspicious people could throw one last question.
+However, We could have 1 more diagnostic question before unblinding.
 What if $\hat{r}$(leadROI,Log10(muIPSig)) value changes with respect to $\Delta\Phi$(lead,exclead)?
 If the formula in \ref{eq:rhat} is not true, \newline $\hat{r}$(leadROI,Log10(muIPSig)) obtained from A'-D' is not a good estimate for $\hat{r}$(leadROI,Log10(muIPSig)) for A-D.
 
@@ -322,15 +330,15 @@ If the formula in \ref{eq:rhat} is not true, \newline $\hat{r}$(leadROI,Log10(mu
 We subdivide A'-D' to check that formula \ref{eq:rhat} is true.
 A1'-D1' are orthogonal planes where $\Delta\Phi$(lead,exclead) is closest to A-D. 
 Increasing numeric value indicates how far the $\Delta\Phi$(lead,exclead) is from the A-D. 
-$\hat{r}$(leadROI,Log10(muIPSig)) value for each of A'-D' region is plotted in figures and summarized in table.
+$\hat{r}$(leadROI,Log10(muIPSig)) value for each of A'-D' region is plotted and summarized in figures \ref{fig:valcar1}-\ref{fig:valcar3} .
 
 
 
 As we scan $\hat{r}$(leadROI,Log10(muIPSig)) for each $\Delta\Phi$(lead,exclead) section, very small trend with respect to $\Delta\Phi$(lead,exclead) is observed.
 We can claim the formula \ref{eq:rhat} is true and \newline $\hat{r}$(leadROI,Log10(muIPSig)) from A'-D' can be translated into A-D region as well.
 Since there is little correlation between the two variables for the ABCD region, we validated the background estimation method.
-With the background rate in the signal region estimated by the ABCD method with data, and with signal MC, we can either claim there exists a signal over the SM expectation or not.
-If it does not, we can claim an exclusion limit on the branching ratio of the signal process to a specific value.
+With the background rate in the signal region estimated by the ABCD method with data, and with signal MC, we can claim whether there exists a signal over the SM expectation or not.
+If it does not, we can set an exclusion limit on the Higgs branching ratio to our final state at a specific value.
 
 Before that final step, systematic uncertainty is described in the following section for exclusion limit calculation.
 
