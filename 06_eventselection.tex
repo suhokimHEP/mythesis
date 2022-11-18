@@ -40,6 +40,7 @@ The table \ref{tab:ISOeff} demonstrates event yield drop before and after requir
 
 \begin{tiny}
     \begin{table}
+    \caption{Ptbinned Isocut}
   \centering
 \begin{tabular}{|p{3cm}|p{2cm}|p{2cm}|}
 \hline
@@ -66,17 +67,16 @@ MC sample & events with BPH+1$\mu$ (noISO) & events with BPH+1$\mu$ (ISO) \\
 \textcolor{red}{ggH4$\tau$-MS40} & 1 & 0.910 \\
  \hline
     \end{tabular}
-    \caption{Ptbinned Isocut}
 \label{tab:ISOeff}
     \end{table}
 \end{tiny}    
 
 One can also gauge the isolation of muon object based on the generator level of $\Delta$R of tau lepton pair as in figure \ref{fig:taudeltaR}.
  \begin{figure}[h!]
-   \caption{$\Delta$R value of tau lepton pair from LLP decay is plotted. $\tau$s' mass are low enough to be resolved when decayed from heavier LLP.}
    \label{fig:taudeltaR}
    \centering
    \includegraphics[width=0.60\linewidth]{figs/taugendR.pdf}
+   \caption{$\Delta$R value of tau lepton pair from LLP decay is plotted. $\tau$s' mass are low enough to be resolved when decayed from heavier LLP.}
  \end{figure}
 
 
@@ -96,10 +96,10 @@ This analysis applies a cut above 2.2 to reduce background contribution.
 
 
  \begin{figure}[h!]
-   \caption{Signal versus Background for Delta Phi(leadROI, subleadROI). The plot is for MS-15\_ctauS-100mm point}
    \label{fig:leadexcPosPhi}
    \centering
    \includegraphics[width=0.50\linewidth]{figs/EraASR_MS-15_ctauS-10_leadexcPosPhiPrec1T.pdf}
+   \caption{Signal versus Background for Delta Phi(leadROI, subleadROI). The plot is for MS-15\_ctauS-100mm point}
  \end{figure}
 
 
@@ -114,13 +114,13 @@ Higher jet multiplicity makes the $\Delta$ R(ROI, jet) value somewhat randomized
 
 
  \begin{figure}[h!]
-   \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:JetDeltaRleadSize}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-10_leadcloseJetdR.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-100_leadcloseJetdR.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-1000_leadcloseJetdR.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-55_ctauS-10_leadcloseJetdR.pdf}
+   \caption{Delta R(Jet, leadingROI). Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
  \end{figure}
 
 \section{Leading muon's transverse impact parameter significance to PV}\label{ref:muIP}
@@ -135,32 +135,32 @@ The analysis implements a cut on Log10(muIPSig).
 
 
  \begin{figure}[h!]
-   \caption{leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadmuIP}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-10_muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-100_muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-1000_muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-55_ctauS-10_muIPSig.pdf}
+   \caption{leading muon's transverse impact parameter value to the primary vertex. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
  \end{figure}
 
  \begin{figure}[h!]
-   \caption{Amplified histograms of Log10muIPSig}
    \label{fig:AmpleadmuIP}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-100_AmpLog10muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-1000_AmpLog10muIPSig.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-55_ctauS-10_AmpLog10muIPSig.pdf}
+   \caption{Amplified histograms of Log10muIPSig}
  \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for distributions}
   \label{fig:DataMCscore5}
   \centering
   \includegraphics[width=0.40\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_leadexcPosPhi.pdf}
   \includegraphics[width=0.40\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
   \includegraphics[width=0.40\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_leadcloseJetdR.pdf}
+  \caption{Data/MC agreement for distributions}
 
 \end{figure}
 

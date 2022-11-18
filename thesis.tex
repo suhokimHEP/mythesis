@@ -11,6 +11,7 @@
 \usepackage{xspace}
 \usepackage{upgreek}
 \usepackage[overload]{textcase}
+\usepackage{setspace}
 
 \usepackage[american]{babel}
 \usepackage{csquotes}
@@ -27,7 +28,7 @@
   \definecolor{myblue}{rgb}{0.3,0.2,0.8}
   \definecolor{myred}{rgb}{0.8,0.1,0.1}
   \usepackage[colorlinks=true,bookmarks=true,pdfborder={0 0 0},
-    linkcolor=myblue,urlcolor=myred,citecolor=mygreen,
+    linkcolor=black,urlcolor=black,citecolor=black,
     breaklinks=true,bookmarksnumbered=true]{hyperref}
 \else    % Otherwise we'll run this part if we are not in PDF mode.
   \usepackage[dvips]{graphicx}
@@ -120,10 +121,6 @@
 \newcommand{\JPsi}{{\PJGy}\xspace} % J/Psi (no mass)
 \newcommand{\Z}{{\PZ}\xspace} % plain Z (no superscript 0)
 \newcommand{\ttbar}{{\PQt{}\PAQt}\xspace} % t-tbar
-
-
-
-
 \title{Search for Higgs boson decays to long-lived scalar particles with Regions of Interest and Machine Learning in CMS}
                                       %% Manuscript title
 \author{Suho Kim}  %% Testing accented characters in name
@@ -132,9 +129,12 @@
 \manuscripttype{Dissertation}               %% [Thesis, Dissertation, Treatise]
 \degree{Doctor of Philosophy}            %% Name of the degree
 \degreeyear{2022}                     %% Graduation Yea7\defensedate{Nov 18, 2022}             %% Date of Defense
-\defensedate{Nov 7, 2022}             %% Date of Defense
+\begin{setstretch}{2.5}
+
+\defensedate{November 7, 2022}             %% Date of Defense
 \subject{Dissertation Formatting}     %% PDF document metadata subject
 \keywords{latex; fsuthesis; etd; tables; figures; bibtex; document formatting}
+\end{setstretch}
 				      %% PDF document metadata search
                                       %%   keywords, separated by semicolons
 
@@ -143,7 +143,6 @@
 \committeeperson{Todd Adams}{Committee Member}
 \committeeperson{Kohsaku Tobioka}{Committee Member}
 \committeeperson{Peter Hoeflich}{Committee Member}
-
 \newcommand*{\acro}[1]{{\small\textsc{#1}}}
 \newcommand*{\lit}[1]{\texttt{#1}}
 \newcommand*{\pkg}[1]{\textsf{#1}}
@@ -326,7 +325,7 @@ We present a search for long-lived particles (LLPs) produced in gluon fusion Hig
   The results are interpreted in the context of exotic Higgs decays to a pair of long-lived scalars ($S$).
 	We set limits on the branching ratio of the Higgs to LLPs, \textbf{B}(\PH$\to SS \to \tau^{+}\tau^{-}\tau^{+}\tau^{-}$)
   , as a function of the proper lifetime.
-  The analysis has the strongest discriminant power for the LLP's c$\uptau$ from 1\mm to 10\mm for 7 and 15\GeV, and from 10\mm to 100\mm for 40 and 55\GeV.
+  The analysis has the strongest discriminant power for the LLP's c$\uptau$ 10\mm and 15\GeV mass.
 	The analysis' exclusion limit on the branching ratio for $\tau$ lepton final state (\textbf{B}(H$\rightarrow SS \rightarrow \tau^{+}\tau^{-}\tau^{+}\tau^{-}$)) is one of the most stringent results from the LHC detectors.
  We place limits on the Higgs branching ratio to this final state down to 9\% at 10\mm for 7\GeV, 5\% at 10\mm for 15\GeV, 5\% at 100\mm for 40\GeV, and 18\% at 100\mm for 55\GeV.
 \end{abstract}

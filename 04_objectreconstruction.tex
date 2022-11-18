@@ -30,13 +30,13 @@ Muon objects are required to have
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of muon objects \pt, $\eta$, energy, nMu}
   \label{fig:muons}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_mupt.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_mueta.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_muenergy.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nMu.pdf}
+  \caption{Data/MC of muon objects \pt, $\eta$, energy, nMu}
 \end{figure}
 
 The motivations for isolation requirements on muons are further discussed in Section~\ref{sec:selections}.
@@ -59,13 +59,13 @@ Jet objects require
 The energy fraction cuts above are taken from the recommended Run2 Tight jet ID
 cuts for particle flow jets~\cite{jetid_2018}.
 \begin{figure}[h!]
-  \caption{Data/MC of jet objects for \pt, $\eta$, energy, nJet}
   \label{fig:jets}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetpt.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jeteta.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_jetenergy.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nJet.pdf}
+  \caption{Data/MC of jet objects for \pt, $\eta$, energy, nJet}
 \end{figure}
 
 \section{Taus}\label{sec:taus}
@@ -79,21 +79,21 @@ $\tau$ objects require
 \end{itemize}
 
 \begin{figure}[h!]
-  \caption{Data/MC of $\tau$ objects for \pt, $\eta$, energy, nJet}
   \label{fig:taus}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_taupt.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_taueta.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_tauenergy.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_nTau.pdf}
+  \caption{Data/MC of $\tau$ objects for \pt, $\eta$, energy, nJet}
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC of MET objects for \pt, energy}
   \label{fig:METs}
   \centering
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_METpt.pdf}
   \includegraphics[width=0.47\linewidth]{figs/Data_log_AnalysisNote_MS-15_ctauS-10_METenergy.pdf}
+  \caption{Data/MC of MET objects for \pt, energy}
 \end{figure}
 
 
@@ -130,7 +130,7 @@ Track parameters and convariance values will be propagated along the ROI product
   \item \pt $\geq$ 0.35
   \item Track $IPSig_{XY}\geq$2.
   \item Track $IPSig_{Z}\geq$-1.
-  \item Track normalized $\chi^{2}\geq$10.
+  \item Track normalized $\chi^{2}\leq$10.
 \end{itemize}
 
 
@@ -139,7 +139,7 @@ Track parameters and convariance values will be propagated along the ROI product
 The analysis sources ``offlineBeamspot'' from MINIAOD for beamspot reference.
 Vertex fitter is ``KalmanVertexFitter'' with vertex cuts as below.
 \begin{itemize}
-  \item Vertex $\chi^{2}\geq$6.63 
+  \item Vertex $\chi^{2}\leq$6.63 
   \item Transverse Decay distance significance$\geq$15.
   \item V0mass $\geq$13000\GeV
   \item cos($\theta_{XY}$) between x and p of V0 candidate $\geq$ 0
@@ -152,7 +152,7 @@ Fitted vertices are clustered to form a Region of Interest (ROI).
 The clustering steps can be further detailed as below.
 \begin{itemize}
   \item A fitted vertex is merged with another vertex if they are within 1cm. 
-  \item A new ROI is formed where the position vector of ROI is averaged.
+  \item A new ROI is formed where the position is the center of mass of 2 merged ROIs.
   \item Clustering is repeated until there is no other vertex within 1cm limit.
 \end{itemize}
 Although vertex clustering can be done with the step above, we can be creative and acquire more information.

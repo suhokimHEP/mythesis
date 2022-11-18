@@ -7,7 +7,7 @@ Given the extensive amount of variables within ROIs, it is inappropriate to use 
 It is also inefficient to implement a cut-based approach due to having so many variables from ROI.
 The optimization process for all these vertex, isolation, and track variables would be extremely time-consuming, inefficient, and error-prone.
 Therefore, the analysis exploits machine learning (ML) for this multivariate analysis.
-Boosted decision trees will also face a similar problem as cut-based analysis, although somewhat.
+Boosted decision trees will also face a similar problem as cut-based analysis.
 Deep Neural Networks are the most adaptable ML algorithm for this analysis method, in which the algorithm inputs an extensive list of ROI variables into a neural network and receives a final score to discriminate ROIs that arise in signal process versus background processes.
 The list of variables inputted into the ML algorithms is provided in subsection \ref{sec:MLIV}.
 
@@ -76,11 +76,11 @@ Shell information is trained with 9 different variables, which are listed in Tab
 We input vertex and shell information into separate ML networks. Thus, we get two final products from the ML networks, one for the vertex information and the other for the shell information.
 
  \begin{figure}[h!]
-   \caption{Simple cartoon showing ML network for vertex and annulus shell.}
    \label{fig:NetworkML}
    \centering
    \includegraphics[width=0.6\linewidth]{figs/PhiVNet.png}
    \includegraphics[width=0.6\linewidth]{figs/PhiANet.png}
+   \caption{Simple cartoon showing ML network for vertex and annulus shell.}
  \end{figure}
 
 %\begin{table}[htb]
@@ -159,59 +159,59 @@ Mathmatical definition of loglead and logexclead are in formulae \ref{eq:log} an
 %\end{figure}
 
  \begin{figure}[h!]
-   \caption{Signal versus Background for loglead, where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:leadROIscore}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-10_hloglead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-100_hloglead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-1000_hloglead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-55_ctauS-10_hloglead.pdf}
+   \caption{Signal versus Background for loglead, where the ROI score is the highest ROI of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
  \end{figure}
 
 
  \begin{figure}[h!]
-	 \caption{Signal versus Background for logexclead (sublead), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
    \label{fig:excROIscore}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-10_hlogexclead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-100_hlogexclead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-15_ctauS-1000_hlogexclead.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6ANVars_MS-55_ctauS-10_hlogexclead.pdf}
+	 \caption{Signal versus Background for logexclead (sublead), where the ROI score is the second highest ROI (outside of dPhi=0.4 from leading ROI) of the event. Left plot is for MS-15\_ctauS-10mm point, whereas the right plot is for MS-15\_cauS-100mm point}
  \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for loglead and logexclead scores}
   \label{fig:DataMCscore}
   \centering
   \includegraphics[width=0.67\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_hloglead.pdf}
   \includegraphics[width=0.67\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_hlogexclead.pdf}
+  \caption{Data/MC agreement for loglead and logexclead scores}
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for leading and subleading ROI distributions}
   \label{fig:DataMCscore2}
   \centering
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_hleaddxy.pdf}
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_hexcleaddxy.pdf}
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
 
 \end{figure}
 
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for leading and subleading ROI distributions}
   \label{fig:DataMCscore3}
   \centering
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_leadROINumVert.pdf}
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_excleadROINumVert.pdf}
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
 \end{figure}
 
 
 \begin{figure}[h!]
-  \caption{Data/MC agreement for leading and subleading ROI distributions}
   \label{fig:DataMCscore4}
   \centering
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_leadROIATNumber.pdf}
   \includegraphics[width=0.57\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_excROIATNumber.pdf}
+  \caption{Data/MC agreement for leading and subleading ROI distributions}
 
 \end{figure}
 

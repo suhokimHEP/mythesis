@@ -47,7 +47,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces DeltaR of the scalar products\relax }}{27}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces liftime of the scalar products in the lab frame\relax }}{28}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces lifetime of the scalar products in the lab frame\relax }}{28}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The plots show the trigger efficiency for each HLT path with respect to LLP's lifetime. Each line denotes mass scale of each LLP. Please note the efficiency is set to 0 for MS=7\ensuremath {\,\text {Ge\hspace {-.08em}V}}\xspace c$\uptau $ = 1mm due to absece of Monte Carlo (MC).\relax }}{29}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
@@ -121,13 +121,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. \relax }}{68}{figure.caption.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR. Correlation factor is 0.105. ProfileX is rather flat.\relax }}{69}{figure.caption.70}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Profile plot of VR. Correlation factor is 0.105. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).\relax }}{69}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat.\relax }}{69}{figure.caption.71}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).\relax }}{69}{figure.caption.71}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR2. Correlation factor is 0.1229. ProfileX is rather flat.\relax }}{70}{figure.caption.72}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Profile plot of VR2. Correlation factor is 0.1229. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).\relax }}{70}{figure.caption.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Profile plot of VR3. Correlation factor is 0.1203. ProfileX is rather flat.\relax }}{70}{figure.caption.73}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Profile plot of VR3. Correlation factor is 0.1203. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).\relax }}{70}{figure.caption.73}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

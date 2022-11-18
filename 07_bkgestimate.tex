@@ -2,11 +2,11 @@
 \chapter{Background Estimation}\label{sec:estimate}
 
 \begin{figure}[h!]
-	\caption{Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics}
   \label{fig:DataMCscore5}
   \centering
   \includegraphics[width=0.40\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_hlogexclead.pdf}
   \includegraphics[width=0.40\linewidth]{figs/Data_log_Oct6ANVars_MS-15_ctauS-10_AmpLog10muIPSig.pdf}
+	\caption{Data/MC agreement for distributions. High ROI scores and high Log10(muIPSig) values lack MC statistics}
 
 \end{figure}
 Section ~\ref{sec:selections} listed several different discriminant variables for the analysis.
@@ -49,13 +49,13 @@ After implementing all other cuts (sublead ROI, $\Delta\Phi(lead,sublead)$, Annu
 The values are pretty minimal except for 2-3 processes where there were too few entries to derive a solid conclusion due to statistical limitations.
 %Therefore, the analysis uses leading Log10(IPSig) and leading ROI vertex score for its ABCD discriminant variables.
  \begin{figure}[h!]
-   \caption{Cutflow histogram of Signal versus background. The signal is MS15\GeV-ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D}
    \label{fig:ABmethod}
    \centering
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6CutflAnalysisNote_MS-15_ctauS-10_A_Cutflow.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6CutflAnalysisNote_MS-15_ctauS-10_B_Cutflow.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6CutflAnalysisNote_MS-15_ctauS-10_C_Cutflow.pdf}
    \includegraphics[width=0.47\linewidth]{figs/log_Oct6CutflAnalysisNote_MS-15_ctauS-10_D_Cutflow.pdf}
+   \caption{Cutflow histogram of Signal versus background. The signal is MS15\GeV-ct10mm point. Last bin of the cutflow histogram is ABCD region selection. Top left plot is for region A, whereas the bottom right plot is for region D}
  \end{figure}
 
 % \begin{figure}[h!]
@@ -68,16 +68,17 @@ The values are pretty minimal except for 2-3 processes where there were too few 
 %   \includegraphics[width=0.47\linewidth]{figs/log_CutflAnalysisNote_MS-55_ctauS-10_D_Cutflow.pdf}
 % \end{figure}
  \begin{figure}[h!]
-   \caption{Final bin of cutflow}
    \label{fig:Finalbin}
    \centering
    \includegraphics[width=0.67\linewidth]{figs/log_Oct6CutflAnalysisNote_MS-15_ctauS-10_ABCD_final_rate.pdf}
+   \caption{Final bin of cutflow}
  \end{figure}
 
 
 
 \begin{landscape}
 \begin{table}[htb]
+\caption{Region A's cutflow histogram by bin entry (weighted)}
 
 \begin{tabular}{rllllllll}
 
@@ -149,7 +150,6 @@ QCDhist&3.1892e+08&2.9812e+08&1.1014e+08&6.0242e+06&7.4155e+05&3.4694e+03&2.0616
 \end{tabular}
 \label{tab:cutfl}
 \centering
-\caption{Region A's cutflow histogram by bin entry (weighted)}
 \end{table}
 \end{landscape}
 
@@ -157,6 +157,7 @@ QCDhist&3.1892e+08&2.9812e+08&1.1014e+08&6.0242e+06&7.4155e+05&3.4694e+03&2.0616
 
 \begin{landscape}
 \begin{table}[htb]
+\caption{Region A's cutflow histogram by bin event number}
 \begin{tabular}{rllllllll}
 
  \hline 
@@ -227,7 +228,6 @@ QCDhist&4.7281e+05&4.6306e+05&1.8975e+05&9.0900e+03&2.0890e+03&2.2000e+01&1.0000
 \end{tabular}
 \label{tab:Unitcutfl}
 \centering
-\caption{Region A's cutflow histogram by bin event number}
 \end{table}
 \end{landscape}
 
@@ -274,44 +274,44 @@ In table \ref{tab:sigcont}, we confirm that the background dominates the A' regi
 
 
 \begin{figure}[h!]
-  \caption{Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. }
   \label{fig:valcar}
   \centering
   \includegraphics[width=0.85\linewidth]{figs/SimpleVR.png}
   \includegraphics[width=0.85\linewidth]{figs/SophiVR.png}
+  \caption{Cartoon description of ABCD method validation. The first figure shows a simpler definition of validation region. The second figure shows a more sophisiticated definition of validation regions. }
 
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Profile plot of VR. Correlation factor is 0.105. ProfileX is rather flat.}
   \label{fig:valcar}
   \centering
   \includegraphics[width=0.65\linewidth]{figs/VR3.png}
+	\caption{Profile plot of VR. Correlation factor is 0.105. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).}
 
 \end{figure}
 
 
 \begin{figure}[h!]
-  \caption{Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat.}
   \label{fig:valcar1}
   \centering
   \includegraphics[width=0.65\linewidth]{figs/VR1.png}
+  \caption{Profile plot of VR1. Correlation factor is 0.124. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).}
 
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Profile plot of VR2. Correlation factor is 0.1229. ProfileX is rather flat.}
   \label{fig:valcar2}
   \centering
   \includegraphics[width=0.65\linewidth]{figs/VR2.png}
+  \caption{Profile plot of VR2. Correlation factor is 0.1229. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).}
 
 \end{figure}
 
 \begin{figure}[h!]
-  \caption{Profile plot of VR3. Correlation factor is 0.1203. ProfileX is rather flat.}
   \label{fig:valcar3}
   \centering
   \includegraphics[width=0.65\linewidth]{figs/VR3.png}
+  \caption{Profile plot of VR3. Correlation factor is 0.1203. ProfileX is rather flat. X-axis is log10(1-leading ROI score). Y-axis is Log10(muIPSig).}
 
 \end{figure}
 
